@@ -1,5 +1,7 @@
 import TextWrapper
 from PIL import Image
+from PIL import ImageDraw
+from PIL import ImageFont
 
 border = Image.open('./resources/cards/front/god.png')
 border_w, border_h = border.size
@@ -19,9 +21,17 @@ magamatame_heigth_position = 18
 magatama_width_base_position = 85
 magatama_previous_width_position = magatama_width_base_position
 magatama_spacement = 3
-for magatama_number in range(5):
+for magatama_number in range(8):
   magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * (magatama_number * 0.5))) + (magatama_number * magatama_spacement)
   img_final.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
+
+# Nom
+img_name = Image.new("RGB", (100, 100))
+draw = ImageDraw.Draw(img_name)
+font = ImageFont.truetype("arial.ttf", 16)
+draw.text((0, 0), "Sample Text", (255,255,255), font=font, direction='ttb')
+#
+img_name.save('out_name.png')
 
 img_final.save('out.png')
 
