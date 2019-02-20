@@ -31,7 +31,7 @@ for magatama_number in range(8):
 spells_base_pos = [87, 375]
 spells_max_size = (230, 480)
 
-spell_name_test = '司敵'
+spell_name_test = 'Sī dí'
 spell_text_test = 'Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen\'s turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.'
 
 cao_zhen_name = 'Cao Zhen'
@@ -57,11 +57,10 @@ if lines_size[1] < spells_max_size[1]:
     img_final.paste(skill, skill_pos, mask=skill)
 
     # skill name
-    spell_font = ImageFont.truetype('resources/font/SimSun.ttf', size=TextWrapper.pixel_to_points(20), encoding='unic')
-    _, spell_name_size = TextWrapper.text_size(spell_name_test, spell_font)
+    _, spell_name_size = TextWrapper.text_size(spell_name_test, font)
     spell_name_pos = (skill_pos[0] + 7,
-                      skill_pos[1] + int(skill_size[1] / 2) + 1 - int(spell_name_size[1] / 2))
-    draw.text(spell_name_pos, spell_name_test, (255, 255, 255), font=spell_font)
+                      skill_pos[1] + int(skill_size[1] / 2) - int(spell_name_size[1] / 2))
+    draw.text(spell_name_pos, spell_name_test, (255, 255, 255), font=font)
 
     # Skill text background UI
     skill_middle = Image.open('./resources/cards/front/god-skill-middle.png')
@@ -83,4 +82,4 @@ if lines_size[1] < spells_max_size[1]:
         current_text_pos[1] += text_size[1]
 
 # save final composition
-img_final.save('out.png')
+img_final.save('generation/out.png')
