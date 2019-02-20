@@ -20,12 +20,12 @@ img_final = Image.new('RGBA', (border_w, border_h))
 img_final.paste(character, (20, 50))
 img_final.paste(border, (0, 0), mask=border)
 
-magamatame_heigth_position = 18
-magatama_width_base_position = 85
+magamatame_heigth_position = 20
+magatama_width_base_position = 92
 magatama_previous_width_position = magatama_width_base_position
 magatama_spacement = 3
 for magatama_number in range(8):
-  magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * (magatama_number * 0.5))) + (magatama_number * magatama_spacement)
+  magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
   img_final.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
 
 spells_base_pos = [87, 375]
