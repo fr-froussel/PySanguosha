@@ -1,5 +1,5 @@
-from TextWrapper import TextWrapper
-from lib.backend import Character, Spell
+from lib.TextWrapper import TextWrapper
+from lib.backend import Clan, Character, Spell
 from lib.ui import CharacterUI
 from lib.utils import *
 from PIL import Image
@@ -34,10 +34,14 @@ spells_max_size = (230, 480)
 spell_name_test = 'Sī dí'
 spell_text_test = 'Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen\'s turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.'
 
-cao_zhen_name = 'Cao Zhen'
-cao_zhen_enemy_foresight_name = '司敵'
-cao_zhen_enemy_foresight_description = 'Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen\'s turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.'
-cao_zhen = Character(cao_zhen_name, {Spell(cao_zhen_enemy_foresight_name, cao_zhen_enemy_foresight_description)})
+cao_zhen = Character('Cao Zhen',
+                     3,
+                     {
+                         Spell('Sī dí', 'Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen\'s turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.'),
+                         Spell('Dìng pǐn', 'When Chen Qun damages another player, he can discard any card that is different that the one used to cause damage. The damaged player then does a judgment. If it is black, they draw X cards, where X is the amount of damage they received and this player cannot be targeted by Production again this turn. If the judgment is red, Chen Qun flips his general card.'),
+                         Spell('Fǎ ēn', 'When any player flips their general card or goes into chains, Chen Qun can let that player draw one.'),
+                     },
+                     Clan.WEI)
 cao_zhen_ui = CharacterUI(cao_zhen, './resources/cards/skins/101.jpg')
 
 # create the ImageFont instance

@@ -1,14 +1,42 @@
 from lib.backend import Clan
-from lib.ui import ClanUI
 
-clan_ui_resources_name = \
-    {
-        Clan.GOD: "god",
-        Clan.QUN: "qun",
-        Clan.SHU: "shu",
-        Clan.WEI: "wei",
-        Clan.WU: "wu",
-    }
+
+class ClanUI:
+    def __init__(self, magatama, skill, skill_up, skill_middle, skill_down):
+        """
+        Construct clan UI resources association
+        :param magatama: life point resource path
+        :param skill: skill name resource path
+        :param skill_up: skill description resource path
+        :param skill_middle: skill description resource path
+        :param skill_down: skill description resource path
+        """
+        self.__magatama = magatama
+        self.__skill = skill
+        self.__skill_up = skill_up
+        self.__skill_middle = skill_middle
+        self.__skill_down = skill_down
+
+    @property
+    def magatama(self):
+        return self.__magatama
+
+    @property
+    def skill(self):
+        return self.__skill
+
+    @property
+    def skill_up(self):
+        return self.__skill_up
+
+    @property
+    def skill_middle(self):
+        return self.__skill_middle
+
+    @property
+    def skill_down(self):
+        return self.__skill_down
+
 
 clan_ui_resources = \
     {
@@ -48,3 +76,16 @@ clan_ui_resources = \
             './resources/cards/front/wu-skill-down.png',
         )
     }
+
+
+clan_ui_resources_name = \
+    {
+        Clan.GOD: "god",
+        Clan.QUN: "qun",
+        Clan.SHU: "shu",
+        Clan.WEI: "wei",
+        Clan.WU: "wu",
+    }
+
+
+spells_base_pos = [87, 375]
