@@ -6,6 +6,11 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
+import os
+generation_dir = 'generation'
+if not os.path.exists(generation_dir):
+    os.makedirs(generation_dir)
+
 border = Image.open('./resources/cards/front/god.png')
 border_w, border_h = border.size
 
