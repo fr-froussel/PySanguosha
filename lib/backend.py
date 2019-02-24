@@ -9,18 +9,20 @@ class Clan:
 
 
 class Character:
-    def __init__(self, name, life_points, spells, clan):
+    def __init__(self, name, life_points, spells, clan, lord):
         """
         Character constructor
         :param name: name
         :param life_points: number of life points
         :param spells: spells list
         :param clan: character clan
+        :param lord: if the character is a lord
         """
         self.__name = name
         self.__life_points = life_points
         self.__spells = spells
         self.__clan = clan
+        self.__lord = lord
 
     @property
     def name(self):
@@ -37,6 +39,10 @@ class Character:
     @property
     def clan(self):
         return self.__clan
+
+    @property
+    def lord(self):
+        return self.__lord
 
 
 class Spell:

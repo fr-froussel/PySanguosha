@@ -2,7 +2,7 @@ from lib.backend import Clan, Character, Spell
 from lib.TextWrapper import TextWrapper
 from lib.utils import *
 from math import floor
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 
 class SpellUI:
@@ -13,11 +13,28 @@ class SpellUI:
         """
         self.__spell = spell
         self.__clan_ui = clan_ui
+        self.__ui = ''
 
-        font = ImageFont.truetype('resources/font/arial.ttf', size=TextWrapper.pixel_to_points(15), encoding='unic')
-        self.generate_ui(font, 225, 480)
+    @property
+    def spell(self):
+        return self.__spell
 
-    def generate_ui(self, font, max_width, max_height):
+    @property
+    def clan_ui(self):
+        return self.__clan_ui
+
+    @property
+    def ui(self):
+        return self.__ui
+
+    def generate_ui(self, font):
+        # Generation status
+        generation_status = False
+
+        # Extract max spell size
+        max_width = max_spells_size[0]
+        max_height = max_spells_size[1]
+
         lines = TextWrapper.wrap_text_by_width(self.__spell.description, font, max_width)
         _, lines_size = TextWrapper.text_size(lines, font)
 
@@ -50,9 +67,9 @@ class SpellUI:
             spell_draw = ImageDraw.Draw(spell_image)
 
             # Add skill UI description
-            spell_image.paste(skill_desc_up_img, skill_desc_up_pos, mask=skill_desc_up_img)
-            spell_image.paste(skill_desc_middle_img, skill_desc_middle_pos, mask=skill_desc_middle_img)
-            spell_image.paste(skill_desc_down_img, skill_desc_bottom_pos, mask=skill_desc_down_img)
+            spell_image.paste(skill_desc_up_img, skill_desc_up_pos)
+            spell_image.paste(skill_desc_middle_img, skill_desc_middle_pos)
+            spell_image.paste(skill_desc_down_img, skill_desc_bottom_pos)
             # Add skill UI name
             spell_image.paste(skill_desc_img, base_pos, mask=skill_desc_img)
 
@@ -69,7 +86,80 @@ class SpellUI:
                 current_text_pos[1] += text_size[1]
 
             # Write spell image
-            spell_image.save('generation/spell_' + self.__spell.name.replace(' ', '_') + '.png')
+            self.__ui = spell_image
+
+            # Status is ok
+            generation_status = True
+
+        return generation_status
+
+class SpellsUIManager:
+    def __init__(self, spells, clan_ui):
+        """
+        Spells UI manager
+        :param spells: spells list
+        :param clan_ui: general clan
+        """
+        self.__spells = []
+        self.__generation_status = False
+        self.__cumulated_height = 0
+
+        # Launch UI generation
+        if not self.generate_ui(spells, clan_ui):
+            print('Error during spells UI generation')
+
+    @property
+    def spells(self):
+        return self.__spells
+
+    @property
+    def generation_status(self):
+        return self.__generation_status
+
+    @property
+    def cumulated_height(self):
+        return self.__cumulated_height
+
+    def add_spell(self, spell):
+        self.__spells.append(spell)
+
+    def generate_ui(self, spells, clan_ui):
+        # Font size possible to write spells text
+        font_size_possible = (13, 11)
+
+        # Extract max spell size
+        max_height = max_spells_size[1]
+
+        # Loop through all font size possible to generate spell UI
+        for font_size in font_size_possible:
+            if not self.generate_ui_with_specific_font_size(spells, clan_ui, font_size):
+                print("Cannot generate this image with font size {}").format(font_size)
+
+            # Check if all UI generated are within size limits
+            self.__cumulated_height = 0
+            for spell in self.spells:
+                self.__cumulated_height += spell.ui.size[1]
+
+            # If all cumulated height are within max_height, it's ok
+            if self.__cumulated_height < max_height:
+                self.__generation_status = True
+                break
+
+        return self.__generation_status
+
+    def generate_ui_with_specific_font_size(self, spells, clan_ui, font_size):
+        generation_status = True
+
+        # Loop through all spells to generate UI
+        for spell in spells:
+            font = ImageFont.truetype('resources/font/arial.ttf',
+                                      size=TextWrapper.pixel_to_points(font_size),
+                                      encoding='unic')
+
+            self.__spells.append(SpellUI(spell, clan_ui))
+            generation_status = (generation_status and self.__spells[-1].generate_ui(font))
+
+        return generation_status
 
 
 class CharacterUI:
@@ -83,22 +173,56 @@ class CharacterUI:
         self.__background = background
         self.__clan_ui = clan_ui_resources.get(character.clan)
         self.__spells_ui_manager = SpellsUIManager(character.spells, self.__clan_ui)
+        self.__additionals_ui_ready = False
 
-
-class SpellsUIManager:
-    def __init__(self, spells, clan_ui):
-        """
-        Spells UI manager
-        :param spells: spells list
-        """
-        self.__spells = []
-        for spell in spells:
-            self.__spells.append(SpellUI(spell, clan_ui))
+        # If spells generation is ok, go generate character UI
+        self.__additionals_ui_ready = self.__spells_ui_manager.generation_status
 
     @property
-    def spells(self):
-        return self.__spells
+    def additionals_ui_ready(self):
+        return self.__additionals_ui_ready
 
-    def add_spell(self, spell):
-        self.__spells.append(spell)
+    def generate_ui(self):
+        # Main UI border
+        main = ''
+        if not self.__character.lord:
+            main = Image.open(self.__clan_ui.main)
+        else:
+            main = Image.open(self.__clan_ui.main_lord)
+        main_w, main_h = main.size
 
+        # Life points UI
+        magatama = Image.open(self.__clan_ui.magatama)
+        magatama_w, magatama_h = magatama.size
+
+        # Character background UI
+        character_background = Image.open(self.__background)
+        # # Resize background to fit with main UI
+        character_background.resize((309, 445), Image.ANTIALIAS)
+        enhancer = ImageEnhance.Brightness(character_background)
+        character_background = enhancer.enhance(0.80)
+
+        # Composition
+        character_image = Image.new('RGBA', (main_w, main_h))
+
+        # Start compose the image
+        # # Background
+        character_image.paste(character_background, (50, 50))
+        # # Main border
+        character_image.paste(main, (0, 0), mask=main)
+        # # Life points
+        magamatame_heigth_position = 20
+        magatama_width_base_position = 100
+        for magatama_number in range(self.__character.life_points):
+            magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
+            character_image.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
+        # # Spells
+        spell_base_width = 18
+        previous_spell_height = main.size[1] - self.__spells_ui_manager.cumulated_height - 35
+        for spell in self.__spells_ui_manager.spells:
+            spell_ui = spell.ui
+            character_image.paste(spell_ui, (spell_base_width, previous_spell_height), mask=spell_ui)
+            previous_spell_height += spell_ui.size[1]
+
+        # Save generated image
+        character_image.save('generation/' + self.__character.name.replace(' ', '_') + '.png')
