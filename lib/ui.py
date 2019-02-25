@@ -146,6 +146,9 @@ class SpellsUIManager:
             if self.__cumulated_height < max_height:
                 self.__generation_status = True
                 break
+            # Condition not satisfied, clear all SpellUI
+            else:
+                self.__spells.clear()
 
         return self.__generation_status
 
