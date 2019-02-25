@@ -1,10 +1,5 @@
-from lib.TextWrapper import TextWrapper
 from lib.backend import Clan, Character, Spell
 from lib.ui import CharacterUI
-from lib.utils import *
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
 
 import os
 generation_dir = 'generation'
@@ -20,7 +15,7 @@ cao_zhen = Character('Cao Zhen',
                      },
                      Clan.WEI,
                      False)
-cao_zhen_ui = CharacterUI(cao_zhen, './resources/cards/skins/105.jpg')
+cao_zhen_ui = CharacterUI(cao_zhen, './resources/cards/skins/1803.jpg')
 
 if cao_zhen_ui.additionals_ui_ready:
   cao_zhen_ui.generate_ui()

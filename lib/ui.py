@@ -198,7 +198,14 @@ class CharacterUI:
         # Character background UI
         character_background = Image.open(self.__background)
         # # Resize background to fit with main UI
-        character_background.resize((309, 445), Image.ANTIALIAS)
+        desired_character_background_width = 309
+        desired_character_background_height = 445
+        left_crop = ((character_background.size[0] - desired_character_background_width) / 2)
+        top_crop = ((character_background.size[1] - desired_character_background_height) / 2)
+        character_background.crop((left_crop,
+                                  top_crop,
+                                  left_crop + desired_character_background_width,
+                                  top_crop + desired_character_background_height))
         enhancer = ImageEnhance.Brightness(character_background)
         character_background = enhancer.enhance(0.80)
 
