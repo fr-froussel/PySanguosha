@@ -112,4 +112,4 @@ clan_ui_resources_name = \
 
 spells_base_pos = [87, 375]
 
-max_spells_size = (225, 480)
+max_spells_size = (225, 215)
