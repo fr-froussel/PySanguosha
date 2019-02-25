@@ -1,8 +1,107 @@
-from lib.backend import Clan, Character, Spell
+from lib.backend import Clan
 from lib.TextWrapper import TextWrapper
 from lib.utils import *
 from math import floor
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont
+
+
+class ClanUI:
+    def __init__(self, main, main_lord, magatama, skill, skill_up, skill_middle, skill_down):
+        """
+        Construct clan UI resources association
+        :param main: main image resource path
+        :param main_lord: main lord image resource path
+        :param magatama: life point resource path
+        :param skill: skill name resource path
+        :param skill_up: skill description resource path
+        :param skill_middle: skill description resource path
+        :param skill_down: skill description resource path
+        """
+        self.__main = main
+        self.__main_lord = main_lord
+        self.__magatama = magatama
+        self.__skill = skill
+        self.__skill_up = skill_up
+        self.__skill_middle = skill_middle
+        self.__skill_down = skill_down
+
+    @property
+    def main(self):
+        return self.__main
+
+    @property
+    def main_lord(self):
+        return self.__main_lord
+
+    @property
+    def magatama(self):
+        return self.__magatama
+
+    @property
+    def skill(self):
+        return self.__skill
+
+    @property
+    def skill_up(self):
+        return self.__skill_up
+
+    @property
+    def skill_middle(self):
+        return self.__skill_middle
+
+    @property
+    def skill_down(self):
+        return self.__skill_down
+
+
+clan_ui_resources = \
+    {
+        Clan.GOD: ClanUI(
+            './resources/cards/front/god.png',
+            './resources/cards/front/god.png',
+            './resources/cards/front/god-magatama.png',
+            './resources/cards/front/god-skill.png',
+            './resources/cards/front/god-skill-up.png',
+            './resources/cards/front/god-skill-middle.png',
+            './resources/cards/front/god-skill-down.png',
+        ),
+        Clan.QUN: ClanUI(
+            './resources/cards/front/qun.png',
+            './resources/cards/front/qun-lord.png',
+            './resources/cards/front/qun-magatama.png',
+            './resources/cards/front/qun-skill.png',
+            './resources/cards/front/qun-skill-up.png',
+            './resources/cards/front/qun-skill-middle.png',
+            './resources/cards/front/qun-skill-down.png',
+        ),
+        Clan.SHU: ClanUI(
+            './resources/cards/front/shu.png',
+            './resources/cards/front/shu-lord.png',
+            './resources/cards/front/shu-magatama.png',
+            './resources/cards/front/shu-skill.png',
+            './resources/cards/front/shu-skill-up.png',
+            './resources/cards/front/shu-skill-middle.png',
+            './resources/cards/front/shu-skill-down.png',
+        ),
+        Clan.WEI: ClanUI(
+            './resources/cards/front/wei.png',
+            './resources/cards/front/wei-lord.png',
+            './resources/cards/front/wei-magatama.png',
+            './resources/cards/front/wei-skill.png',
+            './resources/cards/front/wei-skill-up.png',
+            './resources/cards/front/wei-skill-middle.png',
+            './resources/cards/front/wei-skill-down.png',
+        ),
+        Clan.WU: ClanUI(
+            './resources/cards/front/wu.png',
+            './resources/cards/front/wu-lord.png',
+            './resources/cards/front/wu-magatama.png',
+            './resources/cards/front/wu-skill.png',
+            './resources/cards/front/wu-skill-up.png',
+            './resources/cards/front/wu-skill-middle.png',
+            './resources/cards/front/wu-skill-down.png',
+        )
+    }
 
 
 class SpellUI:
@@ -41,49 +140,48 @@ class SpellUI:
         # go write text if condition is ok
         if lines_size[1] < max_height:
             # Skill UI: name and description
-            skill_desc_img = Image.open(self.__clan_ui.skill)
-            skill_desc_up_img = Image.open(self.__clan_ui.skill_up)
+            skill_name_img = Image.open(self.__clan_ui.skill)
             skill_desc_middle_img = Image.open(self.__clan_ui.skill_middle)
-            skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
 
             # Skill UI middle description height adaption based on description height
             skill_desc_middle_new_size = ((skill_desc_middle_img.size[0],
-                                           lines_size[1] - skill_desc_up_img.size[1] - skill_desc_down_img.size[1] + 12))
+                                           lines_size[1] + floor(skill_name_img.size[1]/4) + 2))
             skill_desc_middle_img = skill_desc_middle_img.resize(skill_desc_middle_new_size)
 
             # Skill UI position
-            base_pos = [0, 0]
-            spacement = -10  # Negative spacement UI combination
-            skill_desc_base_pos_x = base_pos[0] + skill_desc_img.size[0] + spacement
-            skill_desc_up_pos = (skill_desc_base_pos_x, base_pos[1])
-            skill_desc_middle_pos = (skill_desc_base_pos_x, base_pos[1] + skill_desc_up_img.size[1])
-            skill_desc_bottom_pos = (skill_desc_base_pos_x,
-                                     base_pos[1] + skill_desc_middle_pos[1] + skill_desc_middle_img.size[1])
+            base_pos = (0, 0)
+            skill_desc_base_pos_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
+            skill_desc_middle_pos = (skill_desc_base_pos_x, base_pos[1])
 
             # Generate skill UI
-            spell_size = (skill_desc_img.size[0] + skill_desc_middle_img.size[0] + spacement,
-                          skill_desc_up_img.size[1] + skill_desc_middle_img.size[1] + skill_desc_down_img.size[1])
+            spell_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0],
+                          skill_desc_middle_img.size[1])
             spell_image = Image.new('RGBA', spell_size)
             spell_draw = ImageDraw.Draw(spell_image)
 
             # Add skill name text
             _, spell_name_size = TextWrapper.text_size(self.__spell.name, font)
-            spell_name_pos = (floor(skill_desc_img.size[0] / 2) - floor(spell_name_size[0] / 2) - 4,
-                              floor(skill_desc_img.size[1] / 2) - floor(spell_name_size[1] / 2) - 2)
-            spell_name_draw = ImageDraw.Draw(skill_desc_img)
+            spell_name_pos = (spell_name_base_pos[0],
+                              floor(spell_name_base_pos[1]/2) + floor(spell_name_size[1]/2))
+            spell_name_draw = ImageDraw.Draw(skill_name_img)
             spell_name_draw.text(spell_name_pos, self.__spell.name, (0, 0, 0), font=font)
 
             # Add skill UI description
-            spell_image.paste(skill_desc_up_img, skill_desc_up_pos)
             spell_image.paste(skill_desc_middle_img, skill_desc_middle_pos)
-            spell_image.paste(skill_desc_down_img, skill_desc_bottom_pos)
             # Add skill UI name
-            spell_image.paste(skill_desc_img, base_pos, mask=skill_desc_img)
+            spell_image.paste(skill_name_img, base_pos, mask=skill_name_img)
 
             # Add skill description text
-            current_text_pos = [skill_desc_base_pos_x, base_pos[0]]
+            _, first_line_text_size = TextWrapper.text_size(lines[0], font)
+            current_text_pos = [skill_desc_base_pos_x,
+                                floor(spell_arrow_size/2) - floor(first_line_text_size[1]/2)]
+            desc_offset_after_arrow = 2
             for line in lines:
-                spell_draw.text((current_text_pos[0] + 16, current_text_pos[1] + 5), line, (0, 0, 0), font=font)
+                spell_draw.text((current_text_pos[0] + floor(spell_arrow_size/2) + desc_offset_after_arrow,
+                                 current_text_pos[1]),
+                                line,
+                                (0, 0, 0),
+                                font=font)
                 _, text_size = TextWrapper.text_size(line, font)
                 current_text_pos[1] += text_size[1]
 
@@ -105,6 +203,7 @@ class SpellsUIManager:
         self.__spells = []
         self.__generation_status = False
         self.__cumulated_height = 0
+        self.__ui = None
 
         # Launch UI generation
         if not self.generate_ui(spells, clan_ui):
@@ -121,6 +220,10 @@ class SpellsUIManager:
     @property
     def cumulated_height(self):
         return self.__cumulated_height
+
+    @property
+    def ui(self):
+        return self.__ui
 
     def add_spell(self, spell):
         self.__spells.append(spell)
@@ -139,11 +242,40 @@ class SpellsUIManager:
 
             # Check if all UI generated are within size limits
             self.__cumulated_height = 0
+            spell_width = 0
             for spell in self.spells:
                 self.__cumulated_height += spell.ui.size[1]
+                if spell_width == 0:
+                    spell_width = spell.ui.size[0]
 
             # If all cumulated height are within max_height, it's ok
-            if self.__cumulated_height < max_height:
+            if self.cumulated_height < max_height:
+                skill_name_img = Image.open(clan_ui.skill)
+                skill_desc_up_img = Image.open(clan_ui.skill_up)
+                skill_desc_down_img = Image.open(clan_ui.skill_down)
+
+                spells_size = (spell_width,
+                               skill_desc_up_img.size[1] + self.cumulated_height + skill_desc_down_img.size[1])
+                spells_image = Image.new('RGBA', spells_size)
+
+                base_pos = (0, 0)
+                skill_desc_middle_base_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
+                skill_desc_up_img_pos = (skill_desc_middle_base_x, base_pos[1])
+                spells_img_base_pos = (base_pos[0],
+                                  skill_desc_up_img_pos[1] + skill_desc_up_img.size[1])
+                skill_desc_down_img_pos = (skill_desc_middle_base_x,
+                                  spells_img_base_pos[1] + self.cumulated_height)
+
+                spells_image.paste(skill_desc_up_img, skill_desc_up_img_pos)
+                previous_spell_height = spells_img_base_pos[1]
+                for spell in self.spells:
+                    spell_ui = spell.ui
+                    spells_image.paste(spell_ui, (spells_img_base_pos[0], previous_spell_height))
+                    previous_spell_height += spell_ui.size[1]
+                spells_image.paste(skill_desc_down_img, skill_desc_down_img_pos)
+
+                self.__ui = spells_image
+
                 self.__generation_status = True
                 break
             # Condition not satisfied, clear all SpellUI
@@ -228,13 +360,9 @@ class CharacterUI:
         for magatama_number in range(self.__character.life_points):
             magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
             character_image.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
-        # # Spells
-        spell_base_width = 18
-        previous_spell_height = main.size[1] - self.__spells_ui_manager.cumulated_height - 35
-        for spell in self.__spells_ui_manager.spells:
-            spell_ui = spell.ui
-            character_image.paste(spell_ui, (spell_base_width, previous_spell_height), mask=spell_ui)
-            previous_spell_height += spell_ui.size[1]
+        # Spells
+        spells_base_pos = (21, main.size[1] - self.__spells_ui_manager.cumulated_height - 60)
+        character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
         # Save generated image
         character_image.save('generation/' + self.__character.name.replace(' ', '_') + '.png')
