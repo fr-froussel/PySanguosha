@@ -66,17 +66,19 @@ class SpellUI:
             spell_image = Image.new('RGBA', spell_size)
             spell_draw = ImageDraw.Draw(spell_image)
 
+            # Add skill name text
+            _, spell_name_size = TextWrapper.text_size(self.__spell.name, font)
+            spell_name_pos = (floor(skill_desc_img.size[0] / 2) - floor(spell_name_size[0] / 2) - 4,
+                              floor(skill_desc_img.size[1] / 2) - floor(spell_name_size[1] / 2) - 2)
+            spell_name_draw = ImageDraw.Draw(skill_desc_img)
+            spell_name_draw.text(spell_name_pos, self.__spell.name, (0, 0, 0), font=font)
+
             # Add skill UI description
             spell_image.paste(skill_desc_up_img, skill_desc_up_pos)
             spell_image.paste(skill_desc_middle_img, skill_desc_middle_pos)
             spell_image.paste(skill_desc_down_img, skill_desc_bottom_pos)
             # Add skill UI name
             spell_image.paste(skill_desc_img, base_pos, mask=skill_desc_img)
-
-            # Add skill name text
-            _, spell_name_size = TextWrapper.text_size(self.__spell.name, font)
-            spell_name_pos = (10, floor(skill_desc_img.size[1] / 2) - floor(spell_name_size[1] / 2) - 2)
-            spell_draw.text(spell_name_pos, self.__spell.name, (0, 0, 0), font=font)
 
             # Add skill description text
             current_text_pos = [skill_desc_base_pos_x, base_pos[0]]
