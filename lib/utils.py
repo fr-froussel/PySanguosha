@@ -1,5 +1,5 @@
 spells_base_pos = [87, 375]
-max_spells_size = (230, 215)
+max_spells_size = (230, 175)
 background_base_pos = (65, 50)
 background_size = (275, 345)
 main_border = (62, 12, 32, 15)
