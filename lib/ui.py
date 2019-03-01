@@ -139,41 +139,27 @@ class SpellUI:
 
         # go write text if condition is ok
         if lines_size[1] < max_height:
-            # Skill UI: name and description
+            # Skill data
             skill_name_img = Image.open(self.__clan_ui.skill)
-            skill_desc_middle_img = Image.open(self.__clan_ui.skill_middle)
-
-            # Skill UI middle description height adaption based on description height
-            skill_desc_middle_new_size = ((skill_desc_middle_img.size[0],
-                                           lines_size[1] + floor(skill_name_img.size[1]/4) + 2))
-            skill_desc_middle_img = skill_desc_middle_img.resize(skill_desc_middle_new_size)
-
-            # Skill UI position
-            base_pos = (0, 0)
-            skill_desc_base_pos_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
-            skill_desc_middle_pos = (skill_desc_base_pos_x, base_pos[1])
+            _, first_line_text_size = TextWrapper.text_size(lines[0], font)
 
             # Generate skill UI
-            spell_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0],
-                          skill_desc_middle_img.size[1])
+            spell_size = (skill_name_img.size[0] + max_width,
+                          lines_size[1] + floor(spell_arrow_size/2) - floor(first_line_text_size[1]/2))
             spell_image = Image.new('RGBA', spell_size)
             spell_draw = ImageDraw.Draw(spell_image)
 
             # Add skill name text
             _, spell_name_size = TextWrapper.text_size(self.__spell.name, font)
-            spell_name_pos = (spell_name_base_pos[0],
-                              floor(spell_name_base_pos[1]/2) + floor(spell_name_size[1]/2))
+            spell_name_pos = (spell_name_base_pos[0], floor(spell_name_base_pos[1]/2) + floor(spell_name_size[1]/2))
             spell_name_draw = ImageDraw.Draw(skill_name_img)
             spell_name_draw.text(spell_name_pos, self.__spell.name, (0, 0, 0), font=font)
 
-            # Add skill UI description
-            spell_image.paste(skill_desc_middle_img, skill_desc_middle_pos)
             # Add skill UI name
-            spell_image.paste(skill_name_img, base_pos, mask=skill_name_img)
+            spell_image.paste(skill_name_img, mask=skill_name_img)
 
             # Add skill description text
-            _, first_line_text_size = TextWrapper.text_size(lines[0], font)
-            current_text_pos = [skill_desc_base_pos_x,
+            current_text_pos = [skill_name_img.size[0] - floor(spell_arrow_size/2),
                                 floor(spell_arrow_size/2) - floor(first_line_text_size[1]/2)]
             desc_offset_after_arrow = 2
             for line in lines:
@@ -233,6 +219,7 @@ class SpellsUIManager:
         font_size_possible = (13, 11)
 
         # Extract max spell size
+        max_width = max_spells_size[0]
         max_height = max_spells_size[1]
 
         # Loop through all font size possible to generate spell UI
@@ -252,25 +239,29 @@ class SpellsUIManager:
             if self.cumulated_height < max_height:
                 skill_name_img = Image.open(clan_ui.skill)
                 skill_desc_up_img = Image.open(clan_ui.skill_up)
+                skill_desc_middle_img = Image.open(clan_ui.skill_middle)
+                skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0], self.cumulated_height))
                 skill_desc_down_img = Image.open(clan_ui.skill_down)
 
-                spells_size = (spell_width,
+                spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0]- floor(spell_arrow_size/2),
                                skill_desc_up_img.size[1] + self.cumulated_height + skill_desc_down_img.size[1])
                 spells_image = Image.new('RGBA', spells_size)
 
                 base_pos = (0, 0)
                 skill_desc_middle_base_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
                 skill_desc_up_img_pos = (skill_desc_middle_base_x, base_pos[1])
+                skill_desc_middle_img_pos = (skill_desc_middle_base_x, base_pos[1] + skill_desc_up_img.size[1])
                 spells_img_base_pos = (base_pos[0],
                                   skill_desc_up_img_pos[1] + skill_desc_up_img.size[1])
                 skill_desc_down_img_pos = (skill_desc_middle_base_x,
                                   spells_img_base_pos[1] + self.cumulated_height)
 
                 spells_image.paste(skill_desc_up_img, skill_desc_up_img_pos)
+                spells_image.paste(skill_desc_middle_img, skill_desc_middle_img_pos)
                 previous_spell_height = spells_img_base_pos[1]
                 for spell in self.spells:
                     spell_ui = spell.ui
-                    spells_image.paste(spell_ui, (spells_img_base_pos[0], previous_spell_height))
+                    spells_image.paste(spell_ui, (spells_img_base_pos[0], previous_spell_height), mask=spell_ui)
                     previous_spell_height += spell_ui.size[1]
                 spells_image.paste(skill_desc_down_img, skill_desc_down_img_pos)
 
