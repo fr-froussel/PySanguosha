@@ -291,20 +291,22 @@ class SpellsUIManager:
 
 
 class CharacterUI:
-    def __init__(self, character, background):
+    def __init__(self, character):
         """
         CharacterUI constructor
         :param character: Character object
-        :param background: Background associated
         """
         self.__character = character
-        self.__background = background
         self.__clan_ui = clan_ui_resources.get(character.clan)
         self.__spells_ui_manager = SpellsUIManager(character.spells, self.__clan_ui)
         self.__additionals_ui_ready = False
 
         # If spells generation is ok, go generate character UI
         self.__additionals_ui_ready = self.__spells_ui_manager.generation_status
+
+    @property
+    def character(self):
+        return self.__character
 
     @property
     def additionals_ui_ready(self):
@@ -324,7 +326,7 @@ class CharacterUI:
         magatama_w, magatama_h = magatama.size
 
         # Character background UI
-        character_background = Image.open(self.__background)
+        character_background = Image.open(self.__character.background)
         # # Resize background to fit with main UI
         desired_character_background_width = 309
         desired_character_background_height = 445

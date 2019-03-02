@@ -8,8 +8,39 @@ class Clan:
     ) = range(5)
 
 
+class CharactersManager:
+    def __init__(self):
+        self.__characters = []
+
+    @staticmethod
+    def from_json(json):
+      """
+      create character from json data
+      :param json: json data
+      :return: instance of CharactersManager populated
+      """
+      this = CharactersManager()
+
+      json_characters = '_CharactersManager__characters'
+
+      this.__characters = []
+
+      if json_characters in json:
+        for character in json[json_characters]:
+          this.__characters.append(Character.from_json(character))
+      else:
+        print('Cannot found {} in the json'.format(json_characters))
+        init = False
+
+      return this
+
+    @property
+    def characters(self):
+        return self.__characters
+
+
 class Character:
-    def __init__(self, name, life_points, spells, clan, lord):
+    def __init__(self, name = None, life_points = None, spells = None, clan = None, lord = None, background = None):
         """
         Character constructor
         :param name: name
@@ -17,12 +48,56 @@ class Character:
         :param spells: spells list
         :param clan: character clan
         :param lord: if the character is a lord
+        :param background: character background
         """
         self.__name = name
         self.__life_points = life_points
-        self.__spells = spells
+        if spells:
+          self.__spells = spells
+        else:
+          self.__spells = []
         self.__clan = clan
         self.__lord = lord
+        self.__background = background
+
+    @staticmethod
+    def from_json(json):
+      """
+      create character instance from json data
+      :param json: json data
+      :return: Character instance
+      """
+      this = Character()
+
+      json_background = '_Character__background'
+      json_clan = '_Character__clan'
+      json_life_points = '_Character__life_points'
+      json_lord = '_Character__lord'
+      json_name = '_Character__name'
+      json_spells = '_Character__spells'
+
+      if (json_background in json) and (json_clan in json) and (json_life_points in json) and \
+        (json_lord in json) and (json_name in json) and (json_spells in json):
+
+        this.__background = json[json_background]
+        this.__clan = json[json_clan]
+        this.__life_points = json[json_life_points]
+        this.__lord = json[json_lord]
+        this.__name = json[json_name]
+        this.__spells = []
+
+        for spell in json[json_spells]:
+          this.__spells.append(Spell.from_json(spell))
+
+      else:
+        delim = ", "
+        print('Cannot found all mandatories entries ({}) in the json for character description'.format(
+          json_background + delim + json_clan + delim +
+          json_life_points + delim + json_lord + delim +
+          json_name + delim + json_spells
+        ))
+
+      return this
 
     @property
     def name(self):
@@ -44,9 +119,13 @@ class Character:
     def lord(self):
         return self.__lord
 
+    @property
+    def background(self):
+        return self.__background
+
 
 class Spell:
-    def __init__(self, name, description):
+    def __init__(self, name = None, description = None):
         """
         Spell class constructor
         :param name: name spell
@@ -54,6 +133,30 @@ class Spell:
         """
         self.__name = name
         self.__description = description
+
+    @staticmethod
+    def from_json(json):
+      """
+      create spell instance from json data
+      :param json: json data
+      :return: Spell instance
+      """
+      this = Spell()
+
+      json_description = '_Spell__description'
+      json_name = '_Spell__name'
+
+      if (json_description in json) and (json_name in json):
+        this.__description = json[json_description]
+        this.__name = json[json_name]
+
+      else:
+        delim = ", "
+        print('Cannot found all mandatories entries ({}) in the json for character spell description'.format(
+          json_description + delim + json_name
+        ))
+
+      return this
 
     @property
     def name(self):

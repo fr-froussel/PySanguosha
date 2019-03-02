@@ -1,0 +1,27 @@
+{
+   "_CharactersManager__characters":
+   [
+      {
+         "_Character__background":"./resources/cards/skins/1803.jpg",
+         "_Character__clan":3,
+         "_Character__life_points":3,
+         "_Character__lord":false,
+         "_Character__name":"Cao Zhen",
+         "_Character__spells":
+         [
+            {
+               "_Spell__description":"When any player flips their general card or goes into chains, Chen Qun can let that player draw one.",
+               "_Spell__name":"Fǎ ēn"
+            },
+            {
+               "_Spell__description":"Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen's turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.",
+               "_Spell__name":"Sī dí"
+            },
+            {
+               "_Spell__description":"When Chen Qun damages another player, he can discard any card that is different that the one used to cause damage. The damaged player then does a judgment. If it is black, they draw X cards, where X is the amount of damage they received and this player cannot be targeted by Production again this turn. If the judgment is red, Chen Qun flips his general card.",
+               "_Spell__name":"Dìng pǐn"
+            }
+         ]
+      }
+   ]
+}
