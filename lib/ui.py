@@ -219,7 +219,6 @@ class SpellsUIManager:
         font_size_possible = (13, 11)
 
         # Extract max spell size
-        max_width = max_spells_size[0]
         max_height = max_spells_size[1]
 
         # Loop through all font size possible to generate spell UI
@@ -353,7 +352,31 @@ class CharacterUI:
         for magatama_number in range(self.__character.life_points):
             magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
             character_image.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
-        # Spells
+        # # Character name
+        character_image_draw = ImageDraw.Draw(character_image)
+        character_name_formatted = ''
+        for letter in self.character.name:
+            if letter != '':
+                character_name_formatted += letter + '\n'
+
+        # # # Find the best font size for the text
+        status, _, font, font_size = optimize_text_font_size_based_on_max_size(character_name_formatted,
+                                                                               'resources/font/ComicSansMSBold.ttf',
+                                                                               character_name_size)
+        if status:
+            character_name_pos = (character_name_base_pos[0] + floor(font_size/3),
+                                  character_name_base_pos[1])
+
+            add_thicker_border_to_text(character_image_draw,
+                                       character_name_pos,
+                                       character_name_formatted,
+                                       font,
+                                       'white',
+                                       'black')
+        else:
+            print('Cannot insert character name for {}'.format(self.character.name))
+
+        # # Spells
         spells_base_pos = (21, main.size[1] - self.__spells_ui_manager.cumulated_height - 60)
         character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
