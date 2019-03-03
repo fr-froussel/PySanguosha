@@ -378,7 +378,7 @@ class CharacterUI:
 
         # Start compose the image
         # # Background
-        character_image.paste(character_background, (50, 50))
+        character_image.paste(character_background, background_base_pos)
         # # Main border
         character_image.paste(main, (0, 0), mask=main)
         # # Life points
@@ -400,8 +400,14 @@ class CharacterUI:
                                                                                   character_name_size,
                                                                                   True)
         if status:
-            character_name_pos = (character_name_base_pos[0] + floor(character_name_base_pos[0]/2) - floor(font_size/2) - 2,
-                                  character_name_base_pos[1])
+            character_name_pos = (
+            character_name_base_pos[0] + floor(character_name_base_pos[0] / 2) - floor(font_size / 2) - 2,
+            character_name_base_pos[1])
+
+            if self.__character.god:
+                character_name_pos = (
+                character_god_name_base_pos[0] + floor(character_god_name_base_pos[0] / 2) - floor(font_size / 2) - 2,
+                character_god_name_base_pos[1])
 
             add_thicker_border_to_text(character_image_draw,
                                        character_name_pos,

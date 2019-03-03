@@ -68,6 +68,7 @@ class Character:
           self.__spells = []
         self.__clan = clan
         self.__lord = lord
+        self.__god = (clan == Clan.GOD)
         self.__background = background
 
     @staticmethod
@@ -96,6 +97,7 @@ class Character:
           this.__clan = clan_label_associations.get(clan)
           this.__life_points = json[json_life_points]
           this.__lord = json[json_lord]
+          this.__god = (this.clan == Clan.GOD)
           this.__name = json[json_name]
           this.__spells = []
 
@@ -140,6 +142,10 @@ class Character:
     @property
     def lord(self):
         return self.__lord
+
+    @property
+    def god(self):
+        return self.__god
 
     @property
     def background(self):
