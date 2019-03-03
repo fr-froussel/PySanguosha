@@ -3,7 +3,7 @@
    [
       {
          "_Character__background":"./resources/cards/skins/1803.jpg",
-         "_Character__clan":3,
+         "_Character__clan":"wei",
          "_Character__life_points":3,
          "_Character__lord":false,
          "_Character__name":"Cao Zhen",

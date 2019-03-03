@@ -7,6 +7,14 @@ class Clan:
         WU
     ) = range(5)
 
+clan_label_associations = {
+  'god': Clan.GOD,
+  'qun': Clan.QUN,
+  'shu': Clan.SHU,
+  'wei': Clan.WEI,
+  'wu': Clan.WU,
+}
+
 
 class CharactersManager:
     def __init__(self):
@@ -27,7 +35,9 @@ class CharactersManager:
 
       if json_characters in json:
         for character in json[json_characters]:
-          this.__characters.append(Character.from_json(character))
+          status, character = Character.from_json(character)
+          if status:
+            this.__characters.append(character)
       else:
         print('Cannot found {} in the json'.format(json_characters))
         init = False
@@ -67,6 +77,7 @@ class Character:
       :param json: json data
       :return: Character instance
       """
+      status = False
       this = Character()
 
       json_background = '_Character__background'
@@ -79,15 +90,26 @@ class Character:
       if (json_background in json) and (json_clan in json) and (json_life_points in json) and \
         (json_lord in json) and (json_name in json) and (json_spells in json):
 
-        this.__background = json[json_background]
-        this.__clan = json[json_clan]
-        this.__life_points = json[json_life_points]
-        this.__lord = json[json_lord]
-        this.__name = json[json_name]
-        this.__spells = []
+        clan = json[json_clan]
+        if clan in clan_label_associations:
+          this.__background = json[json_background]
+          this.__clan = clan_label_associations.get(clan)
+          this.__life_points = json[json_life_points]
+          this.__lord = json[json_lord]
+          this.__name = json[json_name]
+          this.__spells = []
 
-        for spell in json[json_spells]:
-          this.__spells.append(Spell.from_json(spell))
+          for spell in json[json_spells]:
+            spell_status, spell = Spell.from_json(spell)
+            if spell_status:
+              this.__spells.append(spell)
+            else:
+              status = False
+
+          status = True
+        else:
+          print('Unrecognized character clan value "{}".'.format(clan))
+          this = None
 
       else:
         delim = ", "
@@ -97,7 +119,7 @@ class Character:
           json_name + delim + json_spells
         ))
 
-      return this
+      return status, this
 
     @property
     def name(self):
@@ -142,6 +164,7 @@ class Spell:
       :return: Spell instance
       """
       this = Spell()
+      status = False
 
       json_description = '_Spell__description'
       json_name = '_Spell__name'
@@ -150,13 +173,15 @@ class Spell:
         this.__description = json[json_description]
         this.__name = json[json_name]
 
+        status = True
       else:
         delim = ", "
         print('Cannot found all mandatories entries ({}) in the json for character spell description'.format(
           json_description + delim + json_name
         ))
+        this = None
 
-      return this
+      return status, this
 
     @property
     def name(self):
