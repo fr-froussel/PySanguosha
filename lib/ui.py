@@ -6,13 +6,14 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 
 class ClanUI:
-    def __init__(self, main, main_lord, magatama, skill, skill_up, skill_middle, skill_down):
+    def __init__(self, main, main_lord, magatama, skill, skill_name_text_color, skill_up, skill_middle, skill_down):
         """
         Construct clan UI resources association
         :param main: main image resource path
         :param main_lord: main lord image resource path
         :param magatama: life point resource path
         :param skill: skill name resource path
+        :param skill_name_text_color: skill name text color
         :param skill_up: skill description resource path
         :param skill_middle: skill description resource path
         :param skill_down: skill description resource path
@@ -21,6 +22,7 @@ class ClanUI:
         self.__main_lord = main_lord
         self.__magatama = magatama
         self.__skill = skill
+        self.__skill_name_text_color = skill_name_text_color
         self.__skill_up = skill_up
         self.__skill_middle = skill_middle
         self.__skill_down = skill_down
@@ -42,6 +44,10 @@ class ClanUI:
         return self.__skill
 
     @property
+    def skill_name_text_color(self):
+        return self.__skill_name_text_color
+
+    @property
     def skill_up(self):
         return self.__skill_up
 
@@ -61,6 +67,7 @@ clan_ui_resources = \
             './resources/cards/front/god.png',
             './resources/cards/front/god-magatama.png',
             './resources/cards/front/god-skill.png',
+            'white',
             './resources/cards/front/god-skill-up.png',
             './resources/cards/front/god-skill-middle.png',
             './resources/cards/front/god-skill-down.png',
@@ -70,6 +77,7 @@ clan_ui_resources = \
             './resources/cards/front/qun-lord.png',
             './resources/cards/front/qun-magatama.png',
             './resources/cards/front/qun-skill.png',
+            'black',
             './resources/cards/front/qun-skill-up.png',
             './resources/cards/front/qun-skill-middle.png',
             './resources/cards/front/qun-skill-down.png',
@@ -79,6 +87,7 @@ clan_ui_resources = \
             './resources/cards/front/shu-lord.png',
             './resources/cards/front/shu-magatama.png',
             './resources/cards/front/shu-skill.png',
+            'black',
             './resources/cards/front/shu-skill-up.png',
             './resources/cards/front/shu-skill-middle.png',
             './resources/cards/front/shu-skill-down.png',
@@ -88,6 +97,7 @@ clan_ui_resources = \
             './resources/cards/front/wei-lord.png',
             './resources/cards/front/wei-magatama.png',
             './resources/cards/front/wei-skill.png',
+            'black',
             './resources/cards/front/wei-skill-up.png',
             './resources/cards/front/wei-skill-middle.png',
             './resources/cards/front/wei-skill-down.png',
@@ -97,6 +107,7 @@ clan_ui_resources = \
             './resources/cards/front/wu-lord.png',
             './resources/cards/front/wu-magatama.png',
             './resources/cards/front/wu-skill.png',
+            'black',
             './resources/cards/front/wu-skill-up.png',
             './resources/cards/front/wu-skill-middle.png',
             './resources/cards/front/wu-skill-down.png',
@@ -151,7 +162,8 @@ class SpellUI:
         spell_name_draw = ImageDraw.Draw(skill_name_img)
         spell_name_pos = (spell_name_base_pos[0],
                           spell_name_base_pos[1] + floor(name_lines_size[1] / 4))
-        spell_name_draw.text(spell_name_pos, self.__spell.name, 'black', font=font_name)
+        spell_name_text_color = 'black'
+        spell_name_draw.text(spell_name_pos, self.__spell.name, self.__clan_ui.skill_name_text_color, font=font_name)
         spell_image.paste(skill_name_img, mask=skill_name_img)
 
         # Add skill description text

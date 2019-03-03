@@ -29,6 +29,23 @@
 					"_Spell__name" : "Liè rèn"
 				}
 			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/20201.jpg",
+			"_Character__clan" : "god",
+			"_Character__life_points" : 3,
+			"_Character__lord" : false,
+			"_Character__name" : "Lu Meng",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "During his drawing phase, Lu Meng can not draw to flip over the top five cards of the deck and place one card from each suit into his hand. The rest are discarded.",
+					"_Spell__name" : "Shèliè"
+				},
+				{
+					"_Spell__description" : "Once per turn, Lu Meng can look at another player's hand. He then can choose a heart card from their hand and display it. Lu Meng then either discards that card or puts in on the top of the deck.",
+					"_Spell__name" : "Gōngxīn"
+				}
+			]
 		}
 	]
 }
