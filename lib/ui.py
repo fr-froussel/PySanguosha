@@ -126,58 +126,50 @@ class SpellUI:
     def ui(self):
         return self.__ui
 
-    def generate_ui(self, font):
-        # Generation status
-        generation_status = False
-
+    def generate_ui(self, font_description, font_name):
         # Extract max spell size
         max_width = max_spells_size[0]
-        max_height = max_spells_size[1]
 
-        lines = TextWrapper.wrap_text_by_width(self.__spell.description, font, max_width)
-        _, lines_size = TextWrapper.text_size(lines, font)
+        # Skill description text wrap
+        description_lines = TextWrapper.wrap_text_by_width(self.__spell.description, font_description, max_width)
+        _, description_lines_size = TextWrapper.text_size(description_lines, font_description)
+        _, first_description_line_text_size = TextWrapper.text_size(description_lines[0], font_description)
+        # Skill name text wrap
+        name_lines = TextWrapper.wrap_text_by_width(self.__spell.name, font_name, max_width)
+        _, name_lines_size = TextWrapper.text_size(name_lines, font_name)
 
-        # go write text if condition is ok
-        if lines_size[1] < max_height:
-            # Skill data
-            skill_name_img = Image.open(self.__clan_ui.skill)
-            _, first_line_text_size = TextWrapper.text_size(lines[0], font)
+        # Skill name image
+        skill_name_img = Image.open(self.__clan_ui.skill)
 
-            # Generate skill UI
-            spell_size = (skill_name_img.size[0] + max_width,
-                          lines_size[1] + floor(spell_arrow_size/2) - floor(first_line_text_size[1]/2))
-            spell_image = Image.new('RGBA', spell_size)
-            spell_draw = ImageDraw.Draw(spell_image)
+        # Generate skill UI
+        spell_size = (skill_name_img.size[0] + max_width,
+                      description_lines_size[1] + floor(spell_arrow_size/2))
+        spell_image = Image.new('RGBA', spell_size)
+        spell_draw = ImageDraw.Draw(spell_image)
 
-            # Add skill name text
-            _, spell_name_size = TextWrapper.text_size(self.__spell.name, font)
-            spell_name_pos = (spell_name_base_pos[0], floor(spell_name_base_pos[1]/2) + floor(spell_name_size[1]/2))
-            spell_name_draw = ImageDraw.Draw(skill_name_img)
-            spell_name_draw.text(spell_name_pos, self.__spell.name, (0, 0, 0), font=font)
+        # Add skill UI name
+        spell_name_draw = ImageDraw.Draw(skill_name_img)
+        spell_name_pos = (spell_name_base_pos[0],
+                          spell_name_base_pos[1] + floor(name_lines_size[1] / 4))
+        spell_name_draw.text(spell_name_pos, self.__spell.name, 'black', font=font_name)
+        spell_image.paste(skill_name_img, mask=skill_name_img)
 
-            # Add skill UI name
-            spell_image.paste(skill_name_img, mask=skill_name_img)
+        # Add skill description text
+        current_text_pos = [skill_name_img.size[0] - floor(spell_arrow_size/2),
+                            floor(spell_arrow_size/2) - floor(first_description_line_text_size[1]/2)]
+        desc_offset_after_arrow = 2
+        for line in description_lines:
+            spell_draw.text((current_text_pos[0] + floor(spell_arrow_size/2) + desc_offset_after_arrow,
+                             current_text_pos[1]),
+                            line,
+                            'black',
+                            font=font_name)
+            _, text_size = TextWrapper.text_size(line, font_name)
+            current_text_pos[1] += text_size[1]
 
-            # Add skill description text
-            current_text_pos = [skill_name_img.size[0] - floor(spell_arrow_size/2),
-                                floor(spell_arrow_size/2) - floor(first_line_text_size[1]/2)]
-            desc_offset_after_arrow = 2
-            for line in lines:
-                spell_draw.text((current_text_pos[0] + floor(spell_arrow_size/2) + desc_offset_after_arrow,
-                                 current_text_pos[1]),
-                                line,
-                                (0, 0, 0),
-                                font=font)
-                _, text_size = TextWrapper.text_size(line, font)
-                current_text_pos[1] += text_size[1]
+        # Write spell image
+        self.__ui = spell_image
 
-            # Write spell image
-            self.__ui = spell_image
-
-            # Status is ok
-            generation_status = True
-
-        return generation_status
 
 class SpellsUIManager:
     def __init__(self, spells, clan_ui):
@@ -215,78 +207,157 @@ class SpellsUIManager:
         self.__spells.append(spell)
 
     def generate_ui(self, spells, clan_ui):
+        generation_status = False
+
         # Font size possible to write spells text
-        font_size_possible = (13, 11)
+        font_size_possible = [13, 11, 9]
 
         # Extract max spell size
+        max_width = max_spells_size[0]
         max_height = max_spells_size[1]
 
+        have_found_font_description = False
+        have_found_font_name = False
         # Loop through all font size possible to generate spell UI
         for font_size in font_size_possible:
-            if not self.generate_ui_with_specific_font_size(spells, clan_ui, font_size):
-                print("Cannot generate this image with font size {}").format(font_size)
-
-            # Check if all UI generated are within size limits
+            # Cumulated height for all spells for a specific font size
             self.__cumulated_height = 0
-            spell_width = 0
-            for spell in self.spells:
-                self.__cumulated_height += spell.ui.size[1]
-                if spell_width == 0:
-                    spell_width = spell.ui.size[0]
 
-            # If all cumulated height are within max_height, it's ok
-            if self.cumulated_height < max_height:
-                skill_name_img = Image.open(clan_ui.skill)
-                skill_desc_up_img = Image.open(clan_ui.skill_up)
-                skill_desc_middle_img = Image.open(clan_ui.skill_middle)
-                skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0], self.cumulated_height))
-                skill_desc_down_img = Image.open(clan_ui.skill_down)
+            # Create description if not found
+            if not have_found_font_description:
+                font_description = ImageFont.truetype('resources/font/arial.ttf',
+                                                      size=TextWrapper.pixel_to_points(font_size),
+                                                      encoding='unic')
 
-                spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0]- floor(spell_arrow_size/2),
-                               skill_desc_up_img.size[1] + self.cumulated_height + skill_desc_down_img.size[1])
-                spells_image = Image.new('RGBA', spells_size)
+                # Loop through spells to calculate the best font size
+                for spell in spells:
+                    # Text wrapper
+                    description_lines = TextWrapper.wrap_text_by_width(spell.description, font_description, max_width)
+                    _, description_lines_size = TextWrapper.text_size(description_lines, font_description)
 
-                base_pos = (0, 0)
-                skill_desc_middle_base_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
-                skill_desc_up_img_pos = (skill_desc_middle_base_x, base_pos[1])
-                skill_desc_middle_img_pos = (skill_desc_middle_base_x, base_pos[1] + skill_desc_up_img.size[1])
-                spells_img_base_pos = (base_pos[0],
-                                  skill_desc_up_img_pos[1] + skill_desc_up_img.size[1])
-                skill_desc_down_img_pos = (skill_desc_middle_base_x,
-                                  spells_img_base_pos[1] + self.cumulated_height)
+                    # Adding cumulated_height
+                    self.__cumulated_height += description_lines_size[1]
 
-                spells_image.paste(skill_desc_up_img, skill_desc_up_img_pos)
-                spells_image.paste(skill_desc_middle_img, skill_desc_middle_img_pos)
-                previous_spell_height = spells_img_base_pos[1]
-                for spell in self.spells:
-                    spell_ui = spell.ui
-                    spells_image.paste(spell_ui, (spells_img_base_pos[0], previous_spell_height), mask=spell_ui)
-                    previous_spell_height += spell_ui.size[1]
-                spells_image.paste(skill_desc_down_img, skill_desc_down_img_pos)
+            # Create description if not found
+            if not have_found_font_name:
+                font_name = ImageFont.truetype('resources/font/arial.ttf',
+                                               size=TextWrapper.pixel_to_points(font_size),
+                                               encoding='unic')
 
-                self.__ui = spells_image
+                # Loop through spells to calculate the best font size
+                for spell in spells:
+                    # Text wrapper
+                    name_lines = TextWrapper.wrap_text_by_width(spell.name, font_name, max_width)
+                    _, name_lines_size = TextWrapper.text_size(name_lines, font_name)
 
-                self.__generation_status = True
+                    # Check if we have respect the maximum width
+                    if name_lines_size[0] < spell_name_size[0]:
+                        have_found_font_name = True
+                    else:
+                        have_found_font_name = False
+
+            # If cumulated_heigth < max_height, it's ok, go generate all spell UI with this font
+            self.__cumulated_height += floor(spell_arrow_size/2)
+            if (self.__cumulated_height < max_height) and have_found_font_name:
+                have_found_font_description = True
+                generation_status = True
+
+                # Loop through spells to generate UI
+                for spell in spells:
+                    self.__spells.append(SpellUI(spell, clan_ui))
+                    self.__spells[-1].generate_ui(font_description, font_name)
                 break
-            # Condition not satisfied, clear all SpellUI
-            else:
-                self.__spells.clear()
+
+        if generation_status:
+            skill_name_img = Image.open(clan_ui.skill)
+            skill_desc_up_img = Image.open(clan_ui.skill_up)
+            skill_desc_middle_img = Image.open(clan_ui.skill_middle)
+            skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0], self.cumulated_height))
+            skill_desc_down_img = Image.open(clan_ui.skill_down)
+
+            spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0]- floor(spell_arrow_size/2),
+                           skill_desc_up_img.size[1] + self.cumulated_height + skill_desc_down_img.size[1])
+            spells_image = Image.new('RGBA', spells_size)
+
+            base_pos = (0, 0)
+            skill_desc_middle_base_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
+            skill_desc_up_img_pos = (skill_desc_middle_base_x, base_pos[1])
+            skill_desc_middle_img_pos = (skill_desc_middle_base_x, base_pos[1] + skill_desc_up_img.size[1])
+            spells_img_base_pos = (base_pos[0],
+                              skill_desc_up_img_pos[1] + skill_desc_up_img.size[1])
+            skill_desc_down_img_pos = (skill_desc_middle_base_x,
+                              spells_img_base_pos[1] + self.cumulated_height)
+
+            spells_image.paste(skill_desc_up_img, skill_desc_up_img_pos)
+            spells_image.paste(skill_desc_middle_img, skill_desc_middle_img_pos)
+            previous_spell_height = spells_img_base_pos[1]
+            for spell in self.spells:
+                spells_image.paste(spell.ui, (spells_img_base_pos[0], previous_spell_height), mask=spell.ui)
+                previous_spell_height += spell.ui.size[1]
+            spells_image.paste(skill_desc_down_img, skill_desc_down_img_pos)
+
+            self.__ui = spells_image
+
+            self.__generation_status = True
+        # Condition not satisfied, clear all SpellUI
+        else:
+            self.__spells.clear()
+
+        # # Loop through all font size possible to generate spell UI
+        # for font_size in font_size_possible:
+        #     if not self.generate_ui_with_specific_font_size(spells, clan_ui, font_size):
+        #         print("Cannot generate this image with font size {}").format(font_size)
+        #
+        #     # Check if all UI generated are within size limits
+        #     self.__cumulated_height = 0
+        #     spell_width = 0
+        #     for spell in self.spells:
+        #         self.__cumulated_height += spell.ui.size[1]
+        #         if spell_width == 0:
+        #             spell_width = spell.ui.size[0]
+        #
+        #     # If all cumulated height are within max_height, it's ok
+        #     if self.cumulated_height < max_height:
+        #         skill_name_img = Image.open(clan_ui.skill)
+        #         skill_desc_up_img = Image.open(clan_ui.skill_up)
+        #         skill_desc_middle_img = Image.open(clan_ui.skill_middle)
+        #         skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0], self.cumulated_height))
+        #         skill_desc_down_img = Image.open(clan_ui.skill_down)
+        #
+        #         spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0]- floor(spell_arrow_size/2),
+        #                        skill_desc_up_img.size[1] + self.cumulated_height + skill_desc_down_img.size[1])
+        #         spells_image = Image.new('RGBA', spells_size)
+        #
+        #         base_pos = (0, 0)
+        #         skill_desc_middle_base_x = base_pos[0] + skill_name_img.size[0] - floor(spell_arrow_size/2)
+        #         skill_desc_up_img_pos = (skill_desc_middle_base_x, base_pos[1])
+        #         skill_desc_middle_img_pos = (skill_desc_middle_base_x, base_pos[1] + skill_desc_up_img.size[1])
+        #         spells_img_base_pos = (base_pos[0],
+        #                           skill_desc_up_img_pos[1] + skill_desc_up_img.size[1])
+        #         skill_desc_down_img_pos = (skill_desc_middle_base_x,
+        #                           spells_img_base_pos[1] + self.cumulated_height)
+        #
+        #         spells_image.paste(skill_desc_up_img, skill_desc_up_img_pos)
+        #         spells_image.paste(skill_desc_middle_img, skill_desc_middle_img_pos)
+        #         previous_spell_height = spells_img_base_pos[1]
+        #         for spell in self.spells:
+        #             spell_ui = spell.ui
+        #             spells_image.paste(spell_ui, (spells_img_base_pos[0], previous_spell_height), mask=spell_ui)
+        #             previous_spell_height += spell_ui.size[1]
+        #         spells_image.paste(skill_desc_down_img, skill_desc_down_img_pos)
+        #
+        #         self.__ui = spells_image
+        #
+        #         self.__generation_status = True
+        #         break
+        #     # Condition not satisfied, clear all SpellUI
+        #     else:
+        #         self.__spells.clear()
+
+
+        self.__generation_status = generation_status
 
         return self.__generation_status
-
-    def generate_ui_with_specific_font_size(self, spells, clan_ui, font_size):
-        generation_status = True
-
-        # Loop through all spells to generate UI
-        for spell in spells:
-            font = ImageFont.truetype('resources/font/arial.ttf',
-                                      size=TextWrapper.pixel_to_points(font_size),
-                                      encoding='unic')
-
-            self.__spells.append(SpellUI(spell, clan_ui))
-            generation_status = (generation_status and self.__spells[-1].generate_ui(font))
-
-        return generation_status
 
 
 class CharacterUI:
@@ -356,15 +427,16 @@ class CharacterUI:
         character_image_draw = ImageDraw.Draw(character_image)
         character_name_formatted = ''
         for letter in self.character.name:
-            if letter != '':
-                character_name_formatted += letter + '\n'
+            #if letter != ' ':
+            character_name_formatted += letter + '\n'
 
         # # # Find the best font size for the text
-        status, _, font, font_size = optimize_text_font_size_based_on_max_size(character_name_formatted,
-                                                                               'resources/font/ComicSansMSBold.ttf',
-                                                                               character_name_size)
+        status, _, font, font_size, _ = optimize_text_font_size_based_on_max_size(character_name_formatted,
+                                                                                  'resources/font/ComicSansMSBold.ttf',
+                                                                                  character_name_size,
+                                                                                  True)
         if status:
-            character_name_pos = (character_name_base_pos[0] + floor(font_size/3),
+            character_name_pos = (character_name_base_pos[0] + floor(character_name_base_pos[0]/2) - floor(font_size/2) - 2,
                                   character_name_base_pos[1])
 
             add_thicker_border_to_text(character_image_draw,

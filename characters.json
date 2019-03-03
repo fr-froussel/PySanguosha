@@ -9,7 +9,7 @@
 			"_Character__spells" : [
 				{
 					"_Spell__description" : "Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen's turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.",
-					"_Spell__name" : "Tsukasa teki"
+					"_Spell__name" : "Tsukasa"
 				}
 			]
 		},
