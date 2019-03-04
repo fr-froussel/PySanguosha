@@ -153,7 +153,8 @@ class SpellUI:
         skill_name_img = Image.open(self.__clan_ui.skill)
 
         # Generate skill UI
-        spell_size = (skill_name_img.size[0] + max_width,
+        desc_offset_after_arrow = 2
+        spell_size = (skill_name_img.size[0] + max_width + desc_offset_after_arrow,
                       description_lines_size[1] + floor(spell_arrow_size/2))
         spell_image = Image.new('RGBA', spell_size)
         spell_draw = ImageDraw.Draw(spell_image)
@@ -169,7 +170,6 @@ class SpellUI:
         # Add skill description text
         current_text_pos = [skill_name_img.size[0] - floor(spell_arrow_size/2),
                             floor(spell_arrow_size/2) - floor(first_description_line_text_size[1]/2)]
-        desc_offset_after_arrow = 2
         for line in description_lines:
             spell_draw.text((current_text_pos[0] + floor(spell_arrow_size/2) + desc_offset_after_arrow,
                              current_text_pos[1]),
@@ -181,7 +181,6 @@ class SpellUI:
 
         # Write spell image
         self.__ui = spell_image
-
 
 class SpellsUIManager:
     def __init__(self, spells, clan_ui):
@@ -248,7 +247,7 @@ class SpellsUIManager:
                     _, description_lines_size = TextWrapper.text_size(description_lines, font_description)
 
                     # Adding cumulated_height
-                    self.__cumulated_height += description_lines_size[1]
+                    self.__cumulated_height += description_lines_size[1] + floor(spell_arrow_size/2)
 
             # Create description if not found
             if not have_found_font_name:
@@ -285,7 +284,7 @@ class SpellsUIManager:
             skill_desc_up_img = Image.open(clan_ui.skill_up)
             skill_desc_middle_img = Image.open(clan_ui.skill_middle)
             skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0],
-                                                                  self.__cumulated_height + floor(spell_arrow_size/2)))
+                                                                  self.__cumulated_height - floor(spell_arrow_size/2)))
             skill_desc_down_img = Image.open(clan_ui.skill_down)
 
             spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0] - floor(spell_arrow_size/2),
@@ -420,9 +419,9 @@ class CharacterUI:
         # # Spells
         skill_desc_up_img = Image.open(self.__clan_ui.skill_up)
         skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
-        spells_base_pos = (21,
-                           main.size[1] - main_border[2] - floor(spell_arrow_size/2) - skill_desc_up_img.size[1]
-                           - skill_desc_down_img.size[1] - self.__spells_ui_manager.cumulated_height - 5)
+        spells_base_pos = (20,
+                           main.size[1] - main_border[2] - skill_desc_up_img.size[1]
+                           - skill_desc_down_img.size[1] - self.__spells_ui_manager.cumulated_height)
         character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
         # Save generated image
