@@ -285,7 +285,7 @@ class SpellsUIManager:
             skill_desc_up_img = Image.open(clan_ui.skill_up)
             skill_desc_middle_img = Image.open(clan_ui.skill_middle)
             skill_desc_middle_img = skill_desc_middle_img.resize((skill_desc_middle_img.size[0],
-                                                                  self.cumulated_height + floor(spell_arrow_size/2)))
+                                                                  self.__cumulated_height + floor(spell_arrow_size/2)))
             skill_desc_down_img = Image.open(clan_ui.skill_down)
 
             spells_size = (skill_name_img.size[0] + skill_desc_middle_img.size[0] - floor(spell_arrow_size/2),
