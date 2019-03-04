@@ -391,7 +391,6 @@ class CharacterUI:
         character_image_draw = ImageDraw.Draw(character_image)
         character_name_formatted = ''
         for letter in self.character.name:
-            #if letter != ' ':
             character_name_formatted += letter + '\n'
 
         # # # Find the best font size for the text
@@ -419,7 +418,11 @@ class CharacterUI:
             print('Cannot insert character name for {}'.format(self.character.name))
 
         # # Spells
-        spells_base_pos = (21, main.size[1] - self.__spells_ui_manager.cumulated_height - floor(spell_arrow_size/2) - 60)
+        skill_desc_up_img = Image.open(self.__clan_ui.skill_up)
+        skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
+        spells_base_pos = (21,
+                           main.size[1] - main_border[2] - floor(spell_arrow_size/2) - skill_desc_up_img.size[1]
+                           - skill_desc_down_img.size[1] - self.__spells_ui_manager.cumulated_height - 5)
         character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
         # Save generated image

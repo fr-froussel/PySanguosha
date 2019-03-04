@@ -10,7 +10,7 @@ spell_name_base_pos = (10, 4)
 spell_name_size = (38, 16)
 spell_arrow_size = 24 # That's a square!
 character_name_base_pos = (43, 97)
-character_god_name_base_pos = (213, 97)
+character_god_name_base_pos = (225, 97)
 character_name_size = (24, 248)
 
 def add_thin_border_to_text(draw, pos, text, font, textcolor, shadowcolor):
