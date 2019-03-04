@@ -426,4 +426,4 @@ class CharacterUI:
         character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
         # Save generated image
-        character_image.save('generation/' + self.__character.name.replace(' ', '_') + '.png')
+        character_image.save(generation_directory + self.__character.name.replace(' ', '_') + '.png')

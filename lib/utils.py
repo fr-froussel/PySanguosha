@@ -1,6 +1,7 @@
 from lib.TextWrapper import TextWrapper
 from PIL import ImageFont
 
+generation_directory = 'generation/'
 spells_base_pos = [87, 375]
 max_spells_size = (230, 175)
 background_base_pos = (40, 50)

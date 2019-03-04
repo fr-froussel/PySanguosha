@@ -1,12 +1,12 @@
-from lib.backend import *
+from lib.backend import CharactersManager
 from lib.ui import CharacterUI
+from lib.utils import *
 import json
 import os
 
 # Create generation directory if doesn't exists
-generation_dir = 'generation'
-if not os.path.exists(generation_dir):
-    os.makedirs(generation_dir)
+if not os.path.exists(generation_directory):
+  os.makedirs(generation_directory)
 
 # Read JSON characters file
 with open('characters.json', mode='r', encoding='utf-8') as characters_file:
