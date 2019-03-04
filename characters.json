@@ -52,14 +52,14 @@
 			"_Character__clan" : "wu",
 			"_Character__life_points" : 3,
 			"_Character__lord" : false,
-			"_Character__name" : "Xiao Qiao",
+			"_Character__name" : "Xiao Qiáo",
 			"_Character__spells" : [
 				{
 					"_Spell__description" : "When Xiao Qiao receives damage, she can discard any heart hand card pass it to any other character in play. They then draws X cards, X being the total number of health points that the character is missing after the damage is passed.",
 					"_Spell__name" : "Tiānxiāng"
 				},
 				{
-					"_Spell__description" : "All of Xiao Qiao's spades are considered to be hearts. (Enforced)",
+					"_Spell__description" : "All of Xiao Qiao's spades are considered to be hearts.",
 					"_Spell__name" : "Hóngyán"
 				}
 			]
@@ -82,6 +82,65 @@
 				{
 					"_Spell__description" : "King Ability: Other heroes can give Zhang Jiao one escape or lightning during their turn.",
 					"_Spell__name" : "Huáng"
+				}
+			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/18706.jpg",
+			"_Character__clan" : "wei",
+			"_Character__life_points" : 3,
+			"_Character__lord" : false,
+			"_Character__name" : "Wáng Yì",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "Whenever Wang Yi flips a judgement card, she can choose to flip a second judgment card. The second flipped card is the judgement that goes into effect.",
+					"_Spell__name" : "Zhēnliè"
+				},
+				{
+					"_Spell__description" : "At the beginning and ending of her turn, if she is not at full health, Wang Yi can flip a judgement card. If it is black, she draws X cards from the deck, X being the difference between her current and maximum health. Wang Yi then gives these to any character.",
+					"_Spell__name" : "Mì jì"
+				}
+			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/104.jpg",
+			"_Character__clan" : "shu",
+			"_Character__life_points" : 4,
+			"_Character__lord" : true,
+			"_Character__name" : "Liu Bei",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "Liu Bei's can give any number of his hand cards to any players. If he gives away more than one card, he recovers one unit of health.",
+					"_Spell__name" : "Liúbèi"
+				},
+				{
+					"_Spell__description" : "King Ability: If Liu Bei needs to use an attack, he can ask any member of Shu to provide him one.",
+					"_Spell__name" : "Jījiàng"
+				}
+			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/4502.jpg",
+			"_Character__clan" : "qun",
+			"_Character__life_points" : 8,
+			"_Character__lord" : true,
+			"_Character__name" : "Dong Zhuo",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "Dong Zhuo can use any spade card in his hand as wine.",
+					"_Spell__name" : "Jiǔ chí"
+				},
+				{
+					"_Spell__description" : "Whenever Dong Zhuo attacks or is attacked by a female, the target must use an additional escape to avoid damage.",
+					"_Spell__name" : "Ròu lín"
+				},
+				{
+					"_Spell__description" : "At the end of Dong Zhuo's turn, if he has more units of health than any character, he must either lose one health or reduce his maximum health limit by one.",
+					"_Spell__name" : "Bēng huài"
+				},
+				{
+					"_Spell__description" : "King Ability: When another hero damages a player, they can allow Dong Zhuo to flip a judgment. If it is a spade, Dong Zhuo heals one.",
+					"_Spell__name" : "Bàonüè"
 				}
 			]
 		}

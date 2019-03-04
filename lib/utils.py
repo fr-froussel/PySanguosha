@@ -3,15 +3,15 @@ from PIL import ImageFont
 
 generation_directory = 'generation/'
 spells_base_pos = [87, 375]
-max_spells_size = (230, 175)
+max_spells_size = (305, 150)
 background_base_pos = (40, 50)
 background_size = (285, 345)
 main_border = (62, 12, 32, 15)
 spell_name_base_pos = (10, 4)
-spell_name_size = (42, 16)
+spell_name_size = (40, 16)
 spell_arrow_size = 24 # That's a square!
-character_name_base_pos = (41, 97)
-character_god_name_base_pos = (225, 97)
+character_name_base_pos = (41, 91)
+character_god_name_base_pos = (225, 91)
 character_name_size = (30, 220)
 
 def add_thin_border_to_text(draw, pos, text, font, textcolor, shadowcolor):

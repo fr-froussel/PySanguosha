@@ -149,15 +149,16 @@ class SpellUI:
         return self.__ui
 
     def generate_ui(self, font_description, font_name):
-        # Extract max spell size
-        max_width = max_spells_size[0]
-
         # Skill description text wrap
-        description_lines = TextWrapper.wrap_text_by_width(self.__spell.description, font_description, max_width)
+        description_lines = TextWrapper.wrap_text_by_width(self.__spell.description,
+                                                           font_description,
+                                                           TextWrapper.pixel_to_points(max_spells_size[0]))
         _, description_lines_size = TextWrapper.text_size(description_lines, font_description)
         _, first_description_line_text_size = TextWrapper.text_size(description_lines[0], font_description)
         # Skill name text wrap
-        name_lines = TextWrapper.wrap_text_by_width(self.__spell.name, font_name, max_width)
+        name_lines = TextWrapper.wrap_text_by_width(self.__spell.name,
+                                                    font_name,
+                                                    TextWrapper.pixel_to_points(spell_name_size[0]))
         _, name_lines_size = TextWrapper.text_size(name_lines, font_name)
 
         # Skill name image
@@ -165,7 +166,7 @@ class SpellUI:
 
         # Generate skill UI
         desc_offset_after_arrow = 2
-        spell_size = (skill_name_img.size[0] + max_width + desc_offset_after_arrow,
+        spell_size = (skill_name_img.size[0] + max_spells_size[0] + desc_offset_after_arrow,
                       description_lines_size[1] + floor(spell_arrow_size/2))
         spell_image = Image.new('RGBA', spell_size)
         spell_draw = ImageDraw.Draw(spell_image)
@@ -186,8 +187,8 @@ class SpellUI:
                              current_text_pos[1]),
                             line,
                             'black',
-                            font=font_name)
-            _, text_size = TextWrapper.text_size(line, font_name)
+                            font=font_description)
+            _, text_size = TextWrapper.text_size(line, font_description)
             current_text_pos[1] += text_size[1]
 
         # Write spell image
@@ -234,10 +235,6 @@ class SpellsUIManager:
         # Font size possible to write spells text
         font_size_possible = [13, 11, 9]
 
-        # Extract max spell size
-        max_width = max_spells_size[0]
-        max_height = max_spells_size[1]
-
         have_found_font_description = False
         have_found_font_name = False
         # Loop through all font size possible to generate spell UI
@@ -254,7 +251,9 @@ class SpellsUIManager:
                 # Loop through spells to calculate the best font size
                 for spell in spells:
                     # Text wrapper
-                    description_lines = TextWrapper.wrap_text_by_width(spell.description, font_description, max_width)
+                    description_lines = TextWrapper.wrap_text_by_width(spell.description,
+                                                                       font_description,
+                                                                       TextWrapper.pixel_to_points(max_spells_size[0]))
                     _, description_lines_size = TextWrapper.text_size(description_lines, font_description)
 
                     # Adding cumulated_height
@@ -269,7 +268,9 @@ class SpellsUIManager:
                 # Loop through spells to calculate the best font size
                 for spell in spells:
                     # Text wrapper
-                    name_lines = TextWrapper.wrap_text_by_width(spell.name, font_name, max_width)
+                    name_lines = TextWrapper.wrap_text_by_width(spell.name,
+                                                                font_name,
+                                                                TextWrapper.pixel_to_points(spell_name_size[0]))
                     _, name_lines_size = TextWrapper.text_size(name_lines, font_name)
 
                     # Check if we have respect the maximum width
@@ -280,7 +281,7 @@ class SpellsUIManager:
 
             # If cumulated_heigth < max_height, it's ok, go generate all spell UI with this font
             self.__cumulated_height += floor(spell_arrow_size/2)
-            if (self.__cumulated_height < max_height) and have_found_font_name:
+            if (self.__cumulated_height < max_spells_size[1]) and have_found_font_name:
                 have_found_font_description = True
                 generation_status = True
 
