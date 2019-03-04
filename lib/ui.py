@@ -6,7 +6,8 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 
 class ClanUI:
-    def __init__(self, main, main_lord, magatama, skill, skill_name_text_color, skill_up, skill_middle, skill_down):
+    def __init__(self, main, main_lord, magatama, magatama_lord,
+                 skill, skill_name_text_color, skill_up, skill_middle, skill_down):
         """
         Construct clan UI resources association
         :param main: main image resource path
@@ -21,6 +22,7 @@ class ClanUI:
         self.__main = main
         self.__main_lord = main_lord
         self.__magatama = magatama
+        self.__magatama_lord = magatama_lord
         self.__skill = skill
         self.__skill_name_text_color = skill_name_text_color
         self.__skill_up = skill_up
@@ -38,6 +40,10 @@ class ClanUI:
     @property
     def magatama(self):
         return self.__magatama
+
+    @property
+    def magatama_lord(self):
+        return self.__magatama_lord
 
     @property
     def skill(self):
@@ -66,6 +72,7 @@ clan_ui_resources = \
             './resources/cards/front/god.png',
             './resources/cards/front/god.png',
             './resources/cards/front/god-magatama.png',
+            './resources/cards/front/god-magatama.png',
             './resources/cards/front/god-skill.png',
             'white',
             './resources/cards/front/god-skill-up.png',
@@ -76,6 +83,7 @@ clan_ui_resources = \
             './resources/cards/front/qun.png',
             './resources/cards/front/qun-lord.png',
             './resources/cards/front/qun-magatama.png',
+            './resources/cards/front/god-magatama.png',
             './resources/cards/front/qun-skill.png',
             'black',
             './resources/cards/front/qun-skill-up.png',
@@ -86,6 +94,7 @@ clan_ui_resources = \
             './resources/cards/front/shu.png',
             './resources/cards/front/shu-lord.png',
             './resources/cards/front/shu-magatama.png',
+            './resources/cards/front/god-magatama.png',
             './resources/cards/front/shu-skill.png',
             'black',
             './resources/cards/front/shu-skill-up.png',
@@ -96,6 +105,7 @@ clan_ui_resources = \
             './resources/cards/front/wei.png',
             './resources/cards/front/wei-lord.png',
             './resources/cards/front/wei-magatama.png',
+            './resources/cards/front/god-magatama.png',
             './resources/cards/front/wei-skill.png',
             'black',
             './resources/cards/front/wei-skill-up.png',
@@ -106,6 +116,7 @@ clan_ui_resources = \
             './resources/cards/front/wu.png',
             './resources/cards/front/wu-lord.png',
             './resources/cards/front/wu-magatama.png',
+            './resources/cards/front/god-magatama.png',
             './resources/cards/front/wu-skill.png',
             'black',
             './resources/cards/front/wu-skill-up.png',
@@ -355,7 +366,10 @@ class CharacterUI:
         main_w, main_h = main.size
 
         # Life points UI
-        magatama = Image.open(self.__clan_ui.magatama)
+        if not self.character.lord:
+            magatama = Image.open(self.__clan_ui.magatama)
+        else:
+            magatama = Image.open(self.__clan_ui.magatama_lord)
         magatama_w, magatama_h = magatama.size
 
         # Character background UI
@@ -421,7 +435,7 @@ class CharacterUI:
         skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
         spells_base_pos = (20,
                            main.size[1] - main_border[2] - skill_desc_up_img.size[1]
-                           - skill_desc_down_img.size[1] - self.__spells_ui_manager.cumulated_height)
+                           - floor(skill_desc_down_img.size[1]/2) - self.__spells_ui_manager.cumulated_height)
         character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
 
         # Save generated image

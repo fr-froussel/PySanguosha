@@ -8,11 +8,11 @@ background_base_pos = (40, 50)
 background_size = (285, 345)
 main_border = (62, 12, 32, 15)
 spell_name_base_pos = (10, 4)
-spell_name_size = (38, 16)
+spell_name_size = (42, 16)
 spell_arrow_size = 24 # That's a square!
-character_name_base_pos = (43, 97)
+character_name_base_pos = (41, 97)
 character_god_name_base_pos = (225, 97)
-character_name_size = (24, 248)
+character_name_size = (30, 220)
 
 def add_thin_border_to_text(draw, pos, text, font, textcolor, shadowcolor):
   # Create border
@@ -52,7 +52,8 @@ def optimize_text_font_size_based_on_max_size(text, font_path, max_size, is_in_v
     _, lines_size = TextWrapper.text_size(lines, font, is_in_vertical_mode)
 
     # Go write text if condition is ok
-    if (lines_size[0] <= max_width) and (lines_size[1] <= max_height):
+    if (TextWrapper.points_to_pixel(lines_size[0]) <= max_width) and\
+        (TextWrapper.points_to_pixel(lines_size[1]) <= max_height):
       return True, lines, font, font_size, lines_size
 
   # If no concordancy, return false

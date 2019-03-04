@@ -19,4 +19,7 @@ with open('characters.json', mode='r', encoding='utf-8') as characters_file:
     character_ui = CharacterUI(character)
 
     if character_ui.additionals_ui_ready:
+      print('{}: Generation'.format(character_ui.character.name))
       character_ui.generate_ui()
+    else:
+      print('{}: Error'.format(character_ui.character.name))

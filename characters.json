@@ -46,6 +46,44 @@
 					"_Spell__name" : "Gōngxīn"
 				}
 			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/3004.jpg",
+			"_Character__clan" : "wu",
+			"_Character__life_points" : 3,
+			"_Character__lord" : false,
+			"_Character__name" : "Xiao Qiao",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "When Xiao Qiao receives damage, she can discard any heart hand card pass it to any other character in play. They then draws X cards, X being the total number of health points that the character is missing after the damage is passed.",
+					"_Spell__name" : "Tiānxiāng"
+				},
+				{
+					"_Spell__description" : "All of Xiao Qiao's spades are considered to be hearts. (Enforced)",
+					"_Spell__name" : "Hóngyán"
+				}
+			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/99999.jpg",
+			"_Character__clan" : "qun",
+			"_Character__life_points" : 3,
+			"_Character__lord" : true,
+			"_Character__name" : "Zhang Jiao",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "Whenever Zhang Jiao plays an escape, he can select any character and have them flip a judgment. If it is a spade, they are dealt two units of lightning damage.",
+					"_Spell__name" : "Léijí"
+				},
+				{
+					"_Spell__description" : "After a judgment is flipped, Zhang Jiao can discard any black card to replace the judgment card. The original card that was flipped then goes into Zhang Jiao's hand.",
+					"_Spell__name" : "Kitō"
+				},
+				{
+					"_Spell__description" : "King Ability: Other heroes can give Zhang Jiao one escape or lightning during their turn.",
+					"_Spell__name" : "Huáng"
+				}
+			]
 		}
 	]
 }
