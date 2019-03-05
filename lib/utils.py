@@ -4,7 +4,7 @@ from PIL import ImageFont
 
 generation_directory = 'generation/'
 spells_base_pos = [87, 375]
-max_spells_size = (305, 150)
+max_spells_size = (305, 175)
 background_base_pos = (40, 50)
 background_size = (285, 345)
 main_border = (62, 12, 32, 15)
@@ -13,7 +13,7 @@ spell_name_size = (40, 16)
 spell_arrow_size = 24 # That's a square!
 character_name_base_pos = (41, 91)
 character_god_name_base_pos = (225, 91)
-character_name_size = (30, 220)
+character_name_size = (30, 200)
 
 
 class Clan(Enum):
