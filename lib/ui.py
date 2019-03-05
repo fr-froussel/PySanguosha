@@ -409,7 +409,7 @@ class CharacterUI:
 
         # # # Find the best font size for the text
         status, _, font, font_size, _ = optimize_text_font_size_based_on_max_size(character_name_formatted,
-                                                                                  'resources/font/ComicSansMSBold.ttf',
+                                                                                  'resources/font/CourierPrimeBold.ttf',
                                                                                   character_name_size,
                                                                                   True)
         if status:

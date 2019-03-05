@@ -11,9 +11,9 @@ main_border = (62, 12, 32, 15)
 spell_name_base_pos = (10, 4)
 spell_name_size = (40, 16)
 spell_arrow_size = 24 # That's a square!
-character_name_base_pos = (41, 91)
-character_god_name_base_pos = (225, 91)
-character_name_size = (30, 200)
+character_name_base_pos = (42, 100)
+character_god_name_base_pos = (225, 100)
+character_name_size = (35, 200)
 
 
 class Clan(Enum):
