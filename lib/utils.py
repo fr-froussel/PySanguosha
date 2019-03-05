@@ -1,3 +1,4 @@
+from enum import Enum
 from lib.TextWrapper import TextWrapper
 from PIL import ImageFont
 
@@ -13,6 +14,25 @@ spell_arrow_size = 24 # That's a square!
 character_name_base_pos = (41, 91)
 character_god_name_base_pos = (225, 91)
 character_name_size = (30, 220)
+
+
+class Clan(Enum):
+    (
+        GOD,
+        QUN,
+        SHU,
+        WEI,
+        WU
+    ) = range(5)
+
+
+clan_label_associations = {
+  'god': Clan.GOD,
+  'qun': Clan.QUN,
+  'shu': Clan.SHU,
+  'wei': Clan.WEI,
+  'wu': Clan.WU,
+}
 
 def add_thin_border_to_text(draw, pos, text, font, textcolor, shadowcolor):
   # Create border

@@ -1,19 +1,4 @@
-class Clan:
-    (
-        GOD,
-        QUN,
-        SHU,
-        WEI,
-        WU
-    ) = range(5)
-
-clan_label_associations = {
-  'god': Clan.GOD,
-  'qun': Clan.QUN,
-  'shu': Clan.SHU,
-  'wei': Clan.WEI,
-  'wu': Clan.WU,
-}
+from lib.utils import *
 
 
 class CharactersManager:
