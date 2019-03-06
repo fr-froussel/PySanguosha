@@ -1,4 +1,5 @@
 from lib.utils import *
+import os
 
 
 class CharactersManager:
@@ -78,32 +79,42 @@ class Character:
 
         clan = json[json_clan]
         if clan in clan_label_associations:
-          this.__background = json[json_background]
-          this.__clan = clan_label_associations.get(clan)
-          this.__life_points = json[json_life_points]
-          this.__lord = json[json_lord]
-          this.__god = (this.clan == Clan.GOD)
+          background = json[json_background]
           this.__name = json[json_name]
-          this.__spells = []
 
-          for spell in json[json_spells]:
-            spell_status, spell = Spell.from_json(spell)
-            if spell_status:
-              this.__spells.append(spell)
+          if os.path.isfile(background):
+            this.__background = background
+            this.__clan = clan_label_associations.get(clan)
+            this.__life_points = json[json_life_points]
+            this.__lord = json[json_lord]
+            this.__god = (this.clan == Clan.GOD)
+            this.__spells = []
+
+            for spell in json[json_spells]:
+              spell_status, spell = Spell.from_json(spell)
+              if spell_status:
+                this.__spells.append(spell)
+              else:
+                status = False
+
+            if not status:
+              status = True
             else:
-              status = False
-
-          status = True
+              print('Error during spells parsing for "{}".'.format(this.__name))
+              this = None
+          else:
+            print('Invalid character background path "{}" for "{}".'.format(background, this.__name))
+            this = None
         else:
-          print('Unrecognized character clan value "{}".'.format(clan))
+          print('Unrecognized character clan value "{}" for "{}".'.format(clan, this.__name))
           this = None
 
       else:
-        delim = ", "
+        delimiter = ", "
         print('Cannot found all mandatories entries ({}) in the json for character description'.format(
-          json_background + delim + json_clan + delim +
-          json_life_points + delim + json_lord + delim +
-          json_name + delim + json_spells
+          json_background + delimiter + json_clan + delimiter +
+          json_life_points + delimiter + json_lord + delimiter +
+          json_name + delimiter + json_spells
         ))
 
       return status, this

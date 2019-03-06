@@ -143,6 +143,23 @@
 					"_Spell__name" : "Bàonüè"
 				}
 			]
+		},
+		{
+			"_Character__background" : "./resources/cards/skins/11302.jpg",
+			"_Character__clan" : "wei",
+			"_Character__life_points" : 3,
+			"_Character__lord" : false,
+			"_Character__name" : "Chen Lin",
+			"_Character__spells" : [
+				{
+					"_Spell__description" : "At the end of his turn, Chen Lin can place any hand card on another character. At the beginning of this character's turn, they must give Chen Lin one hand card of the same type (basic, tool, or equipment). If they do not, they suffer one unit of negligence damage. If they give Chen Lin a card of the same type, they keep the card that Chen Lin placed on their character card.",
+					"_Spell__name" : "Bǐ fá"
+				},
+				{
+					"_Spell__description" : "During his action phase, Chen Lin can target any character whose hand card number differs from their current health level. If they have more hand cards than health, they must discard two cards. If they have more health than hand cards, they draw two cards. Chen Lin can target each character once per game.",
+					"_Spell__name" : "Róngcí"
+				}
+			]
 		}
 	]
 }

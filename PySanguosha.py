@@ -13,10 +13,14 @@ for clan_label_association in clan_label_associations:
     os.makedirs(clan_generation_directory)
 
 # Read JSON characters file
+print('Open characters configuration file')
 with open('characters.json', mode='r', encoding='utf-8') as characters_file:
+  print('Parsing characters configuration file')
   characters_data = json.load(characters_file)
   characters_manager = CharactersManager.from_json(characters_data)
 
+  print('Loop through characters parsed successfully')
+  print('------')
   for character in characters_manager.characters:
     print('{}'.format(character.name))
     # Create character UI associated to the character
