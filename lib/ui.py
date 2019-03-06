@@ -1,8 +1,33 @@
-from lib.backend import Clan
-from lib.TextWrapper import TextWrapper
 from lib.utils import *
 from math import floor
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont
+
+
+def add_specified_border_to_text(draw, pos, text, font, text_color, shadow_color, px_border):
+    x = pos[0]
+    y = pos[1]
+
+    # Create outline text
+    for adj in range(px_border):
+        # Move right
+        draw.text((x - adj, y), text, font=font, fill=shadow_color)
+        # Move left
+        draw.text((x + adj, y), text, font=font, fill=shadow_color)
+        # Move up
+        draw.text((x, y + adj), text, font=font, fill=shadow_color)
+        # Move down
+        draw.text((x, y - adj), text, font=font, fill=shadow_color)
+        # Diagonal left up
+        draw.text((x - adj, y + adj), text, font=font, fill=shadow_color)
+        # Diagonal right up
+        draw.text((x + adj, y + adj), text, font=font, fill=shadow_color)
+        # Diagonal left down
+        draw.text((x - adj, y - adj), text, font=font, fill=shadow_color)
+        # Diagonal right down
+        draw.text((x + adj, y - adj), text, font=font, fill=shadow_color)
+
+    # Add text
+    draw.text(pos, text, font=font, fill=text_color)
 
 
 class ClanUI:
@@ -417,20 +442,14 @@ class CharacterUI:
                                   - floor(TextWrapper.pixel_to_points(font_size) / 4),
                                   character_name_base_pos[1])
 
-            if not self.character.lord and not self.character.god:
-                add_thicker_border_to_text(character_image_draw,
-                                           character_name_pos,
-                                           character_name_formatted,
-                                           font,
-                                           'white',
-                                           'black')
-            else:
-                add_thicker_border_to_text(character_image_draw,
-                                           character_name_pos,
-                                           character_name_formatted,
-                                           font,
-                                           'black',
-                                           'white')
+            base_color = 'white'
+            shadow_color = 'black'
+            if self.character.lord or self.character.god:
+                base_color = 'black'
+                shadow_color = 'white'
+
+            add_specified_border_to_text(character_image_draw, character_name_pos, character_name_formatted,
+                                         font, base_color, shadow_color, 3)
         else:
             print('Cannot insert character name for {}'.format(self.character.name))
 

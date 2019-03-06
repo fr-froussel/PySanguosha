@@ -33,25 +33,6 @@ clan_label_associations = {
   'wu': Clan.WU,
 }
 
-def add_thin_border_to_text(draw, pos, text, font, textcolor, shadowcolor):
-  # Create border
-  draw.text((pos[0] - 1, pos[1]), text, font=font, fill=shadowcolor)
-  draw.text((pos[0] + 1, pos[1]), text, font=font, fill=shadowcolor)
-  draw.text((pos[0], pos[1] - 1), text, font=font, fill=shadowcolor)
-  draw.text((pos[0], pos[1] + 1), text, font=font, fill=shadowcolor)
-
-  # Add text
-  draw.text(pos, text, textcolor, font=font)
-
-def add_thicker_border_to_text(draw, pos, text, font, textcolor, shadowcolor):
-  # Create border
-  draw.text((pos[0] - 1, pos[1] - 1), text, font=font, fill=shadowcolor)
-  draw.text((pos[0] + 1, pos[1] - 1), text, font=font, fill=shadowcolor)
-  draw.text((pos[0] - 1, pos[1] + 1), text, font=font, fill=shadowcolor)
-  draw.text((pos[0], pos[1] + 1), text, font=font, fill=shadowcolor)
-
-  # Add text
-  draw.text(pos, text, textcolor, font=font)
 
 def optimize_text_font_size_based_on_max_size(text, font_path, max_size, is_in_vertical_mode=False):
   # Possible font size
