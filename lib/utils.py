@@ -1,5 +1,5 @@
 from enum import Enum
-from lib.TextWrapper import TextWrapper
+from lib.text_wrapper import TextWrapper
 from PIL import ImageFont
 
 generation_directory = 'generation/'
