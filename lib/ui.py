@@ -414,20 +414,15 @@ class CharacterUI:
                                                                                   True)
         if status:
             character_name_pos = (
-            character_name_base_pos[0] + floor(character_name_base_pos[0] / 2) - floor(font_size / 2) - 2,
+            character_name_base_pos[0] + floor(character_name_size[0] / 2) - floor(TextWrapper.pixel_to_points(font_size) / 4),
             character_name_base_pos[1])
-
-            if self.__character.god:
-                character_name_pos = (
-                character_god_name_base_pos[0] + floor(character_god_name_base_pos[0] / 2) - floor(font_size / 2) - 2,
-                character_god_name_base_pos[1])
 
             add_thicker_border_to_text(character_image_draw,
                                        character_name_pos,
                                        character_name_formatted,
                                        font,
-                                       'white',
-                                       'black')
+                                       'black',
+                                       'white')
         else:
             print('Cannot insert character name for {}'.format(self.character.name))
 
