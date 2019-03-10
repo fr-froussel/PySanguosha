@@ -55,7 +55,7 @@ class Character:
         self.__clan = clan
         self.__lord = lord
         self.__god = (clan == Clan.GOD)
-        self.__background = background
+        self.__background = [background]
 
     @staticmethod
     def from_json(json):
@@ -79,11 +79,16 @@ class Character:
 
         clan = json[json_clan]
         if clan in clan_label_associations:
-          background = json[json_background]
+          backgrounds = json[json_background]
           this.__name = json[json_name]
+          this.__background = []
 
-          if os.path.isfile(background):
-            this.__background = background
+          # Check backgrounds validity
+          for background in backgrounds:
+            if os.path.isfile(background):
+              this.__background.append(background)
+
+          if len(this.__background) != 0:
             this.__clan = clan_label_associations.get(clan)
             this.__life_points = json[json_life_points]
             this.__lord = json[json_lord]
@@ -103,7 +108,7 @@ class Character:
               print('Error during spells parsing for "{}".'.format(this.__name))
               this = None
           else:
-            print('Invalid character background path "{}" for "{}".'.format(background, this.__name))
+            print('No valid background(s) path for "{}".'.format(this.__name))
             this = None
         else:
           print('Unrecognized character clan value "{}" for "{}".'.format(clan, this.__name))

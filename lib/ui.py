@@ -383,84 +383,92 @@ class CharacterUI:
         return self.__additionals_ui_ready
 
     def generate_ui(self):
-        # Main UI border
-        main = ''
-        if not self.__character.lord:
-            main = Image.open(self.__clan_ui.main)
-        else:
-            main = Image.open(self.__clan_ui.main_lord)
-        main_w, main_h = main.size
+        # Loop through backgrounds
+        number_background_generated = 1
+        for background in self.__character.background:
+            # Main UI border
+            main = ''
+            if not self.__character.lord:
+                main = Image.open(self.__clan_ui.main)
+            else:
+                main = Image.open(self.__clan_ui.main_lord)
+            main_w, main_h = main.size
 
-        # Life points UI
-        if not self.character.lord:
-            magatama = Image.open(self.__clan_ui.magatama)
-        else:
-            magatama = Image.open(self.__clan_ui.magatama_lord)
-        magatama_w, magatama_h = magatama.size
+            # Life points UI
+            if not self.character.lord:
+                magatama = Image.open(self.__clan_ui.magatama)
+            else:
+                magatama = Image.open(self.__clan_ui.magatama_lord)
+            magatama_w, magatama_h = magatama.size
 
-        # Character background UI
-        character_background = Image.open(self.__character.background)
-        # # Resize background to fit with main UI
-        desired_character_background_width = background_size[0]
-        desired_character_background_height = background_size[1]
-        left_crop = ((character_background.size[0] - desired_character_background_width) / 2)
-        top_crop = ((character_background.size[1] - desired_character_background_height) / 2)
-        character_background.crop((left_crop,
-                                  top_crop,
-                                  left_crop + desired_character_background_width,
-                                  top_crop + desired_character_background_height))
-        enhancer = ImageEnhance.Brightness(character_background)
-        character_background = enhancer.enhance(0.80)
 
-        # Composition
-        character_image = Image.new('RGBA', (main_w, main_h))
+            # Character background UI
+            character_background = Image.open(background)
+            # # Resize background to fit with main UI
+            desired_character_background_width = background_size[0]
+            desired_character_background_height = background_size[1]
+            left_crop = ((character_background.size[0] - desired_character_background_width) / 2)
+            top_crop = ((character_background.size[1] - desired_character_background_height) / 2)
+            character_background.crop((left_crop,
+                                      top_crop,
+                                      left_crop + desired_character_background_width,
+                                      top_crop + desired_character_background_height))
+            enhancer = ImageEnhance.Brightness(character_background)
+            character_background = enhancer.enhance(0.90)
 
-        # Start compose the image
-        # # Background
-        character_image.paste(character_background, background_base_pos)
-        # # Main border
-        character_image.paste(main, (0, 0), mask=main)
-        # # Life points
-        magamatame_heigth_position = 20
-        magatama_width_base_position = 100
-        for magatama_number in range(self.__character.life_points):
-            magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
-            character_image.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
-        # # Character name
-        character_image_draw = ImageDraw.Draw(character_image)
-        character_name_formatted = ''
-        for letter in self.character.name:
-            character_name_formatted += letter + '\n'
+            # Composition
+            character_image = Image.new('RGBA', (main_w, main_h))
 
-        # # # Find the best font size for the text
-        status, _, font, font_size, _ = optimize_text_font_size_based_on_max_size(character_name_formatted,
-                                                                                  'resources/font/CourierPrimeBold.ttf',
-                                                                                  character_name_size,
-                                                                                  True)
-        if status:
-            character_name_pos = (character_name_base_pos[0] + floor(character_name_size[0] / 2)
-                                  - floor(TextWrapper.pixel_to_points(font_size) / 4),
-                                  character_name_base_pos[1])
+            # Start compose the image
+            # # Background
+            character_image.paste(character_background, background_base_pos)
+            # # Main border
+            character_image.paste(main, (0, 0), mask=main)
+            # # Life points
+            magamatame_heigth_position = 20
+            magatama_width_base_position = 100
+            for magatama_number in range(self.__character.life_points):
+                magatama_previous_width_position = magatama_width_base_position + (int(magatama_w * magatama_number))
+                character_image.paste(magatama, (magatama_previous_width_position, magamatame_heigth_position), mask=magatama)
+            # # Character name
+            character_image_draw = ImageDraw.Draw(character_image)
+            character_name_formatted = ''
+            for letter in self.character.name:
+                character_name_formatted += letter + '\n'
 
-            base_color = 'white'
-            shadow_color = 'black'
-            if self.character.lord or self.character.god:
-                base_color = 'black'
-                shadow_color = 'white'
+            # # # Find the best font size for the text
+            status, _, font, font_size, _ = optimize_text_font_size_based_on_max_size(character_name_formatted,
+                                                                                      'resources/font/CourierPrimeBold.ttf',
+                                                                                      character_name_size,
+                                                                                      True)
+            if status:
+                character_name_pos = (character_name_base_pos[0] + floor(character_name_size[0] / 2)
+                                      - floor(TextWrapper.pixel_to_points(font_size) / 4),
+                                      character_name_base_pos[1])
 
-            add_specified_border_to_text(character_image_draw, character_name_pos, character_name_formatted,
-                                         font, base_color, shadow_color, 3)
-        else:
-            print('Cannot insert character name for {}'.format(self.character.name))
+                base_color = 'white'
+                shadow_color = 'black'
+                if self.character.lord or self.character.god:
+                    base_color = 'black'
+                    shadow_color = 'white'
 
-        # # Spells
-        skill_desc_up_img = Image.open(self.__clan_ui.skill_up)
-        skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
-        spells_base_pos = (20,
-                           main.size[1] - main_border[2] - skill_desc_up_img.size[1]
-                           - floor(skill_desc_down_img.size[1]/2) - self.__spells_ui_manager.cumulated_height)
-        character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
+                add_specified_border_to_text(character_image_draw, character_name_pos, character_name_formatted,
+                                             font, base_color, shadow_color, 3)
+            else:
+                print('Cannot insert character name for {}'.format(self.character.name))
 
-        # Save generated image
-        character_image.save(generation_directory + self.character.clan.name + \
-                             '/' + self.character.name.replace(' ', '_') + '.png')
+            # # Spells
+            skill_desc_up_img = Image.open(self.__clan_ui.skill_up)
+            skill_desc_down_img = Image.open(self.__clan_ui.skill_down)
+            spells_base_pos = (20,
+                               main.size[1] - main_border[2] - skill_desc_up_img.size[1]
+                               - floor(skill_desc_down_img.size[1]/2) - self.__spells_ui_manager.cumulated_height)
+            character_image.paste(self.__spells_ui_manager.ui, spells_base_pos, mask=self.__spells_ui_manager.ui)
+
+            # Save generated image
+            character_image.save(generation_directory + \
+                                 list(clan_label_associations.keys())[list(clan_label_associations.values()).index(self.character.clan)] + \
+                                 '/' + self.character.name.replace(' ', '_') + \
+                                 '_' + str(number_background_generated) + '.png')
+
+            number_background_generated += 1

@@ -1,165 +1,3822 @@
 {
-	"_CharactersManager__characters" : [
-		{
-			"_Character__background" : "./resources/cards/skins/32102.jpg",
-			"_Character__clan" : "wei",
-			"_Character__life_points" : 4,
-			"_Character__lord" : false,
-			"_Character__name" : "Cao Zhen",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Whenever Cao Zhen uses an escape or any other player uses an escape during Cao Zhen's turn, he puts the top card of the deck on his general card. At the beginning of any other players action phase, Cao Zhen can discard one of these cards to reduce the number of attacks that the current player can use by one.",
-					"_Spell__name" : "Tsukasa"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/4605.jpg",
-			"_Character__clan" : "shu",
-			"_Character__life_points" : 4,
-			"_Character__lord" : false,
-			"_Character__name" : "Zhù Róng",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Whenever another character plays barbarians, Zhu Rong is not affected. After all other effects have been concluded, Zhu Rong places the card in her hand.",
-					"_Spell__name" : "Jùxiàng"
-				},
-				{
-					"_Spell__description" : "Whenever Zhu Rong damages another character with an attack, she can compete with the character. If she wins, she can take one of their cards and puts it in her hand.",
-					"_Spell__name" : "Liè rèn"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/20201.jpg",
-			"_Character__clan" : "god",
-			"_Character__life_points" : 3,
-			"_Character__lord" : false,
-			"_Character__name" : "Lu Meng",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "During his drawing phase, Lu Meng can not draw to flip over the top five cards of the deck and place one card from each suit into his hand. The rest are discarded.",
-					"_Spell__name" : "Shèliè"
-				},
-				{
-					"_Spell__description" : "Once per turn, Lu Meng can look at another player's hand. He then can choose a heart card from their hand and display it. Lu Meng then either discards that card or puts in on the top of the deck.",
-					"_Spell__name" : "Gōngxīn"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/3004.jpg",
-			"_Character__clan" : "wu",
-			"_Character__life_points" : 3,
-			"_Character__lord" : false,
-			"_Character__name" : "Xiao Qiáo",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "When Xiao Qiao receives damage, she can discard any heart hand card pass it to any other character in play. They then draws X cards, X being the total number of health points that the character is missing after the damage is passed.",
-					"_Spell__name" : "Tiānxiāng"
-				},
-				{
-					"_Spell__description" : "All of Xiao Qiao's spades are considered to be hearts.",
-					"_Spell__name" : "Hóngyán"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/99999.jpg",
-			"_Character__clan" : "qun",
-			"_Character__life_points" : 3,
-			"_Character__lord" : true,
-			"_Character__name" : "Zhang Jiao",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Whenever Zhang Jiao plays an escape, he can select any character and have them flip a judgment. If it is a spade, they are dealt two units of lightning damage.",
-					"_Spell__name" : "Léijí"
-				},
-				{
-					"_Spell__description" : "After a judgment is flipped, Zhang Jiao can discard any black card to replace the judgment card. The original card that was flipped then goes into Zhang Jiao's hand.",
-					"_Spell__name" : "Kitō"
-				},
-				{
-					"_Spell__description" : "King Ability: Other heroes can give Zhang Jiao one escape or lightning during their turn.",
-					"_Spell__name" : "Huáng"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/18706.jpg",
-			"_Character__clan" : "wei",
-			"_Character__life_points" : 3,
-			"_Character__lord" : false,
-			"_Character__name" : "Wáng Yì",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Whenever Wang Yi flips a judgement card, she can choose to flip a second judgment card. The second flipped card is the judgement that goes into effect.",
-					"_Spell__name" : "Zhēnliè"
-				},
-				{
-					"_Spell__description" : "At the beginning and ending of her turn, if she is not at full health, Wang Yi can flip a judgement card. If it is black, she draws X cards from the deck, X being the difference between her current and maximum health. Wang Yi then gives these to any character.",
-					"_Spell__name" : "Mì jì"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/104.jpg",
-			"_Character__clan" : "shu",
-			"_Character__life_points" : 4,
-			"_Character__lord" : true,
-			"_Character__name" : "Liu Bei",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Liu Bei's can give any number of his hand cards to any players. If he gives away more than one card, he recovers one unit of health.",
-					"_Spell__name" : "Liúbèi"
-				},
-				{
-					"_Spell__description" : "King Ability: If Liu Bei needs to use an attack, he can ask any member of Shu to provide him one.",
-					"_Spell__name" : "Jījiàng"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/4502.jpg",
-			"_Character__clan" : "qun",
-			"_Character__life_points" : 8,
-			"_Character__lord" : true,
-			"_Character__name" : "Dong Zhuo",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "Dong Zhuo can use any spade card in his hand as wine.",
-					"_Spell__name" : "Jiǔ chí"
-				},
-				{
-					"_Spell__description" : "Whenever Dong Zhuo attacks or is attacked by a female, the target must use an additional escape to avoid damage.",
-					"_Spell__name" : "Ròu lín"
-				},
-				{
-					"_Spell__description" : "At the end of Dong Zhuo's turn, if he has more units of health than any character, he must either lose one health or reduce his maximum health limit by one.",
-					"_Spell__name" : "Bēng huài"
-				},
-				{
-					"_Spell__description" : "King Ability: When another hero damages a player, they can allow Dong Zhuo to flip a judgment. If it is a spade, Dong Zhuo heals one.",
-					"_Spell__name" : "Bàonüè"
-				}
-			]
-		},
-		{
-			"_Character__background" : "./resources/cards/skins/11302.jpg",
-			"_Character__clan" : "wei",
-			"_Character__life_points" : 3,
-			"_Character__lord" : false,
-			"_Character__name" : "Chen Lin",
-			"_Character__spells" : [
-				{
-					"_Spell__description" : "At the end of his turn, Chen Lin can place any hand card on another character. At the beginning of this character's turn, they must give Chen Lin one hand card of the same type (basic, tool, or equipment). If they do not, they suffer one unit of negligence damage. If they give Chen Lin a card of the same type, they keep the card that Chen Lin placed on their character card.",
-					"_Spell__name" : "Bǐ fá"
-				},
-				{
-					"_Spell__description" : "During his action phase, Chen Lin can target any character whose hand card number differs from their current health level. If they have more hand cards than health, they must discard two cards. If they have more health than hand cards, they draw two cards. Chen Lin can target each character once per game.",
-					"_Spell__name" : "Róngcí"
-				}
-			]
-		}
-	]
+    "_CharactersManager__characters": [
+        {
+            "_Character__background": [
+                "./img/skins/1304.jpg",
+                "./img/skins/1305.jpg",
+                "./img/skins/1306.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Da Qiáo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use any ♦ as Acedia.",
+                    "_Spell__name": "Mínzú"
+                },
+                {
+                    "_Spell__description": "When you become the target of Sha: you can discard 1 card and select another player (except the attacker) within your attack range; then, that player becomes the target of the Sha instead.",
+                    "_Spell__name": "Yíwèi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2404.jpg",
+                "./img/skins/2407.jpg",
+                "./img/skins/2408.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Diao Chan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you may discard 1 card and select 2 male characters; then, this is regarded as one of them  having used Duel to target the other. This Duel can't be negated.",
+                    "_Spell__name": "Zhongzǐ"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can draw 1 card.",
+                    "_Spell__name": "Xiànmù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2003.jpg",
+                "./img/skins/2004.jpg",
+                "./img/skins/2005.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Guo Jia",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After your judgement takes effect: you can take the result card.",
+                    "_Spell__name": "Xiànmù"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can look at the top 2 cards of the deck; then, you can distribute them to any player(s).",
+                    "_Spell__name": "Yíchǎn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2203.jpg",
+                "./img/skins/2204.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Hua Tuo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Outside of your turn: you can use any red card as Peach.",
+                    "_Spell__name": "Jǐnjí"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 hand card and select a wounded player; then, he heals 1 HP.",
+                    "_Spell__name": "Lv̀sè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/704.jpg",
+                "./img/skins/705.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Huang Yue Ying",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you use a non-time-delay tool card: you can draw 1 card immediately.",
+                    "_Spell__name": "Zhìhùi"
+                },
+                {
+                    "_Spell__description": "Your tool cards have unlimited range.",
+                    "_Spell__name": "Tiāncái"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1403.jpg",
+                "./img/skins/1404.jpg",
+                "./img/skins/1405.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Lu Xun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can't be the target of Steal or Acedia.",
+                    "_Spell__name": "Qiānxùn"
+                },
+                {
+                    "_Spell__description": "When you lose your last hand card: you can draw 1 card immediately.",
+                    "_Spell__name": "Yīcì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1603.jpg",
+                "./img/skins/1604.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sī Mǎ Yì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG: you can take 1 card from the damage source.",
+                    "_Spell__name": "Bàofù"
+                },
+                {
+                    "_Spell__description": "When a player performs a judgement, before it takes effect: you can play a hand card. It becomes the judgement result.",
+                    "_Spell__name": "Èmó"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2502.jpg",
+                "./img/skins/2503.jpg",
+                "./img/skins/2505.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sun Shang Xiang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Fase: you can discard 2 hand cards and select a hurt ♂ character; then, both of you heal 1 HP.",
+                    "_Spell__name": "Hūnyīn"
+                },
+                {
+                    "_Spell__description": "After you lose 1 card in your equipment area: you can draw 2 cards.",
+                    "_Spell__name": "Zhànshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2103.jpg",
+                "./img/skins/2104.jpg",
+                "./img/skins/2105.jpg",
+                "./img/skins/2106.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhen Ji",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use/play any black hand card as Dodge.",
+                    "_Spell__name": "Tūidòng"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase: you can perform a judgment; if it's black, you get the card and you can activate \"Goddess Luo\" again.",
+                    "_Spell__name": "Go"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1203.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhou Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw +1 additional card.",
+                    "_Spell__name": "Xiāosǎ"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can make another player choose 1 suit; then, that player takes 1 hand card from you and displays it. If the guess was wrong, you cause him 1 DMG.",
+                    "_Spell__name": "Mǔzhū"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/404.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhuge Liang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Beginning Phase: you can examine X cards from the deck; then, you can place any # of them at the top of the deck and the rest at the bottom. X = # of living players (max. 5)",
+                    "_Spell__name": "Guānxīng"
+                },
+                {
+                    "_Spell__description": "If you don’t have hand cards, you cannot be the target of Sha or Duel.",
+                    "_Spell__name": "Kōngchéng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Cao Cao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG: you can take the card(s) that caused it.",
+                    "_Spell__name": "Ègùn"
+                },
+                {
+                    "_Spell__description": "(ruler) When you need to use/play Dodge: you can ask other Wei characters to use/play Dodge for you.",
+                    "_Spell__name": "Huángjiā"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/902.jpg",
+                "./img/skins/903.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Gan Ning",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can use any black card as Dismantle.",
+                    "_Spell__name": "Liángxǐ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/202.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Guan Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use/play any red card as Sha.",
+                    "_Spell__name": "Zhànshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1101.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Huang Gai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can lose 1 HP; then, draw 2 cards.",
+                    "_Spell__name": "Tèluò"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/104.jpg",
+                "./img/skins/105.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Liu Bei",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can give any # of hand cards to other players; then, if you have given a total of 2 or more cards, you heal 1 HP (only once).",
+                    "_Spell__name": "Rén"
+                },
+                {
+                    "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
+                    "_Spell__name": "Ro"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2302.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Lu Bu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
+                    "_Spell__name": "Méiyou"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Lu Meng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "If you haven't used/played Sha in your Action Phase, you can skip your Discard Phase.",
+                    "_Spell__name": "Zìwo"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/601.jpg",
+                "./img/skins/602.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ma Chao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You always have a bonus -1 horse.",
+                    "_Spell__name": "Mǎzhú"
+                },
+                {
+                    "_Spell__description": "After you use Sha to target a player: you can perform a judgment; if it’s red, he can't use Dodge.",
+                    "_Spell__name": "Tiěqí"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/803.jpg",
+                "./img/skins/804.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Sun Quan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard any # of cards; then, draw the same # of cards.",
+                    "_Spell__name": "Pínghéng"
+                },
+                {
+                    "_Spell__description": "(ruler) When you are on the brink of death, if another Wu character uses Peach, you heal +1 HP.",
+                    "_Spell__name": "Yíngjìu"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xiahou Dun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG from another player: you can perform a judgment; if it's not ♥, the damage source must choose to either: a) Suffer 1 DMG from you. b) Discard 2 hand cards.",
+                    "_Spell__name": "Wèile"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1901.jpg",
+                "./img/skins/1902.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xu Zhu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw 1 fewer card. This turn, the DMG of your Sha and Duel is increased by +1.",
+                    "_Spell__name": "Zhǐshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Yuan Shu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In the king's Beginning Phase: you can draw 1 card. This turn, the king's hand card limit is reduced by -1.",
+                    "_Spell__name": "Pànnì"
+                },
+                {
+                    "_Spell__description": "If your # of hand cards > HP, players who have you in their attack range must target you with every Sha they use.",
+                    "_Spell__name": "Bìngtài"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/301.jpg",
+                "./img/skins/303.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Fei",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use any # of Sha.",
+                    "_Spell__name": "Nùhou"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/1803.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Liao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can skip your Draw Phase and take 1 hand card from up to 2 players.",
+                    "_Spell__name": "Tūrán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/503.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhao Yun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use/play Sha as Dodge. You can use/play Dodge as Sha.",
+                    "_Spell__name": "Lóngde"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17102.jpg",
+                "./img/skins/17103.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 6,
+            "_Character__lord": false,
+            "_Character__name": "Huá Xióng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When a player is about to cause DMG to you with a used red Sha, he can choose to:  a) Draw 1 card. b) Heal 1 HP.",
+                    "_Spell__name": "Jūnshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/20201.jpg"
+            ],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Lu Meng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can skip your Draw Phase and show 5 cards from the top of the deck; then, take 1 of each suit.",
+                    "_Spell__name": "Tòushì"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can look at all the hand cards of another player. Among them, you can pick 1 ♥ and display it to everyone; then choose: a) Discard it. b) Place it on top of the deck.",
+                    "_Spell__name": "Bàgōng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3003.jpg",
+                "./img/skins/3004.jpg",
+                "./img/skins/3006.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xiǎo Qiáo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you are about to suffer DMG: you can discard 1 on-hand ♥, prevent this DMG and select another player to: a) Make him suffer 1 DMG; then, that player draws X cards (X = his # of wounds after the DMG; max. 5). b) Make him lose 1 HP; then, that player takes the card you discarded.",
+                    "_Spell__name": "Tiāntáng"
+                },
+                {
+                    "_Spell__description": "Your ♠ are always regarded as ♥.",
+                    "_Spell__name": "Qīngchūn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/21101.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Yú Jí",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per each player turn: you can use/play 1 hand card face-down and name a basic card or a non-time-delay tool card; then, all other players are asked whether they believe you. The card takes effect unless someone doubts its authenticity (disbeliever), in which case flip the card immediately. - If it was fake, the card renders useless. - If it was true, the card takes effect and the disbeliever gains the enforced ability \"Wound Complain\". You can't doubt \"Bewilder\". If your HP is 1, your other abilities are invalid.",
+                    "_Spell__name": "Kùnhuò"
+                },
+                {
+                    "_Spell__description": "You can't doubt \"Bewilder\". If your HP is 1, your other abilities are invalid.",
+                    "_Spell__name": "Shāngkou"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/21203.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": true,
+            "_Character__name": "Zhāng Jiǎo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you use/play Dodge: you can force another player to perform a judgement. - If the judgement result is ♠, you cause him 2 ⚡ DMG. - If the judgement result is ♣, you heal 1 HP and then you cause him 1 ⚡ DMG.",
+                    "_Spell__name": "Shǎndiàn"
+                },
+                {
+                    "_Spell__description": "When a player performs a judgement, before it takes effect: you can play a black card; exchange the judgement result with the played card.",
+                    "_Spell__name": "Hēiàn"
+                },
+                {
+                    "_Spell__description": "(ruler) Once per Action Phase of other Neutral characters: they can give you 1 Dodge or 1 Lightning.",
+                    "_Spell__name": "Hǔpò"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2902.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cáo Rén",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can flip your character and draw 4 cards; then, discard 1 hand card. If the card you discard is an equipment, you use it instead.",
+                    "_Spell__name": "Qiánghuà"
+                },
+                {
+                    "_Spell__description": "You can use cards in your equipment area as Negate. When you flip your character face-up: you can discard 1 card; then, move 1 card on the field.",
+                    "_Spell__name": "Wéichéng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2602.jpg",
+                "./img/skins/2603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Huáng Zhōng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use Sha to target players at distance ≤ # of the Sha. After you use Sha to target a player, you can apply these effects: a) If your # of hand cards ≥ his # of hand cards, he can't use Dodge. b) If your HP ≤ his HP, the DMG is increased by +1.",
+                    "_Spell__name": "Kěpà"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2702.jpg",
+                "./img/skins/2703.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Wèi Yán",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you cause 1 DMG to a player at distance 1, you can choose: a) Heal 1 HP. b) Draw 1 card.",
+                    "_Spell__name": "Fēng"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can lose any # of HP. This turn, your distance to the other players is -X and you can use +X additional Sha. X = # of HP you lost.",
+                    "_Spell__name": "Yīnmóu"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/2802.jpg",
+                "./img/skins/2803.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xià Hóu Yuān",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
+                    "_Spell__name": "Yīfān"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/21002.jpg",
+                "./img/skins/21003.jpg",
+                "./img/skins/21004.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhōu Tài",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you are on the brink of death: place 1 card from the deck on your character, face-up (\"Wound\");\n- If its # is ≠ than all your other \"Wounds\": return to 1 HP. - If not: place it in the discard pile. If you have \"Wounds\", your hand card limit becomes the # of \"Wounds\" you have.",
+                    "_Spell__name": "Jùjué"
+                },
+                {
+                    "_Spell__description": "When a player has hand cards taken/discarded by another player: you can lose 1 HP; then, the player that lost hand cards draws 2 cards.",
+                    "_Spell__name": "Yònglì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 5,
+            "_Character__lord": false,
+            "_Character__name": "Guan Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Your ♥ are always regarded as Sha without range limitations.",
+                    "_Spell__name": "Shénde"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: the damage source receives 1 \"Nightmare\" token. When you die: a player with the most \"Nightmares\" must perform a judgement; if it's not Peach or Peach Garden, that player dies immediately.",
+                    "_Spell__name": "Zhànshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 2,
+            "_Character__lord": false,
+            "_Character__name": "Zhào Yún",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you draw (2 + # of wounds) cards. Your hand card limit is +2.",
+                    "_Spell__name": "Nìjìng"
+                },
+                {
+                    "_Spell__description": "You can use/play X cards with the same suit as the following: - ♥: Peach. - ♦: Fire Sha. - ♣: Dodge. - ♠: Negate. X = HP (min. 1)",
+                    "_Spell__name": "Línghún"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5705.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cài Wén Jī",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After a player suffers DMG from Sha: you can discard a card; then, that player performs a judgement. - It it's ♥, he heals 1 HP. - If it's ♦, he draws 2 cards. - If it's ♣, the attacker discards 2 cards. - If it's ♠, the attacker flips his character.",
+                    "_Spell__name": "Wǎngē"
+                },
+                {
+                    "_Spell__description": "The player who kills you loses all his character abilities until the end of the game.",
+                    "_Spell__name": "Bēiāi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5303.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": true,
+            "_Character__name": "Liú Shàn",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After a player uses Sha to target you: unless he discards 1 basic card, that Sha has no effect.",
+                    "_Spell__name": "Zīwèi"
+                },
+                {
+                    "_Spell__description": "You can skip your Action Phase and, at the end of the turn: discard 1 hand card. If you do, you can let another player have an extra turn (right after you).",
+                    "_Spell__name": "Xiāng"
+                },
+                {
+                    "_Spell__description": "(ruler, awakening) In your Beginning Phase, if you are one of the players with the lowest HP: - Increase your max HP by +1. - Heal 1 HP. - Acquire \"Rouse\". (ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
+                    "_Spell__name": "Àilóng"
+                },
+                {
+                    "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
+                    "_Spell__name": "Ro"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5501.jpg",
+                "./img/skins/5503.jpg",
+                "./img/skins/5504.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhāng Zhāo & Zhāng Hóng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can place 1 on-hand equipment in the equipment area of another player; then, you draw 1 card.",
+                    "_Spell__name": "Zhíyán"
+                },
+                {
+                    "_Spell__description": "At the end of another player’s Discard Phase: you can give him 1 card that was discarded in this phase; then, you can take the rest of discards.",
+                    "_Spell__name": "Wěndìng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5602.jpg",
+                "./img/skins/5603.jpg",
+                "./img/skins/5604.jpg",
+                "./img/skins/5605.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zuo Cí",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of the game: you get 2 random characters (\"Incarnations\"); then, reveal 1 of them. You get 1 skill of your \"Incarnation\" (excluding single-use, awakening and ruler abilities), and your kingdom and gender become those of your \"Incarnation\". Before the beginning and after the end of your turn: you can change your revealed \"Incarnation\" (or the chosen skill).",
+                    "_Spell__name": "Délǔ"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you get 1 new \"Incarnation\".",
+                    "_Spell__name": "Xīnshēng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5102.jpg",
+                "./img/skins/5103.jpg",
+                "./img/skins/5104.jpg",
+                "./img/skins/5105.jpg",
+                "./img/skins/5106.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Dèng Ài",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you lose cards outside of your turn: you can perform a judgment; if it’s not ♥, put the judgment result on your character, face-up (\"Terrain\"). Every \"Terrain\" counts as a bonus -1 horse.",
+                    "_Spell__name": "Liángrén"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you have 3+ \"Terrains\": - Reduce your max HP by -1. - Acquire \"Blitz\". You can use any \"Terrain\" as Steal.",
+                    "_Spell__name": "Guǎn"
+                },
+                {
+                    "_Spell__description": "You can use any \"Terrain\" as Steal.",
+                    "_Spell__name": "Shǎndiàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5203.jpg",
+                "./img/skins/5204.jpg",
+                "./img/skins/5205.jpg",
+                "./img/skins/5206.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Jiāng Wéi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can select a player who has you within his attack range; then, unless he uses Sha on you, you discard him 1 card.",
+                    "_Spell__name": "Cháofēng"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you haven’t hand cards: a) Heal 1 HP. b) Draw 2 cards. Afterwards: - Reduce your max HP by -1. - Acquire \"Star Gazing\". In your Beginning Phase: you can examine X cards from the deck; then, you can place any # of them at the top of the deck and the rest at the bottom. X = # of living players (max. 5)",
+                    "_Spell__name": "Zhòngfù"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase: you can examine X cards from the deck; then, you can place any # of them at the top of the deck and the rest at the bottom. X = # of living players (max. 5)",
+                    "_Spell__name": "Guānxīng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Sī Ma Yì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer 1 DMG or after you discard 1 card in your Discard Phase: you get 1 \"Restraint\".",
+                    "_Spell__name": "Kèzhì"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you have 4+ \"Restraints\": - Reduce your max HP by -1. - Acquire \"Extreme Tactic\". Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\"\n- \"Balance of Power\"\n- \"Wisdom\"\n- \"Banish into Exile\"\n- \"Unmitigated Murder\"",
+                    "_Spell__name": "Tíshēng"
+                },
+                {
+                    "_Spell__description": "Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\"\n- \"Balance of Power\"\n- \"Wisdom\"\n- \"Banish into Exile\"\n- \"Unmitigated Murder\"",
+                    "_Spell__name": "Jíduān"
+                },
+                {
+                    "_Spell__description": "If you kill one or more players within your turn, once your turn ends, you get to play an extra turn.",
+                    "_Spell__name": "Dǎpò"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5404.jpg",
+                "./img/skins/5405.jpg",
+                "./img/skins/5406.jpg",
+                "./img/skins/5407.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Sūn Cè",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you target with/you are targeted by Duel or red Sha: you can draw 1 card.",
+                    "_Spell__name": "Ránshāo"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if your HP is 1: - Reduce your max HP by 1. - Acquire the abilities \"Dashing Hero\" and \"Lingering Spirit\". In your Draw Phase: you can draw +1 additional card. Your hand card limit is your max HP. In your Beginning Phase, if you are hurt: you can make another player: a) Draw X cards; then, discard 1 card. b) Draw 1 card; then, discard X cards. X = your # of wounds",
+                    "_Spell__name": "Shénshèng"
+                },
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw +1 additional card. Your hand card limit is your max HP.",
+                    "_Spell__name": "Xiāosǎ"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase, if you are hurt: you can make another player: a) Draw X cards; then, discard 1 card. b) Draw 1 card; then, discard X cards. X = your # of wounds",
+                    "_Spell__name": "Páihuái"
+                },
+                {
+                    "_Spell__description": "(ruler) Once per the Action Phase of other Wu characters: they can point fight you; if you win, you can take both cards. After \"Divine Aura\" activates, you can refuse these point fights.",
+                    "_Spell__name": "Bàquán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/5003.jpg",
+                "./img/skins/5004.jpg",
+                "./img/skins/5006.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhāng Hé",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "For each phase, you can discard 1 hand card and skip it. - If you skip your Draw Phase, you can take 1 hand card from up to 2 players. - If you skip your Action Phase, you can move 1 card on the field.",
+                    "_Spell__name": "Línghuó"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3602.jpg",
+                "./img/skins/3603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Páng Tong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can reforge or use as Chains any on-hand ♣.",
+                    "_Spell__name": "Tiěliàn"
+                },
+                {
+                    "_Spell__description": "Once per game, when you are on the brink of death: you can discard all the cards in all your areas (hand, equipment, judgement); then: - Restore your character. - Draw 3 cards. - Return to 3 HP.",
+                    "_Spell__name": "Niè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3501.jpg",
+                "./img/skins/3502.jpg",
+                "./img/skins/3503.jpg",
+                "./img/skins/3504.jpg",
+                "./img/skins/3505.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xún Yù",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can point fight another player whose HP > your HP. - If you win, he causes 1 DMG to another player of your choice within his attack range. - If you lose, he causes 1 DMG to you.",
+                    "_Spell__name": "Ro"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can make a player draw cards until he has X cards in hand. X = his max HP (max. 5)",
+                    "_Spell__name": "Yonghéng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3703.jpg",
+                "./img/skins/3704.jpg",
+                "./img/skins/3705.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Young Zhūgě Liàng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "If you don't have any armor equipped, you are regarded as having Eight Trigrams equipped.",
+                    "_Spell__name": "Bāguà"
+                },
+                {
+                    "_Spell__description": "You can use any red hand card as Blaze.",
+                    "_Spell__name": "Zònghuo"
+                },
+                {
+                    "_Spell__description": "You can use any black hand card as Negate.",
+                    "_Spell__name": "Sc"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/20401.jpg"
+            ],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhuge Liang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of the game: you are given 11 cards. You pick 4 of them to be your starting hand and place the remaining 7 on your character, face-down (\"Stars\"). After each of your Draw Phases: you can interchange any # of hand cards with the same # of \"Stars\".",
+                    "_Spell__name": "Qī"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all FIRE DMG that player suffers is increased by +1.",
+                    "_Spell__name": "Lièfēng"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ELEC DMG.",
+                    "_Spell__name": "Chénzhòng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3402.jpg",
+                "./img/skins/3404.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Dian Wěi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can: a) lose 1 HP. b) discard 1 weapon\nand cause 1 DMG to a player within your attack range.",
+                    "_Spell__name": "Xiōngměng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3902.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Páng Dé",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you use Sha to target a player: you can discard him 1 card. - If the discarded card was an equipment, he can't use Dodge. - If it wasn't an equipment, place the Sha into his hand.",
+                    "_Spell__name": "Tūrán"
+                },
+                {
+                    "_Spell__description": "You always have a bonus -1 horse.",
+                    "_Spell__name": "Mǎzhú"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/3802.jpg",
+                "./img/skins/3804.jpg",
+                "./img/skins/3805.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Tài Shi Cí",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can point fight another player. If you win, until the end of the turn: - Your Sha have unlimited range. - Your Sha can target 1 additional player. - You can use 1 additional Sha. If you lose, you can't use Sha for the rest of the turn.",
+                    "_Spell__name": "Zhèngyì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4002.jpg",
+                "./img/skins/4003.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Yán Liáng & Wén Chou",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can skip your Draw Phase and perform a judgement; you keep the judgement result. This turn, you can use any hand card with a different color from the judgement result as Duel.",
+                    "_Spell__name": "Shuāng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4102.jpg",
+                "./img/skins/4103.jpg",
+                "./img/skins/4104.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Yuán Shào",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use 2 hand cards with the same suit as 10,000 Arrows.",
+                    "_Spell__name": "Hùnluàn"
+                },
+                {
+                    "_Spell__description": "(ruler) Every other Neutral character alive increases your hand card limit by +2.",
+                    "_Spell__name": "Shìxì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhou Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Discard Phase, if you discard 2 or more cards: you can force all players to heal 1 HP or lose 1 HP.",
+                    "_Spell__name": "Shēngyīn"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can select up to 3 players and distribute a total of 3 🔥 DMG among them. If you allocate more than 1 DMG to any of them, you discard 1 card of each suit and lose 3 HP.",
+                    "_Spell__name": "Zhuórè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/20501.jpg",
+                "./img/skins/20502.jpg"
+            ],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cao Cao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can randomly take 1 card from every player in any of his areas; then, flip your character.",
+                    "_Spell__name": "Zūnjìng"
+                },
+                {
+                    "_Spell__description": "You always have a bonus +1 horse.",
+                    "_Spell__name": "Fēiyǐng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4304.jpg",
+                "./img/skins/4306.jpg",
+                "./img/skins/4307.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": true,
+            "_Character__name": "Cáo Pī",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When a player dies: you can immediately take possession of all his cards.",
+                    "_Spell__name": "Bùzì"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can make another player flip his character; then, he draws X cards. X = your # of wounds",
+                    "_Spell__name": "Fàngzhú"
+                },
+                {
+                    "_Spell__description": "(ruler) After another Wei character's judgment becomes effective, if it’s black: he can let you draw 1 card.",
+                    "_Spell__name": "Gāojǔ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4802.jpg",
+                "./img/skins/4803.jpg",
+                "./img/skins/4805.jpg",
+                "./img/skins/4806.jpg",
+                "./img/skins/4807.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Jia Xu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "During your turn, only you and the player who is on the brink of death can use Peach.",
+                    "_Spell__name": "Chèdǐ"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players to use Sha on the player in their least range. If a player doesn't, he loses 1 HP.",
+                    "_Spell__name": "Xiàjiàng"
+                },
+                {
+                    "_Spell__description": "You can't be the target of black tool cards.",
+                    "_Spell__name": "Zài."
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4903.jpg",
+                "./img/skins/4904.jpg",
+                "./img/skins/4905.jpg",
+                "./img/skins/4907.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Lǔ Sù",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw 2 extra cards; then, if your # of hand cards > 5, you must give half of them (rounded down) to another player with the lowest # of hand cards.",
+                    "_Spell__name": "Lìtā"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can select 2 other players and discard X cards; then, they exchange their hand cards. X = difference between their # of hand cards",
+                    "_Spell__name": "Liánméng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4701.jpg",
+                "./img/skins/4702.jpg",
+                "./img/skins/4703.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Mèng Huò",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When Barbarians is used: - It has no effect on you. - You are considered the source of its DMG.",
+                    "_Spell__name": "Xīyān"
+                },
+                {
+                    "_Spell__description": "If you are hurt, you can skip your Draw Phase and reveal X cards from the deck; then, you heal 1 HP for every ♥ and take the rest of cards. X = # of wounds",
+                    "_Spell__name": "Zàicì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4402.jpg",
+                "./img/skins/4403.jpg",
+                "./img/skins/4404.jpg",
+                "./img/skins/4405.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Sūn Jiān",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Beginning Phase, if you are hurt: you can make another player: a) Draw X cards; then, discard 1 card. b) Draw 1 card; then, discard X cards. X = your # of wounds",
+                    "_Spell__name": "Páihuái"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4202.jpg",
+                "./img/skins/4203.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xú Huang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use any black basic card or equipment as Starvation. Your Starvations have unlimited range on players whose # of hand cards ≥ your # of hand cards.",
+                    "_Spell__name": "Fēngsuo"
+                },
+                {
+                    "_Spell__description": "After another player skips his Draw Phase: you draw 1 card.",
+                    "_Spell__name": "Qiēgē"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4603.jpg",
+                "./img/skins/4604.jpg",
+                "./img/skins/4605.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhù Róng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When another player uses Barbarians: - It has no effect on you. - After all effects have concluded: you get the card.",
+                    "_Spell__name": "Jùxiàng"
+                },
+                {
+                    "_Spell__description": "After your used Sha causes DMG to your target: you can point fight the target player; if you win, you take 1 card from him.",
+                    "_Spell__name": "Kěpà"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/20601.jpg"
+            ],
+            "_Character__clan": "Demigod",
+            "_Character__life_points": 5,
+            "_Character__lord": false,
+            "_Character__name": "Lu Bu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of the game: you get 2 \"Rage\". After you cause/suffer 1 DMG: you get 1 \"Rage\".",
+                    "_Spell__name": "Bàonù"
+                },
+                {
+                    "_Spell__description": "When you use a non-time-delay tool card: a) Lose 1 \"Rage\". b) Lose 1 HP.",
+                    "_Spell__name": "Shǎguā"
+                },
+                {
+                    "_Spell__description": "In your Action Phase: you can lose 2 \"Rage\" and select a player. This turn, that player's armor becomes ineffective and you acquire \"Without Equal\". If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
+                    "_Spell__name": "Shǐwú"
+                },
+                {
+                    "_Spell__description": "If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
+                    "_Spell__name": "Méiyou"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can lose 6 \"Rage\"; then, every other player: - Suffers 1 DMG. - Discards all his equipped cards. - Discards 4 hand cards. Finally, you flip your character.",
+                    "_Spell__name": "Āsū"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/4502.jpg",
+                "./img/skins/4503.jpg",
+                "./img/skins/4504.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 8,
+            "_Character__lord": true,
+            "_Character__name": "Dong Zhuó",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use any on-hand ♠ as Wine.",
+                    "_Spell__name": "Yānsǐ"
+                },
+                {
+                    "_Spell__description": "If you use Sha to target a female character or if a female character uses Sha to target you, the target needs to use 2 Dodge to evade it.",
+                    "_Spell__name": "Huāyuán"
+                },
+                {
+                    "_Spell__description": "In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
+                    "_Spell__name": "Wǎjiě"
+                },
+                {
+                    "_Spell__description": "(ruler) After another Neutral character causes DMG: he can perform a judgement; if it's ♠, you heal 1 HP.",
+                    "_Spell__name": "Bàojūn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15102.jpg",
+                "./img/skins/15103.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cáo Zhí",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After another player's ♣ are placed in the discard pile as a result of a discard or judgement: you can take them.",
+                    "_Spell__name": "Piāoluò"
+                },
+                {
+                    "_Spell__description": "When you want to use Wine, if your character is face-up:  you can flip it, and this is regarded as having used Wine. After you suffer DMG, if your character is face-down: you can flip it.",
+                    "_Spell__name": "Zùijǐu"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15302.jpg",
+                "./img/skins/15303.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Chén Gōng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can give 1 equipment or Sha to another player; then, he must choose: a) Draw 1 card. b) This is regarded as him using Sha on another player of your choice within his attack range.",
+                    "_Spell__name": "Jīngcǎi"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG outside of your turn: Sha and non-time-delay tool cards have no effect on you until the end of the turn.",
+                    "_Spell__name": "Nǎoyán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18501.jpg",
+                "./img/skins/18502.jpg",
+                "./img/skins/18503.jpg",
+                "./img/skins/18505.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Fa Zhèng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you receive 2+ cards from another player: you can make him draw 1 card. After you suffer 1 DMG: you can make the damage source choose: a) Give you 1 hand card.  b) Lose 1 HP.",
+                    "_Spell__name": "Húibào"
+                },
+                {
+                    "_Spell__description": "You can skip your Draw Phase and make another player draw 2 cards; then, you make him use Sha on another player of your choice within his attack range. If he doesn’t, you take 2 cards from him.",
+                    "_Spell__name": "Deshou"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15602.jpg",
+                "./img/skins/15603.jpg",
+                "./img/skins/15604.jpg",
+                "./img/skins/15606.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Ma Sù",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 card and select a player with highest HP; then, you cause him 1 DMG.",
+                    "_Spell__name": "Yáoyán"
+                },
+                {
+                    "_Spell__description": "When you are about to cause DMG to another player: you can prevent the DMG; then, take 1 card from his equipment or judgement area.",
+                    "_Spell__name": "Gèngxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15704.jpg",
+                "./img/skins/15705.jpg",
+                "./img/skins/15706.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Wú Guó Tài",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can select 2 players whose difference in the # of equipped cards is ≤ your # of wounds; then, they exchange all their equipped cards.",
+                    "_Spell__name": "Tiāntáng"
+                },
+                {
+                    "_Spell__description": "When a player enters the brink of death: you can randomly display 1 of his hand cards; if it isn’t a basic card, that player discards it; then, he heals 1 HP.",
+                    "_Spell__name": "Gǎishàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18602.jpg",
+                "./img/skins/18603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xú Shù",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "All DMG you cause with/suffer from tool cards is prevented.",
+                    "_Spell__name": "Ānjìng"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can discard 1 non-basic card and make another player choose: a) Draw 2 cards. b) Heal 1 HP. c) Restore his character.",
+                    "_Spell__name": "Lóngde"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16104.jpg",
+                "./img/skins/16105.jpg",
+                "./img/skins/16106.jpg",
+                "./img/skins/16107.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhāng Chūn Huá",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "All the DMG you are about to cause in regarded as loss of HP.",
+                    "_Spell__name": "Wúqíng"
+                },
+                {
+                    "_Spell__description": "When your # of hand cards < X: you can draw immediately until you have X cards in hand. X = # of wounds",
+                    "_Spell__name": "Sāngqīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15202.jpg",
+                "./img/skins/15203.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Gāo Shùn",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can point fight another player. If you win, until the end of the turn: - Disregard any distance and equipped armor of that player. - You can use any # of Sha on that player. If you lose, you can't use Sha for the rest of the turn.",
+                    "_Spell__name": "Fújí"
+                },
+                {
+                    "_Spell__description": "All your Wine cards are regarded as Sha.",
+                    "_Spell__name": "Fàngqì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15503.jpg",
+                "./img/skins/15504.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Líng Tong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you lose equipped cards, or after you discard 2+ cards in your Discard Phase: up to twice, you can discard 1 card from another player.",
+                    "_Spell__name": "Bàofēng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/15801.jpg",
+                "./img/skins/15803.jpg",
+                "./img/skins/15804.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xu Shen",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, after you use Sha to target a player: you can place up to X cards of that player on his character, face-down (X = his HP). If you do, after the end of the turn: that player gets the cards.",
+                    "_Spell__name": "Jiānmiè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16001.jpg",
+                "./img/skins/16002.jpg",
+                "./img/skins/16003.jpg",
+                "./img/skins/16004.jpg",
+                "./img/skins/16005.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Yú Jìn",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Beginning Phase: you can discard X cards from a player whose # of hand cards > his HP (X = the difference); then, you must choose: a) Discard as many cards as basic and tool cards you discarded him. b) He draws X cards.",
+                    "_Spell__name": "Jiānjué"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16801.jpg",
+                "./img/skins/16804.jpg",
+                "./img/skins/16806.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Bù Liànshī",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can select 2 other players with a different # of hand cards. Make the player with less hand cards take and display 1 hand card from the other; then, if that card isn't ♠, you draw 1 card.",
+                    "_Spell__name": "Ānfǔ"
+                },
+                {
+                    "_Spell__description": "When you die: you can make another player (except the one who killed you): - Draw 3 cards. - Heal 1 HP.",
+                    "_Spell__name": "Àide"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17202.jpg",
+                "./img/skins/17203.jpg",
+                "./img/skins/17204.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Liú Biao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you may draw X additional cards (X = # of kingdoms in play). This turn, cards you use can't target other players.",
+                    "_Spell__name": "Zìbǎo"
+                },
+                {
+                    "_Spell__description": "Your hand card limit is increased by +X. (X = # of kingdoms in play)",
+                    "_Spell__name": "Dejiā"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18702.jpg",
+                "./img/skins/18705.jpg",
+                "./img/skins/18706.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Wáng Yì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you become the target of other player’s used Sha or non-time-delay tool card: you can lose 1 HP. The card becomes ineffective on you and you discard 1 card from that player.",
+                    "_Spell__name": "Zhēnjié"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can draw X cards; then, you can give the same # of hand cards to other players. X = # of wounds",
+                    "_Spell__name": "Mìmì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16402.jpg",
+                "./img/skins/16403.jpg",
+                "./img/skins/16404.jpg",
+                "./img/skins/16405.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xún Yoū",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can use all your hand cards as any non-time-delay tool card.",
+                    "_Spell__name": "Gǔijì"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can draw 1 card; then, display all your hand cards. If all of them have the same color, the damage source discards 1 hand card.",
+                    "_Spell__name": "Wánshǎ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16202.jpg",
+                "./img/skins/16204.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cáo Zhāng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you can choose: a) Draw 1 additional card. This turn, you can't use/play Sha. b) Draw 1 fewer card. This turn: - Your Sha have unlimited range. - You can use 1 additional Sha.",
+                    "_Spell__name": "Duōgōng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16902.jpg",
+                "./img/skins/16903.jpg",
+                "./img/skins/16904.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Chéng Pǔ",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you use a normal Sha: you can transform it into Fire Sha; if it causes DMG, you lose 1 HP. Your Fire Sha can target 1 additional player.",
+                    "_Spell__name": "Youdú"
+                },
+                {
+                    "_Spell__description": "In your End Phase, if you don’t have any \"Vintage\": you can place any # of Sha on your character, face-up (\"Vintage\"). When a player enters on the brink of death: you can remove 1 \"Vintage\"; this is regarded as the player having used Wine.",
+                    "_Spell__name": "Fùgǔ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18802.jpg",
+                "./img/skins/18803.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Guan Xing & Zhang Bao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use/play 2 hand cards as Sha. After you cause DMG with this ability in your Action Phase: you acquire \"Roar\" and \"Warrior Saint\" until the end of your turn. You can use any # of Sha. You can use/play any red card as Sha.",
+                    "_Spell__name": "Fùqīn"
+                },
+                {
+                    "_Spell__description": "You can use any # of Sha.",
+                    "_Spell__name": "Nùhou"
+                },
+                {
+                    "_Spell__description": "You can use/play any red card as Sha.",
+                    "_Spell__name": "Zhànshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17002.jpg",
+                "./img/skins/17004.jpg",
+                "./img/skins/17005.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Hàn Dāng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 card; then, this turn you have unlimited attack range. If the discarded card is an equipment, you can discard 1 card from another player.",
+                    "_Spell__name": "Ho"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can select a player; then, make all players who have him within their attack range choose: a) Discard 1 weapon. b) Make him draw 1 card.",
+                    "_Spell__name": "Fúdiāo"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16602.jpg",
+                "./img/skins/16603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Liào Huà",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your turn: you perform an extra Action Phase.",
+                    "_Spell__name": "Dìyī"
+                },
+                {
+                    "_Spell__description": "Once per game, when you are on the brink of death: you can return to X HP (X = # of kingdoms in play). If you do, flip your character.",
+                    "_Spell__name": "Chángshòu"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/16701.jpg",
+                "./img/skins/16704.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ma Dai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You always have a bonus -1 horse.",
+                    "_Spell__name": "Mǎzhú"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase: you can draw 1 card, discard 1 card and select a player at distance 1. This turn, that player can't use/play hand cards with the same color as the card you discarded.",
+                    "_Spell__name": "Tōuxí"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17303.jpg",
+                "./img/skins/17304.jpg",
+                "./img/skins/17305.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhōng Huì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can draw 1 card; then, place 1 hand card on your character, face-up (\"Power\"). Your hand card limit is increased by +X. (X = # of \"Powers\")",
+                    "_Spell__name": "Liángrén"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you have 3+ \"Powers\", choose one: a) Heal 1 HP. b) Draw 2 cards. Afterwards: - Reduce your max HP by -1. - Acquire \"Eradicate\". Once per Action Phase: you can remove 1 \"Power\" and select a player; then, he draws 2 cards. If his hand > your hand, you cause him 1 DMG.",
+                    "_Spell__name": "Qǐyì"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can remove 1 \"Power\" and select a player; then, he draws 2 cards. If his hand > your hand, you cause him 1 DMG.",
+                    "_Spell__name": "Gēnchú"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17402.jpg",
+                "./img/skins/17403.jpg",
+                "./img/skins/17404.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cao Chong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG: you can reveal 4 cards from the deck; then, take any combination of them whose total # ≤ 13.",
+                    "_Spell__name": "Chēng"
+                },
+                {
+                    "_Spell__description": "When another player with 1 HP is about to suffer DMG: you can flip your character and discard 1 equipment; then, all that DMG is prevented.",
+                    "_Spell__name": "Rén"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18304.jpg",
+                "./img/skins/18305.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Empress Fu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of another player's turn, if you are wounded: you can point fight that player. - If you win, this turn, cards he use can't target other players except himself. - If you lose, this turn the distance from him to you is 1. ",
+                    "_Spell__name": "Jiāolv̀"
+                },
+                {
+                    "_Spell__description": "When you become the target of Sha: you can select another player; unless that player gives you Dodge, he also becomes a target of this Sha.",
+                    "_Spell__name": "Qíuqíng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17802.jpg",
+                "./img/skins/17803.jpg",
+                "./img/skins/17804.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Jian Yong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your Action Phase: you can point fight another player. - If you win, this turn your next basic or non-time-delay tool card can increase/reduce its # of targets by 1 (no range restrictions for the extra target). - If you lose, this turn you can't use tool cards.",
+                    "_Spell__name": "Shuōfú"
+                },
+                {
+                    "_Spell__description": "After you point fight: you can get the loser's card.",
+                    "_Spell__name": "Hūlvè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18402.jpg",
+                "./img/skins/18403.jpg",
+                "./img/skins/18404.jpg",
+                "./img/skins/18405.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Li Ru",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can cause 1 DMG to another player who has no hand cards.",
+                    "_Spell__name": "Xiāoshī"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can place 1 black tool card on top of the deck and choose another player with hand cards; then, make that player choose: a) Discard 1 tool card. b) Discard 2 non-tool cards.",
+                    "_Spell__name": "Tiǎn"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1)\nb) Suffer 2 🔥 DMG from you.",
+                    "_Spell__name": "Gèngxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17603.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Man Chong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard any # of hand cards and select another player; then, make him choose: a) Discard 1 hand card of a different type than the cards you discarded. b) Flip his character; then, draw the same # of cards you discarded.",
+                    "_Spell__name": "Tǐfá"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can show 1 hand card. Unless the damage source discards 1 hand card of a different type than the card you showed, you heal 1 HP.",
+                    "_Spell__name": "Fángyù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18102.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Yu Fan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After your cards are placed in the discard pile as a result of a discard: you can place any # of them at the top of the deck.",
+                    "_Spell__name": "Fābù"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can make a player draw 1 card and display it. If it’s an equipment, that player uses it; then, he heals 1 HP.",
+                    "_Spell__name": "Zhíyán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17702.jpg",
+                "./img/skins/17703.jpg",
+                "./img/skins/17704.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Guan Ping",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When a player uses Sha in his Action Phase: you can discard 1 card to make this Sha not count towards the # of Sha used in this Action Phase; then, if it's a red Sha, you draw 1 card.",
+                    "_Spell__name": "Lónghou"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17502.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Guo Huai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the end of your Action Phase, if the # of cards you have used this turn ≥ your HP: you can draw 2 cards.",
+                    "_Spell__name": "Jīngxì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/17902.jpg",
+                "./img/skins/17903.jpg",
+                "./img/skins/17905.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Liu Feng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Beginning Phase: you can select up to 2 players; place 1 card from each on your character, face-up (\"Betrayal\"). When a player wants to use Sha on you: he can remove 2 \"Betrayals\", and this is regarded as using Sha on you.",
+                    "_Spell__name": "Duòluò"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18003.jpg",
+                "./img/skins/18004.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Pan Zhang & Ma Zhong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG from Sha: you can discard 1 card; then, take the equipped weapon of the damage source. ",
+                    "_Spell__name": "Duóqǔ"
+                },
+                {
+                    "_Spell__description": "When you are about to cause DMG to your target using Sha, if you are not within his attack range: the DMG is increased by +1.",
+                    "_Spell__name": "Yǐncáng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/18201.jpg",
+                "./img/skins/18202.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhu Ran",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can discard X cards and select another player within your attack range. (X = # of times you use \"Nerves of Steel\" in this phase)\n- If X = 1, you discard him 1 card. - If X = 2, he gives you 1 card. - If X = 3, you cause him 1 DMG. - If X ≥ 4, both you and him draw 2 cards. ",
+                    "_Spell__name": "Shénjīng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32301.jpg",
+                "./img/skins/32302.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Chen Qun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can discard 1 card and select another player (you can't neither discard the same type of card nor choose the same player this turn); then, make him: a) Draw X cards. b) Discard X cards. If that player is injured, you enter chain state. X = # of times (counting this one) you used this ability this turn.",
+                    "_Spell__name": "Shēng"
+                },
+                {
+                    "_Spell__description": "After a player flips his character face-up or goes into chains: you can make him draw 1 card.",
+                    "_Spell__name": "Zhèngyì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32901.jpg",
+                "./img/skins/32902.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Gu Yong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase: you can discard 2 cards; then, draw 1 card.",
+                    "_Spell__name": "Jǐnggào"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can show all your hand cards; if they are all the same color, select up to X players; then, these players draw 1 card. X = # of hand cards",
+                    "_Spell__name": "Kòngzhì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33001.jpg",
+                "./img/skins/33002.jpg",
+                "./img/skins/33003.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Ju Shou",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, when you use a card, if it has the same suit or number as the previous card you used in this phase: you can draw 1 card.",
+                    "_Spell__name": "Jìnbù"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: - If it's the first time you suffer DMG this turn, you heal 1 HP. - If it's not the first time you suffer DMG this turn, you lose 1 HP.",
+                    "_Spell__name": "Běijiàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33101.jpg",
+                "./img/skins/33102.jpg",
+                "./img/skins/33103.jpg",
+                "./img/skins/33104.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Lady Cai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the end of another player's turn, if this turn he did not specifically target another player with cards: you can choose: a) Place 1 card in his equipment area in your equipment area. b) Draw 1 card.",
+                    "_Spell__name": "Qiètīng"
+                },
+                {
+                    "_Spell__description": "Once per game, in your Action Phase: you can give all the cards in your equipment area to another player; then, that player chooses: a) You heal X HP. b) Cause 1 DMG to up to X players in his attack range. X = # of cards that you gave him.",
+                    "_Spell__name": "Tóujiàng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32701.jpg",
+                "./img/skins/32702.jpg",
+                "./img/skins/32703.jpg",
+                "./img/skins/32704.jpg",
+                "./img/skins/32705.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sun Lu Ban",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase, when your Sha or black non-time-delay tool card targets only 1 player: you can make another player who can be a legal target for this card choose: a) Give you 1 card; then, he becomes the user of this card. b) Also become this card's target.",
+                    "_Spell__name": "Hǔile"
+                },
+                {
+                    "_Spell__description": "When you are about to suffer DMG by a ♂ character: you can discard 1 equipment; then, this DMG is reduced by 1.",
+                    "_Spell__name": "Gèngxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32601.jpg",
+                "./img/skins/32602.jpg",
+                "./img/skins/32603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Song",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your Action Phase: you can display 1 hand card from another player; this turn, when you use a card of the same type: you can draw 1 card.",
+                    "_Spell__name": "Nèimù"
+                },
+                {
+                    "_Spell__description": "At the beginning of another player's Action Phase: you can draw 2 cards; then, give that player 2 cards. At the end of this phase, if he hasn't killed any player in this phase: you lose 1 HP.",
+                    "_Spell__name": "Dìtú"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32101.jpg",
+                "./img/skins/32102.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cao Zhen",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of another player's Action Phase: you can discard 1 non-basic card with the same color as a card in your equipment area; then, that player can't use/play cards of that color in this phase. At the end of this phase, if he didn't use Sha: you are regarded as using Sha on him.",
+                    "_Spell__name": "Dírén"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32201.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Han Hao & Shi Huan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After 1 of your black basic cards is placed in the discard pile as a result of a discard: you can use it as Starvation with unlimited range.",
+                    "_Spell__name": "Lǔmǎng"
+                },
+                {
+                    "_Spell__description": "At the beginning of another player’s Judgement Phase, if he’s within your attack range: you can discard 1 card in his judgement area; this is regarded as you using Sha on him; then, if this Sha doesn't cause DMG, you draw 1 card.",
+                    "_Spell__name": "Dàdǎn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32401.jpg",
+                "./img/skins/32402.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Wu Yi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you use a card during your turn: you get a bonus -1 horse until the end of your turn. In your turn, if the distance from you to all other players is 1, you disregard other players' armor and your Sha can target 1 additional player.",
+                    "_Spell__name": "Yáoyuǎn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32501.jpg",
+                "./img/skins/32502.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhou Cang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After a Sha you use finishes resolving: you can give this Sha or the Dodge used by your target to another player except him. If the card given is red, the player who receives the card can use Sha on a player within your attack range.",
+                    "_Spell__name": "Zhōng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/32801.jpg",
+                "./img/skins/32802.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhu Huan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the end of your turn: you can inflict 1 DMG to up to X other players (X = # of phases you skipped this turn).",
+                    "_Spell__name": "Ěr"
+                },
+                {
+                    "_Spell__description": "If you have the highest (or among the highest) # of hand cards, you can skip your Draw Phase. If you have the highest (or among the highest) HP, you can skip your Action Phase. If you have the highest (or among the highest; min. 1) # of cards in your equipment area, you can skip your Discard Phase.",
+                    "_Spell__name": "Fāhūi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33201.jpg",
+                "./img/skins/33202.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": true,
+            "_Character__name": "Cao Rui",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG: you can make a player perform a judgement. - If it's red, he heals 1 HP. - If it is black, he draws X cards. (X = DMG suffered)",
+                    "_Spell__name": "Hūifù"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can give all your hand cards to another player; then, during his next turn: - His hand card limit is increased by +1. - In his Action Phase he can use 1 additional Sha.",
+                    "_Spell__name": "Zhuōjiàn"
+                },
+                {
+                    "_Spell__description": "(ruler) Once per game, when you are on the brink of death: you can ask every Wei character whether he lets you heal 1 HP; players who do will suffer 1 DMG from no source after all effects have concluded.",
+                    "_Spell__name": "Juéqǐ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34201.jpg",
+                "./img/skins/34202.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Guo Tu & Feng Ji",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your Action Phase: you can draw 2 cards; then, this turn your hand card limit is X. (X = DMG you cause in this phase)",
+                    "_Spell__name": "Bùnài"
+                },
+                {
+                    "_Spell__description": "When you need to use/play Dodge: you can make the turn player draw 1 card; then, if he isn't the only player with the highest # of hand cards, you discard 1 card from a player with the highest # of hand cards, and this is regarded as you using/playing Dodge.",
+                    "_Spell__name": "Yǎnshì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33801.jpg",
+                "./img/skins/33802.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": true,
+            "_Character__name": "Sun Xiu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can make another player choose: a) Discard 1 card. b) All of this: - You get all cards in his equipment area. - You lose \"Punish on Festival\" until the end of the game. - You modify \"Raise Standard of Education\".",
+                    "_Spell__name": "Chéngfá"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your HP)\nModified ability: In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your max HP)",
+                    "_Spell__name": "Tígāo"
+                },
+                {
+                    "_Spell__description": "(ruler) Players who are at distance 1 from you are considered to be within the attack range of other Wu characters.",
+                    "_Spell__name": "Dìguó"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33601.jpg",
+                "./img/skins/33602.jpg",
+                "./img/skins/33603.jpg",
+                "./img/skins/33604.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xiahou Shi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In another player's End Phase, if your # of hand cards is the same: you can make both of you draw 1 card.",
+                    "_Spell__name": "Mùchái"
+                },
+                {
+                    "_Spell__description": "In your Action Phase: you can reforge Sha. At the end of your Action Phase, if you reforged 2+ Sha in this fase: you can make a ♂ character draw 2 cards.",
+                    "_Spell__name": "Yánfāng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33401.jpg",
+                "./img/skins/33402.jpg",
+                "./img/skins/33403.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhong Yao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you want to use a basic card that you haven't used this turn: you can place 1 black non-basic card on top of the deck, and this is regarded as using the basic card.",
+                    "_Spell__name": "Zuògōng"
+                },
+                {
+                    "_Spell__description": "In another player's Action Phase, after he uses ♠ to target a player(s), if no player has suffered DMG this turn: you can make one of the targeted players draw 1 card.",
+                    "_Spell__name": "Jiānjué"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33301.jpg",
+                "./img/skins/33302.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cao Xiu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Every wound gives you a bonus -1 horse.",
+                    "_Spell__name": "Qiānmǎ"
+                },
+                {
+                    "_Spell__description": "When your used Sha is about to cause DMG to your target, if you have a weapon in your equipment area: you can make the target choose: a) Discard X hand cards; then, he discards your weapon. (X = your weapon's attack range)\nb) The DMG is increased by +1.",
+                    "_Spell__name": "Gèngxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34101.jpg",
+                "./img/skins/34102.jpg",
+                "./img/skins/34103.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Gong Sun Yuan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can show all your hand cards. If they have different colors, choose one of the colors and discard all your hand cards with this color; then, you take 1 card from up to X players. If you get 2+ cards, you lose 1 HP. X = # of cards you discarded",
+                    "_Spell__name": "Bùxún"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33501.jpg",
+                "./img/skins/33502.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": true,
+            "_Character__name": "Liu Zhang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use all your hand as Duel; then, you and the player who suffers DMG draw 1 card. If during this phase you have drawn 2+ cards in this way, you lose this ability until the end of your turn.",
+                    "_Spell__name": "Juéwàng"
+                },
+                {
+                    "_Spell__description": "(ruler) You can discard 1 card; then, trigger \"Rouse\". If there is a response, that player draws 1 card. (ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
+                    "_Spell__name": "Chūbīng"
+                },
+                {
+                    "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
+                    "_Spell__name": "Ro"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34001.jpg",
+                "./img/skins/34002.jpg",
+                "./img/skins/34003.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Quan Cong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per each player turn, after you cause/suffer DMG: you can choose: a) Discard 1 hand card from a player whose # of hand cards > your # of hand cards. b) Make a player whose # of hand cards < your # of hand cards draw 1 card.",
+                    "_Spell__name": "Lánjié"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33701.jpg",
+                "./img/skins/33702.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Ni",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you may select another player and both of you show simultaneously 1 hand card. - If your card is Sha and his card is not Dodge, you discard your Sha; then, you cause him 1 DMG. - If your card is not Sha and his card is Dodge, you discard your card; then, you take him 1 card.",
+                    "_Spell__name": "Qīpiàn"
+                },
+                {
+                    "_Spell__description": "If your HP = 1, your Dodge are regarded as Sha.",
+                    "_Spell__name": "Shìyán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/33901.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhu Zhi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can select 1 other player. Apply as many effects as possible: - If his # of hand cards is the lowest (or among the lowest), he draws 1 card. - If his HP is the lowest (or among the lowest), he heals 1 HP. - If the # of cards in his equipment area is the lowest (or among the lowest), he uses a random equipment from the deck. Afterwards, if there was an unfulfilled effect(s) and you satisfy the conditions: you execute the remaining effects.",
+                    "_Spell__name": "Ānquán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 2,
+            "_Character__lord": false,
+            "_Character__name": "Liú Yú",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase, if your # of hand cards > HP: you can choose another player that contains you within his attack range; unless he uses Sha, he gives you 1 card in his equipment area.",
+                    "_Spell__name": "Tínggōng"
+                },
+                {
+                    "_Spell__description": "At the beginning of the game: your max HP is increased by +X. (X = # of kingdoms in play)\nAfter the last character of a kingdom dies: your max HP is reduced by -1.",
+                    "_Spell__name": "Zǔxiān"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38401.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cen Hun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, if your hand limit > 0: you can draw 1 card; then, this turn your hand card limit is reduced by -1. In your End Phase, if you don’t have hand cards: you can chain up to X players. (X = your HP)",
+                    "_Spell__name": "Fēicháng"
+                },
+                {
+                    "_Spell__description": "When you are about to suffer 🔥 DMG, if you are chained and are the damage transmitter: this 🔥 DMG is increased by +1.",
+                    "_Spell__name": "Liánsuo"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38001.jpg",
+                "./img/skins/38002.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Guō Huánghòu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can show 1 hand card; then, make a player at the least distance from you declare a basic card. This turn, you can use the card you showed as the declared card, but you can't be a target. 1st modification: Once per Action Phase: you can show 1 hand card; then, make a player at the least distance from you declare a basic or non-time-delay tool card. This turn, you can use the card you showed as the declared card, but you can't be a target. 2nd modification: Once per Action Phase: you can use 1 hand card as any basic or non-time-delay tool card but you can't be a target.",
+                    "_Spell__name": "Zhěngdùn"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can choose: a) Draw 1 card. b) Modify \"Rectify Imperial Order\" (can be modified twice).",
+                    "_Spell__name": "Píbèi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38601.jpg",
+                "./img/skins/38602.jpg",
+                "./img/skins/38603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Huang Hao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can choose any # of players who have the ruler within their attack range; then, discard 1 card from each and make them draw 1 card. If you do, draw X cards. X = # of players whose hand > the ruler's",
+                    "_Spell__name": "Shùimián"
+                },
+                {
+                    "_Spell__description": "When you are about to suffer DMG from another player: you can show him any # of hand cards; then, he must choose: a) Take 1 of these cards and prevent this DMG; you can't use \"Bribery\" on that player again during the game. b) Discard the same # of cards you showed.",
+                    "_Spell__name": "Gèngxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38101.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Li Yán",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can take 1 hand card from another player; then, choose: a) Make him look at the top 2 cards of the deck and keep all the basic cards. b) Make him draw 1 additional card in his next Draw Phase.",
+                    "_Spell__name": "Jiāndū"
+                },
+                {
+                    "_Spell__description": "In your Discard Phase: the cards that you obtained this turn don't count towards your # of hand cards.",
+                    "_Spell__name": "Àide"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sun Zi & Liu Fang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the end of your Discard Phase, if you discarded 2+ cards and they have different suits: you can choose: a) Heal 1 HP. b) Draw 1 card.",
+                    "_Spell__name": "Lánzǎo"
+                },
+                {
+                    "_Spell__description": "Once per each player, in your Action Phase, if you have a usable card in hand: you can make that player player discard 1 hand card; then, this turn you can't use cards with the same suit as the discarded card. If the discarded card was ♠: - He loses 1 HP. - You flip your character.",
+                    "_Spell__name": "Cháoxiào"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38701.jpg",
+                "./img/skins/38702.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Rang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use any card as any basic or non-time-delay tool card (except a card you already created this game); then, make another player choose: a) Give you 1 card that is of a different type than the one you created. b) You lose 1 HP and can't use this skill until the end of the turn.",
+                    "_Spell__name": "Yìchū"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/38201.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Sūn Dēng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can select another player who has cards; he must place 1 to 3 of his cards on your character, face-down (\"Assists\"). At the beginning of your next turn: you get all the \"Assists\"; then, that player draws the same # of cards.",
+                    "_Spell__name": "Bāngzhù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/31701.jpg",
+                "./img/skins/31702.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Li Dian",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the start of your Draw Phase: you can examine 4 cards from the deck; then, place 2 of them at the top of the deck and the rest at the bottom.",
+                    "_Spell__name": "Chéngyì"
+                },
+                {
+                    "_Spell__description": "After you cause/suffer 1 DMG to/from another player: you can both draw 1 card.",
+                    "_Spell__name": "Shīqù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/10401.jpg",
+                "./img/skins/10403.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Yáng Xiū",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you are targeted by a tool card, if you aren't its only target: you can immediately draw a card; then, this card has no effect on you.",
+                    "_Spell__name": "Younǐ"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can name a card type (basic, equipment or tool). This turn, the damage source can’t use/play/discard hand cards of that type.",
+                    "_Spell__name": "Xǔyuàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Gōng Sūn Zàn",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "- If HP ≥ 3, you have a -1 bonus horse. - If HP ≤ 2, you have a +1 bonus horse.",
+                    "_Spell__name": "Zhūisúi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11302.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Chen Lin",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can place 1 hand card on another character, face-down (\"Pen\"). You can't select a character who already has a \"Pen\". At the beginning of that player's turn: he looks at the \"Pen\" card and chooses: a) Give you 1 hand card of the same type and take the \"Pen\". b) Remove the \"Pen \"; then, lose 1 HP.",
+                    "_Spell__name": "Qiēgē"
+                },
+                {
+                    "_Spell__description": "In your Action Phase: you can select a player. - If his hand > his HP, he discards 2 cards. - If his HP > his hand, he draws 2 cards. You can select each player only once per game.",
+                    "_Spell__name": "Ōugē"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11702.jpg",
+                "./img/skins/11703.jpg",
+                "./img/skins/11704.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Da Qiáo & Xiao Qiáo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your Discard Phase: you can place 1 hand card on your character, face-up (\"Step\"). This card's color must be different from that of the cards you have used this turn. If you reach 3 \"Steps\", you remove all of them; then, choose a ♂ character. - You cause him 2 DMG. - You discard all cards in his equipment area.",
+                    "_Spell__name": "Xīngwǔ"
+                },
+                {
+                    "_Spell__description": "If you have \"Steps\", you can use \"Displacement\" & \"Heavenly Scent\". When you become the target of Sha: you can discard 1 card and select another player (except the attacker) within your attack range; then, that player becomes the target of the Sha instead. When you are about to suffer DMG: you can discard 1 on-hand ♥, prevent this DMG and select another player to: a) Make him suffer 1 DMG; then, that player draws X cards (X = his # of wounds after the DMG; max. 5). b) Make him lose 1 HP; then, that player takes the card you discarded.",
+                    "_Spell__name": "Hétiān"
+                },
+                {
+                    "_Spell__description": "When you become the target of Sha: you can discard 1 card and select another player (except the attacker) within your attack range; then, that player becomes the target of the Sha instead.",
+                    "_Spell__name": "Yíwèi"
+                },
+                {
+                    "_Spell__description": "When you are about to suffer DMG: you can discard 1 on-hand ♥, prevent this DMG and select another player to: a) Make him suffer 1 DMG; then, that player draws X cards (X = his # of wounds after the DMG; max. 5). b) Make him lose 1 HP; then, that player takes the card you discarded.",
+                    "_Spell__name": "Tiāntáng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/7401.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Ling Ju",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you are about to cause DMG to another player, if his HP ≥ your HP: you can discard 1 black hand card. The DMG is increased by +1. When you are about to suffer DMG from another player, if his HP ≥ your HP: you can discard 1 red hand card. The DMG is reduced by -1.",
+                    "_Spell__name": "De"
+                },
+                {
+                    "_Spell__description": "After another player dies, if his role is: - Loyalist: disregard the HP condition when using \"Deplete Karma\"'s DMG reduction. - Rebel: disregard the HP condition when using \"Deplete Karma\"'s DMG increase. - Spy: disregard the color restriction when using \"Deplete Karma\".",
+                    "_Spell__name": "Ránshāo"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/7302.jpg",
+                "./img/skins/7303.jpg",
+                "./img/skins/7304.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Liu Xie",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you become the target of Sha: you can discard 2 cards (or all if you have less than 2); then, draw 2 cards. Afterwards, if there is another player whose HP exceeds all other players', he can also carry out this action.",
+                    "_Spell__name": "Rènwù"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can give all your hand cards to another player; then, you make him point fight with another player of your choice. The winner is regarded as using Sha on the loser.",
+                    "_Spell__name": "Mìmì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11902.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Bao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can place 1 hand card on another character, face-up (\"Curse\"). You can't select a character who already has a \"Curse\". When a player with a \"Curse\" performs a judgment: the result will be the \"Curse\". At a player's end of turn, if there are any players who lost a \"Curse\" due to a judgement: you make these players lose 1 HP.",
+                    "_Spell__name": "Zǔzhòu"
+                },
+                {
+                    "_Spell__description": "When a player with a \"Curse\" uses a card with the same suit as the \"Curse\": you draw 1 card. When you draw the 2nd card due to the effect of the same \"Curse\" on the same player: remove the \"Curse\".",
+                    "_Spell__name": "Yǐngzǐ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12302.jpg",
+                "./img/skins/12303.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhuge Jin",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw 1 fewer card; then, make up to 2 other players draw 1 card.",
+                    "_Spell__name": "Yuánzhù"
+                },
+                {
+                    "_Spell__description": "When a player performs a judgement, before it takes effect: you can make him look at your hand and select 1 of your cards; then, you play that card as the judgement result.",
+                    "_Spell__name": "Yánchí"
+                },
+                {
+                    "_Spell__description": "Outside of your turn, when you lose red cards as a result of use/play/discard: you can draw 1 card.",
+                    "_Spell__name": "Chéngfǔ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11802.jpg",
+                "./img/skins/11803.jpg",
+                "./img/skins/11804.jpg",
+                "./img/skins/11805.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhuge Ke",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Outside of your turn, when you are prompted to use/play a basic card: you can look at the top 2 cards of the deck. If the required card is present, you can use/play it.",
+                    "_Spell__name": "Àomàn"
+                },
+                {
+                    "_Spell__description": "In your Action Phase: you can select another player within your attack range and discard X cards (X = his HP); then, you cause him 1 DMG. If by doing so you bring him to the brink of death: - You lose 1 HP. - You can't use this ability for the rest of the turn.",
+                    "_Spell__name": "Lǔmǎng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12202.jpg",
+                "./img/skins/12203.jpg",
+                "./img/skins/12204.jpg",
+                "./img/skins/12205.jpg",
+                "./img/skins/12206.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cao Ang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After a player becomes the target of Sha, if the distance from you to him is 1: you can draw 1 card; then, give him 1 card and reveal it. If it's an equipment, that player can use it.",
+                    "_Spell__name": "Kāngkǎi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/7201.jpg",
+                "./img/skins/7202.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Fu Wan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you use Sha to target a player: you can choose: a) Draw 1 card. b) Discard 1 of his cards. If you do either and he uses Dodge, he discards you 1 card.",
+                    "_Spell__name": "Jìhuá"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11601.jpg",
+                "./img/skins/11602.jpg",
+                "./img/skins/11603.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Xiahou Ba",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "- If your HP < 4, you acquire \"Taunt\". - If your HP < 3, you acquire \"Roar\". - If your HP < 2, you acquire \"Godspeed\". Once per Action Phase: you can select a player who has you within his attack range; then, unless he uses Sha on you, you discard him 1 card. You can use any # of Sha. You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
+                    "_Spell__name": "Biànxíng"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can select a player who has you within his attack range; then, unless he uses Sha on you, you discard him 1 card.",
+                    "_Spell__name": "Cháofēng"
+                },
+                {
+                    "_Spell__description": "You can use any # of Sha.",
+                    "_Spell__name": "Nùhou"
+                },
+                {
+                    "_Spell__description": "You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
+                    "_Spell__name": "Yīfān"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12102.jpg",
+                "./img/skins/12103.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Yue Jin",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In the End Phase of another player: you can discard 1 basic card; then, that player chooses: a) Discard 1 equipment and you draw 1 card. b) Suffer 1 DMG from you.",
+                    "_Spell__name": "Yonggǎn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/13002.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cheng Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can place 1 hand card on your character, face-down (\"Ambush\"), and assign to it a basic or tool card name (must be different from the rest of \"Ambush\"). Outside of your turn, when another player uses a hand card: you can remove 1 \"Ambush\" with the same name, and the card becomes ineffective.",
+                    "_Spell__name": "Fújí"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG, you can choose: a) Draw cards until you have X cards in hand. (X = # of hand cards of the damage source, max. 5)\nb) Discard at least X hand cards; then, you cause 1 DMG to the damage source. (X = # of hand cards of the damage source + 1)",
+                    "_Spell__name": "Shēngyù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Gan Fu Ren",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you heal 1 HP: you can make another player heal 1 HP or draw 2 cards.",
+                    "_Spell__name": "Jǐnggào"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase: you can discard all your hand. If the # of cards discarded ≥ your HP, you heal 1 HP.",
+                    "_Spell__name": "Shénzhì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/13101.jpg",
+                "./img/skins/13102.jpg",
+                "./img/skins/13103.jpg",
+                "./img/skins/13104.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "He Tai Hou",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of another player's Action Phase: you can discard 1 hand card. This is regarded as that player using Wine; then, you cause him 1 DMG.",
+                    "_Spell__name": "Dújǐu"
+                },
+                {
+                    "_Spell__description": "At the end of a player's turn: you draw 3 cards for each player you have killed this turn.",
+                    "_Spell__name": "Lìngrén"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12801.jpg",
+                "./img/skins/12802.jpg",
+                "./img/skins/12803.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Ma Liang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Outside your turn, at the end of a turn in which you obtained cards: place those cards in the discard pile. In your turn, when you get cards (except by this skill): draw +1 additional card.",
+                    "_Spell__name": "Zìchuán"
+                },
+                {
+                    "_Spell__description": "In your turn, after your used card is placed in the discard pile: you can give it to another player. (You can only give 1 of each card per turn)",
+                    "_Spell__name": "Chéngnuò"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/36001.jpg",
+                "./img/skins/36002.jpg",
+                "./img/skins/36003.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Si Ma Lang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In a player's End Phase, if his hand < 2: that player can draw 1 card and give you all his hand; then, you give him the same # of cards.",
+                    "_Spell__name": "Guǎnlǐ"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase, if you are wounded: you can discard X cards and select up to X wounder players. These players heal 1 HP; then, if you discarded a black card to activate \"Get Rid of Sickness\", you lose 1 HP. (X = your # of wounds)",
+                    "_Spell__name": "Bǎituō"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/13501.jpg",
+                "./img/skins/13502.jpg",
+                "./img/skins/13503.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sun Lu Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of another player’s Action Phase: you can make him gain the ability \"Cease\" until the end of the turn. If you do, this turn you are considered to be within his attack range. Modified ability: At the beginning of another player’s Action Phase: you can make him gain the ability \"Cease\" until the end of the turn. After you use a tool card: your tool cards are regarded as Sha.",
+                    "_Spell__name": "Mèilì"
+                },
+                {
+                    "_Spell__description": "After you use a tool card: your tool cards are regarded as Sha.",
+                    "_Spell__name": "Tíngzhǐ"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 card and choose\na) Discard 1 equipment on the field; then, draw 1 card. b) Take 1 armor on the field. If the card you discarded to activate \"Solemn\" was Sha or a black tool card, modify \"Charm\" until your next turn.",
+                    "_Spell__name": "Zhuāngyán"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Yellow Turban Rebels",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can use Sha as Lightning Sha.",
+                    "_Spell__name": "Mǎkè"
+                },
+                {
+                    "_Spell__description": "When a player is about to cause ⚡ DMG: you can make him perform a judgement. - If it's black, the DMG is increased by +1. - If it’s red, he gets the judgement card.",
+                    "_Spell__name": "Xīshēng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12401.jpg",
+                "./img/skins/12402.jpg",
+                "./img/skins/12403.jpg",
+                "./img/skins/12404.jpg",
+                "./img/skins/12406.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Xin Cai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per each other player turn, after another player loses basic cards due to a discard: you can draw 1 card.",
+                    "_Spell__name": "Shànliáng"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can perform a judgement; then, until the end of the turn: - Sha whose number < the judgement result, have unlimited range. - Sha whose number > the judgement result, don't count towards the limit.",
+                    "_Spell__name": "Yǔ."
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12602.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ding Feng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Your Sha can target 1 additional player at distance 1.",
+                    "_Spell__name": "Duǎnbīng"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 card and select another player; then, this turn your distance to him is 1.",
+                    "_Spell__name": "Sīwēi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12701.jpg",
+                "./img/skins/12702.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Pan Feng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After your used Sha causes DMG to your target: you can choose: a) Move 1 card in his equipment area to yours. b) Discard 1 card in his equipment area.",
+                    "_Spell__name": "Fēngfǔ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/13601.jpg",
+                "./img/skins/13602.jpg",
+                "./img/skins/13603.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Wen Ping",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When another player becomes the only target of Sha or a black tool card, if his HP < your HP: you can discard 1 card and choose: a) Draw 1 card; then, you become the target. b) Make the card ineffective. After the end of the turn: the user gets the card.",
+                    "_Spell__name": "Xiǎozhèn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12901.jpg",
+                "./img/skins/12902.jpg",
+                "./img/skins/12903.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhuge Dan",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After another player dies: your max HP is increased by +1; then, you heal 1 HP.",
+                    "_Spell__name": "Gōngxūn"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you are wounded and your max HP > # of alive players: - Draw X cards. (X = your max HP)\n- Acquire the abilities \"Disintegrate\" and \"Prestige\". When your max HP changes: draw 1 card. In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
+                    "_Spell__name": "Fǎnpàn"
+                },
+                {
+                    "_Spell__description": "When your max HP changes: draw 1 card.",
+                    "_Spell__name": "Zhòng"
+                },
+                {
+                    "_Spell__description": "In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
+                    "_Spell__name": "Wǎjiě"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/12501.jpg",
+                "./img/skins/12502.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zu Mao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can place any # of non-basic cards on your character, face-up (\"Vanguards\"). After you suffer DMG from Sha or Duel: remove 1 \"Vanguard\".",
+                    "_Spell__name": "Lǐngdǎo"
+                },
+                {
+                    "_Spell__description": "In your Beginning Phase, you must choose: a) Remove all \"Vanguards\" and draw cards until you have X cards in hand. (X = your max HP)\nb) Give all \"Vanguards\" to another player whose HP ≤ your HP, he heals 1 HP and you draw X cards. (X = # of \"Vanguards\" given)  ",
+                    "_Spell__name": "Wēixiǎn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34501.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Shi Xie",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Draw Phase, if you are at distance 1 of at least another player: you can give up drawing cards. If you do, the distance from other players to you is increased by +X. (X = # of kingdoms in play)",
+                    "_Spell__name": "Xúnqíu"
+                },
+                {
+                    "_Spell__description": "In another player's End Phase, if you aren't within his attack range, you must choose: a) Draw 1 card. b) Make him draw 1 card. Then, the distance from other players to you is reduced by -1.",
+                    "_Spell__name": "Gēnjù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34301.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhang Lu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase, if you don’t have any \"Rice\": you can draw 2 cards; then, place 2 cards on your character, face-up (\"Rice\"). When you remove the last \"Rice\": you heal 1 HP.",
+                    "_Spell__name": "Yì"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can take 1 \"Rice\". After you cause DMG to another player: he can take 1 \"Rice\".",
+                    "_Spell__name": "Jiēxiǎo"
+                },
+                {
+                    "_Spell__description": "When a player performs a judgement, before it takes effect: you can play a \"Rice\". It becomes the judgement result.",
+                    "_Spell__name": "Làisī"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ma Lun Yu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You always have a bonus -1 horse.",
+                    "_Spell__name": "Mǎzhú"
+                },
+                {
+                    "_Spell__description": "After you specify a single target for your first Sha or Duel in your Action Phase, you can choose: a) Draw X cards. b) The DMG is increased by +X. (X = his # of on-hand ♦)",
+                    "_Spell__name": "Fènghuáng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/13701.jpg",
+                "./img/skins/13702.jpg"
+            ],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 5,
+            "_Character__lord": true,
+            "_Character__name": "Sun Hao",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You can skip your Draw Phase and draw X cards (X = # of wounded players). This turn, when you use a basic or tool card: you discard 1 card.",
+                    "_Spell__name": "Fèixū"
+                },
+                {
+                    "_Spell__description": "When you suffer DMG, if you don’t have hand cards: the DMG is increased by +1.",
+                    "_Spell__name": "Chóu"
+                },
+                {
+                    "_Spell__description": "(ruler) In your turn, other Wu characters are regarded as being wounded.",
+                    "_Spell__name": "Huángěi"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 15,
+            "_Character__lord": false,
+            "_Character__name": "Wu Tugu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer 1 🔥 DMG: you get 1 \"Burn\" token. In your End Phase: you lose X HP. (X = # of \"Burns\")",
+                    "_Spell__name": "Ránshāo"
+                },
+                {
+                    "_Spell__description": "When you use 10,000 Arrows or Barbarians, if your HP < # of the current round: you can increase the DMG by +1.",
+                    "_Spell__name": "Xiōnghàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Bu Zhi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you obtain or lose 2+ cards simultaneously: you can make another player draw 1 card.",
+                    "_Spell__name": "Shànliáng"
+                },
+                {
+                    "_Spell__description": "X times per Action Phase: you can make a player with equipment draw 1 card; then, he chooses: a) You discard him 1 equipment. b) Place all his equipment back into his hand and you cause him 1 DMG. X = # of rebels alive",
+                    "_Spell__name": "Dìngjū"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Dong Bai",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can show and give 1 card to another player. If the card is black, he chooses: a) Discard 2 cards. b) You draw 2 cards.",
+                    "_Spell__name": "Chéngzhì"
+                },
+                {
+                    "_Spell__description": "Your black cards don’t count towards your hand card limit. Other players who obtain your black cards can't use, play or discard these cards until their HP decreases.",
+                    "_Spell__name": "Jiǎohuá"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Mi Zhu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can give any # of cards that sum 13 to another player; then, he heals 1 HP.",
+                    "_Spell__name": "Zījīn"
+                },
+                {
+                    "_Spell__description": "Your hand card limit is increased by +X. At the beginning of the game: you draw X cards. (X = your max HP)",
+                    "_Spell__name": "Shāngrén"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/36201.jpg",
+                "./img/skins/36202.jpg",
+                "./img/skins/36203.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Wang Ji",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, after you target a player(s) with a basic or tool card: you can discard 1 card from a player who is not a target; then, he draws a card.",
+                    "_Spell__name": "Liángrén"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can draw 2 cards; then, discard hand cards until you have X cards in hand. X = # of times you used \"Astonishing Control\" this turn",
+                    "_Spell__name": "Gǎnkuài"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Wang Lang",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can use 1 hand card to point fight up to 3 players simultaneously. The loser chooses: a) Discard 1 card. b) Make you draw 1 card. If you are the loser, you get 1 \"Rich Tongue\" token. When you have 7 \"Rich Tongues\": you die.",
+                    "_Spell__name": "Jiānshé"
+                },
+                {
+                    "_Spell__description": "After you reveal the card you use for \"Sharp Tongue\": - If its # < X, you can add +X to its #. - If its # = X, the limit of times you can use \"Sharp Tongue\" this turn is increased by +1. X = # of \"Rich Tongues\"",
+                    "_Spell__name": "Jīliè"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Guan Suo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After another player dies: you can draw 3 cards; then, you adquire one of the following skills: \"Warrior Saint\", \"Forefront\", \"Reckless Strategy\". You can use/play any red card as Sha. At the beginning of your turn: you perform an extra Action Phase. When you are about to cause DMG to another player: you can prevent the DMG; then, take 1 card from his equipment or judgement area.",
+                    "_Spell__name": "Lv̌chéng"
+                },
+                {
+                    "_Spell__description": "You can use/play any red card as Sha.",
+                    "_Spell__name": "Zhànshì"
+                },
+                {
+                    "_Spell__description": "At the beginning of your turn: you perform an extra Action Phase.",
+                    "_Spell__name": "Dìyī"
+                },
+                {
+                    "_Spell__description": "When you are about to cause DMG to another player: you can prevent the DMG; then, take 1 card from his equipment or judgement area.",
+                    "_Spell__name": "Lǔmǎng"
+                },
+                {
+                    "_Spell__description": "You have a bonus -X distance. X = # of alive ♀ characters.",
+                    "_Spell__name": "Shōují"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/36401.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Li Tong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can place 1 card on your character, face-up (\"Edge\"). At the start of your Beginning Phase, if you have \"Edges\": remove all of them and draw 2*X cards. This turn, you can use +X additional Sha. X = # of \"Edges\"",
+                    "_Spell__name": "Tūidòng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ta Dun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Your Sha and black non-time-delay tool cards can target +X additional players. After your Sha and black non-time-delay tool cards target a player(s), if the # of targets < X: X is reduced to 0. X = # of times you have caused DMG throughout the game.",
+                    "_Spell__name": "Wǔzhuāng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/34801.jpg"
+            ],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Yan Bai Hu",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, the first time you cause DMG to another player: you take 1 card from each of his areas. Until the end of the turn, you can't target other players.",
+                    "_Spell__name": "Qiǎngjié"
+                },
+                {
+                    "_Spell__description": "When another player becomes the target of a red basic or non-time-delay tool card, if he has you at distance 1 and you aren't the user or a target of this card: you also become a target.",
+                    "_Spell__name": "Xiǎowū"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11503.jpg",
+                "./img/skins/11504.jpg",
+                "./img/skins/11505.jpg"
+            ],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Guan Yin Ping",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 red card; then, choose up to X players. They become chained and you cause 1 🔥 DMG to one of them. X = # of wounds (min. 1)",
+                    "_Spell__name": "Xiějì"
+                },
+                {
+                    "_Spell__description": "After you cause 🔥 DMG: each player who suffered it draws 1 card. This turn, you have no limit on the # of cards that you can use on these players.",
+                    "_Spell__name": "Hǔhou"
+                },
+                {
+                    "_Spell__description": "(awakening) In your End Phase, if this turn you have caused 3+ DMG: - Increase your max HP by +1. - Heal 1 HP. - Permanently lose \"Tiger Roar\". - Place the Green Dragon Crescent Blade from the field, deck or discard pile in your hand.",
+                    "_Spell__name": "Guānzhù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [
+                "./img/skins/11401.jpg",
+                "./img/skins/11402.jpg"
+            ],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Cao Hong",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your End Phase: you can place 1 equipment in the equipment area of a player. - If it's a weapon, discard 1 card in an area of a player at distance 1 from the target player. - It it's an armor, the target player draws 1 card. - If it's a mount, the target player heals 1 HP.",
+                    "_Spell__name": "Gānyù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cài Yōng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you use/become the target of another player's used ♠: you can place 1 card from the the deck on top of your character (\"Book\", max. 4). Each \"Book\" increases your hand card limit by +1.",
+                    "_Spell__name": "Huàyǔ"
+                },
+                {
+                    "_Spell__description": "After the end of your Draw Phase: you can replace any # of \"Books\" with the same # of your cards. Then, if you have 1 \"Book\" of each suit: you must give all your \"Books\" to another player.",
+                    "_Spell__name": "Guǎngfàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Cáo Jié",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you become the target of Sha: you can declare the name of a basic or tool card (only once per name); unless the user discards the card you declared and takes 1 card from you, the Sha becomes ineffective.",
+                    "_Spell__name": "Shouhù"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can draw X cards (X = # of players whose hand < their HP); then, show an equal # of hand cards. Select one of these players, and starting from him, each of these players takes 1 of those cards.",
+                    "_Spell__name": "Zànchéng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Jī Kāng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you suffer DMG/heal HP: you can make the DMG source/another player: a) Lose 1 HP and use 1 random equipment. b) Heal 1 HP and discard 1 equipment. If the card used/discarded was ♣, you draw 1 card.",
+                    "_Spell__name": "Qīngchú"
+                },
+                {
+                    "_Spell__description": "After you die: you can make a player randomly acquire 1 of the following skills: \"Harmonious Chord\", \"Gentle Chord\", \"Intense Chord\", \"Violent Chord\". Until the beginning of his next turn, he can't become the target of another player's used ♣. After you recover HP: you can make another player heal 1 HP and discard 1 equipment. After you suffer DMG: you can make the DMG source heal 1 HP and discard 1 equipment. After you recover HP: you can make another player lose 1 HP and use 1 random equipment. \nAfter you suffer DMG: you can make the DMG source lose 1 HP and use 1 random equipment.",
+                    "_Spell__name": "Wúshēng"
+                },
+                {
+                    "_Spell__description": "After you recover HP: you can make another player heal 1 HP and discard 1 equipment.",
+                    "_Spell__name": "Héxié"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can make the DMG source heal 1 HP and discard 1 equipment.",
+                    "_Spell__name": "Wēnróu"
+                },
+                {
+                    "_Spell__description": "After you recover HP: you can make another player lose 1 HP and use 1 random equipment. ",
+                    "_Spell__name": "Jīliè"
+                },
+                {
+                    "_Spell__description": "After you suffer DMG: you can make the DMG source lose 1 HP and use 1 random equipment.",
+                    "_Spell__name": "Bàolì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Qin Zāi",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When another player uses Sha on a player other than you, if you are within the attacker's attack range: you can place 1 hand card on top of the deck and cancel all the targets. Then, if this Sha is not black: you become the target.",
+                    "_Spell__name": "Gàojiè"
+                },
+                {
+                    "_Spell__description": "After you use Sha to target a player: you can point fight; if you win, this Sha can't be responded. After you become the target of Sha: you can point fight the player; if you win, this Sha becomes ineffective.",
+                    "_Spell__name": "Gèngxīn"
+                },
+                {
+                    "_Spell__description": "When you point fight: you can use cards on top of the deck;. In point fights your ♥ are regarded as K.",
+                    "_Spell__name": "Tiānguó"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Wú Xiàn",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Beginning Phase, you can choose: a) In your Draw Phase: draw +1 additional card. b) This turn, your red basic and non-time-delay tool cards can target +1 additional player (limited to one time; no range restrictions for the extra target). If in your next turn you choose a different option, add +1 to that option's value, and restore this skill.",
+                    "_Spell__name": "Fú"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can make another player take 1 ♥ basic card from the deck; then, if he was the target of this skill in the previous turn, he loses 1 HP.",
+                    "_Spell__name": "Cūxīn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xīn Xiàn Yīng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can show 1 hand card; then, show X hand cards from another player (X = his # of hand cards - his HP). Compare the card you show with his shown cards. - If at least 1 of his cards has the same color as your card, you draw 1 card or discard him 1 card. - If at least 1 of his cards has the same number as your card, change this ability to \"Twice per Action Phase\". - If there is no color/number coincidence, your hand card limit is reduced by -1.",
+                    "_Spell__name": "Zhōngchéng"
+                },
+                {
+                    "_Spell__description": "In your Draw Phase, you can choose: a) Your hand card limit is increased by +1; then, this turn you can't use cards on other players. b) Heal 1 HP; then, this turn you can't use cards on yourself.",
+                    "_Spell__name": "Nénglì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xú Shì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase of each player: they can give you 1 card; you can place it on the top/bottom of the deck; if you do, then, you and him draw 1 card from the other end of the deck.",
+                    "_Spell__name": "Jiǎnchá"
+                },
+                {
+                    "_Spell__description": "In the End Phase of a ♂ character, if the # of remaining cards in the deck is ≤ 10 x your HP: you can use all Sha remaining in the deck on him (unlimited range).",
+                    "_Spell__name": "Pànsǐ"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zōng Xuē",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When another player uses/plays a card in response to a card you use: you can make him get the card you used (he can't use/play it this turn); then, you get the card he used/played. Modified ability: When another player uses/plays a card in response to a card you use: you can get the card he used/played.",
+                    "_Spell__name": "Fùsū"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can make another player draw as many cards as on-field ♦; then, that player discards X cards (X = # of times this skill was previously activated). If he discards all his cards, you lose \"Training\" and modify \"Recovery\".",
+                    "_Spell__name": "Xùnliàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Han Zé",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of your Action Phase: you can give all your hand to another player; then, that player shows any # of hand cards, and you choose: a) Take the hand cards he showed. b) Take the hand cards he didn't show.",
+                    "_Spell__name": "Xiàchē"
+                },
+                {
+                    "_Spell__description": "In your End Phase: you can select a player. Until your next turn, when that player is about to suffer more than 1 DMG per instance: prevent that DMG, and you skip the Draw Phase of your next turn.",
+                    "_Spell__name": "Guǎngfàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Sūn Gān",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you become the target of a tool card: you can give any # of hand cards to another player.",
+                    "_Spell__name": "Yōuyǎ"
+                },
+                {
+                    "_Spell__description": "At the end of your Action Phase: you can point fight a player. - If you win, it's equivalent as using Draw 2. - If you lose, it's equivalent as that player using Dismantle on you.",
+                    "_Spell__name": "Quànshuō"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wei",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Xì Zhì Cái",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After your judgement takes effect: you can take the result card.",
+                    "_Spell__name": "Xiànmù"
+                },
+                {
+                    "_Spell__description": "At the beginning of the game: select another player (\"protégée\"). After your \"protégée\" suffers DMG: you suffer the same amount of DMG. After your \"protégée\" recovers HP: you recover the same amount of HP.",
+                    "_Spell__name": "Dìyī"
+                },
+                {
+                    "_Spell__description": "After you suffer 1 DMG: you can perform a judgement. - If it's red, you make a player draw 1 card (if it's your \"protégée\", he draws 2 cards instead). - If it's black, you discard 1 card in an area of a player.",
+                    "_Spell__name": "Huòbì"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhòng Yun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the end of your Action Phase: you can make a player whose hand ≠ his HP: a) Draw 1 card. b) Discard 1 hand card. Then, if his hand = his HP, you draw 1 card, and you can give him 1 card.",
+                    "_Spell__name": "Yì"
+                },
+                {
+                    "_Spell__description": "When you become the target of a non-time-delay tool card, you can: a) Add 1 target (except the user). b) Remove 1 target (but there has to be at least 1 target afterwards).",
+                    "_Spell__name": "Shèngyàn"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Zhū Gé Guo",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "When you use an equipment: you can take 1 random tool card from the deck.",
+                    "_Spell__name": "Bìmiǎn"
+                },
+                {
+                    "_Spell__description": "Your equipment and tool cards don't count towards your hand card limit.",
+                    "_Spell__name": "Yǔhuà"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Wu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Hè Qí",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "You acquire the following skills based on the number of different suits in your equipment area: 1+: \"Horsemanship\". 2+: \"Dashing Hero\". 3+: \"Short Soldiers\". 4: \"Prestige\". You always have a bonus -1 horse. In your Draw Phase: you can draw +1 additional card. Your Sha can target 1 additional player at distance 1. Once per game, after a tool card targets 2+ players: you can make the card invalid for any # of them.",
+                    "_Spell__name": "Jǐnduàn"
+                },
+                {
+                    "_Spell__description": "You always have a bonus -1 horse.",
+                    "_Spell__name": "Mǎzhú"
+                },
+                {
+                    "_Spell__description": "In your Draw Phase: you can draw +1 additional card.",
+                    "_Spell__name": "Xiāosǎ"
+                },
+                {
+                    "_Spell__description": "Your Sha can target 1 additional player at distance 1.",
+                    "_Spell__name": "Duǎnbīng"
+                },
+                {
+                    "_Spell__description": "Once per game, after a tool card targets 2+ players: you can make the card invalid for any # of them.",
+                    "_Spell__name": "Shēngwàng"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can discard 1 red basic card; then, discard 1 card form a player in your attack range. - If the discarded card is Dodge, you look at his hand. - If it's not Dodge, he looks at your hand.",
+                    "_Spell__name": "Kuàisù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Ma Sī",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "In your Action Phase, once per each player: you can give a Sha to that player. When they use this card: you draw 1 card.",
+                    "_Spell__name": "Hánlěng"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Qū Yì",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Other players whose distance from them to you is 1 can't use/play cards in response to cards you use.",
+                    "_Spell__name": "Qíbīng"
+                },
+                {
+                    "_Spell__description": "If you are the only player with the highest # of hand cards, the DMG you cause/suffer is increased by +1.",
+                    "_Spell__name": "Zìfù"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Wáng Yun",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "Once per Action Phase: you can give a Sha or black tool card to another player, and make him use a random weapon from the deck; then, that player chooses: a) Use the card on other players, and afterwards give the weapon to one of the targets. b) This is equivalent as you using the card on him, and afterwards he gives you the weapon.",
+                    "_Spell__name": "Liánjiē"
+                },
+                {
+                    "_Spell__description": "(awakening) After another player causes 3+ accumulated DMG with cards received via \"Connecting Plans\": you lose \"Connecting Plans\" and acquire \"Boast\". Once per Action Phase: you can use 1 equipment or Sha as a random tool card (select 1 from 3); in the End Phase of this turn, if you haven't caused DMG: you lose 1 HP.",
+                    "_Spell__name": "Chénggōng"
+                },
+                {
+                    "_Spell__description": "Once per Action Phase: you can use 1 equipment or Sha as a random tool card (select 1 from 3); in the End Phase of this turn, if you haven't caused DMG: you lose 1 HP.",
+                    "_Spell__name": "Kuā"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Shu",
+            "_Character__life_points": 4,
+            "_Character__lord": false,
+            "_Character__name": "Zhào Xiāng",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "After you cause DMG using Sha: you acquire 1 \"Reflection\". You can remove 1 \"Reflection\" to activate \"Dragon Heart\" and draw 1 card. You can use/play Sha as Dodge. You can use/play Dodge as Sha.",
+                    "_Spell__name": "Xiāngjīng"
+                },
+                {
+                    "_Spell__description": "You can use/play Sha as Dodge. You can use/play Dodge as Sha.",
+                    "_Spell__name": "Lóngde"
+                },
+                {
+                    "_Spell__description": "Once per game, at the beginning of your turn: you can remove all \"Reflections\"; then, select a replacement character card from 5 random Shu characters, and adjust the max HP to the # of removed \"Reflections\" (max. the # of players). If you are a player with the lowest HP, you heal 1 HP.",
+                    "_Spell__name": "Zhīchí"
+                }
+            ]
+        },
+        {
+            "_Character__background": [],
+            "_Character__clan": "Neutral",
+            "_Character__life_points": 3,
+            "_Character__lord": false,
+            "_Character__name": "Bēi Mí Kou hū",
+            "_Character__spells": [
+                {
+                    "_Spell__description": "At the beginning of each round: another player with the lowest HP and no \"Puppet\" mark gets a \"Puppet\" mark. At the beginning of your turn: you can target another player who hasn't a \"Puppet\" mark; place a \"Puppet\" mark on that player.",
+                    "_Spell__name": "Shìfàng"
+                },
+                {
+                    "_Spell__description": "After a player with a \"Puppet\" mark suffers DMG: you draw 1 card.",
+                    "_Spell__name": "Gǔqiē"
+                },
+                {
+                    "_Spell__description": "(awakening) In your Beginnig Phase, if you have adquired 7+ cards due to \"Bone Cut\": - Increase your max HP by +1. - Heal 1 HP. - Place a \"Puppet\" mark on every player who doesn't have one. - Permanently lose \"Bone Cut\". - Acquire \"Puppet Master\". When you become the only target of a player with a \"Puppet\" mark's used basic or non-delay tool card: you can cancel the effect and he loses the \"Puppet\" mark. When your used basic or non-delay tool card targets only one player: you can target an additional player with a \"Puppet\" mark and he loses the \"Puppet\" mark.",
+                    "_Spell__name": "Xūjiǎ"
+                },
+                {
+                    "_Spell__description": "When you become the only target of a player with a \"Puppet\" mark's used basic or non-delay tool card: you can cancel the effect and he loses the \"Puppet\" mark. When your used basic or non-delay tool card targets only one player: you can target an additional player with a \"Puppet\" mark and he loses the \"Puppet\" mark.",
+                    "_Spell__name": "Mùou"
+                }
+            ]
+        }
+    ]
 }

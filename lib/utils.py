@@ -26,11 +26,11 @@ class Clan(Enum):
 
 
 clan_label_associations = {
-  'god': Clan.GOD,
-  'qun': Clan.QUN,
-  'shu': Clan.SHU,
-  'wei': Clan.WEI,
-  'wu': Clan.WU,
+  'Demigod': Clan.GOD,
+  'Neutral': Clan.QUN,
+  'Shu': Clan.SHU,
+  'Wei': Clan.WEI,
+  'Wu': Clan.WU,
 }
 
 

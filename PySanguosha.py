@@ -31,3 +31,5 @@ with open('characters.json', mode='r', encoding='utf-8') as characters_file:
       character_ui.generate_ui()
     else:
       print('{}: Error creation'.format(character_ui.character.name))
+
+  characters_file.close()
