@@ -2,6 +2,9 @@
     "_CharactersManager__characters": [
         {
             "_Character__background": [
+                "./img/skins/1301.jpg",
+                "./img/skins/1302.jpg",
+                "./img/skins/1303.jpg",
                 "./img/skins/1304.jpg",
                 "./img/skins/1305.jpg",
                 "./img/skins/1306.jpg"
@@ -23,7 +26,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2401.jpg",
+                "./img/skins/2402.jpg",
+                "./img/skins/2403.jpg",
                 "./img/skins/2404.jpg",
+                "./img/skins/2405.jpg",
+                "./img/skins/2406.jpg",
                 "./img/skins/2407.jpg",
                 "./img/skins/2408.jpg"
             ],
@@ -34,7 +42,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "Once per Action Phase: you may discard 1 card and select 2 male characters; then, this is regarded as one of them  having used Duel to target the other. This Duel can't be negated.",
-                    "_Spell__name": "Zhongzǐ"
+                    "_Spell__name": "Zhǒngzǐ"
                 },
                 {
                     "_Spell__description": "In your End Phase: you can draw 1 card.",
@@ -44,9 +52,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2001.jpg",
+                "./img/skins/2002.jpg",
                 "./img/skins/2003.jpg",
                 "./img/skins/2004.jpg",
-                "./img/skins/2005.jpg"
+                "./img/skins/2005.jpg",
+                "./img/skins/2006.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -65,6 +76,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2201.jpg",
+                "./img/skins/2202.jpg",
                 "./img/skins/2203.jpg",
                 "./img/skins/2204.jpg"
             ],
@@ -85,6 +98,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/701.jpg",
+                "./img/skins/702.jpg",
+                "./img/skins/703.jpg",
                 "./img/skins/704.jpg",
                 "./img/skins/705.jpg"
             ],
@@ -105,6 +121,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/1401.jpg",
+                "./img/skins/1402.jpg",
                 "./img/skins/1403.jpg",
                 "./img/skins/1404.jpg",
                 "./img/skins/1405.jpg"
@@ -126,13 +144,16 @@
         },
         {
             "_Character__background": [
+                "./img/skins/1601.jpg",
+                "./img/skins/1602.jpg",
                 "./img/skins/1603.jpg",
-                "./img/skins/1604.jpg"
+                "./img/skins/1604.jpg",
+                "./img/skins/1605.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
             "_Character__lord": false,
-            "_Character__name": "Sī Mǎ Yì",
+            "_Character__name": "Sī Ma Yì",
             "_Character__spells": [
                 {
                     "_Spell__description": "After you suffer DMG: you can take 1 card from the damage source.",
@@ -146,8 +167,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2501.jpg",
                 "./img/skins/2502.jpg",
                 "./img/skins/2503.jpg",
+                "./img/skins/2504.jpg",
                 "./img/skins/2505.jpg"
             ],
             "_Character__clan": "Wu",
@@ -167,6 +190,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2101.jpg",
+                "./img/skins/2102.jpg",
                 "./img/skins/2103.jpg",
                 "./img/skins/2104.jpg",
                 "./img/skins/2105.jpg",
@@ -189,7 +214,11 @@
         },
         {
             "_Character__background": [
-                "./img/skins/1203.jpg"
+                "./img/skins/1201.jpg",
+                "./img/skins/1202.jpg",
+                "./img/skins/1203.jpg",
+                "./img/skins/1204.jpg",
+                "./img/skins/1205.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
@@ -208,7 +237,12 @@
         },
         {
             "_Character__background": [
-                "./img/skins/404.jpg"
+                "./img/skins/401.jpg",
+                "./img/skins/402.jpg",
+                "./img/skins/403.jpg",
+                "./img/skins/404.jpg",
+                "./img/skins/405.jpg",
+                "./img/skins/406.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -226,7 +260,11 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/1501.jpg",
+                "./img/skins/1502.jpg",
+                "./img/skins/1503.jpg"
+            ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
             "_Character__lord": true,
@@ -244,6 +282,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/901.jpg",
                 "./img/skins/902.jpg",
                 "./img/skins/903.jpg"
             ],
@@ -260,7 +299,10 @@
         },
         {
             "_Character__background": [
-                "./img/skins/202.jpg"
+                "./img/skins/201.jpg",
+                "./img/skins/202.jpg",
+                "./img/skins/203.jpg",
+                "./img/skins/204.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -275,7 +317,8 @@
         },
         {
             "_Character__background": [
-                "./img/skins/1101.jpg"
+                "./img/skins/1101.jpg",
+                "./img/skins/1102.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -290,6 +333,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/101.jpg",
+                "./img/skins/102.jpg",
+                "./img/skins/103.jpg",
                 "./img/skins/104.jpg",
                 "./img/skins/105.jpg"
             ],
@@ -310,6 +356,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2301.jpg",
                 "./img/skins/2302.jpg"
             ],
             "_Character__clan": "Neutral",
@@ -319,12 +366,14 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
-                    "_Spell__name": "Méiyou"
+                    "_Spell__name": "Méiyǒu"
                 }
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/1001.jpg"
+            ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -332,14 +381,15 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "If you haven't used/played Sha in your Action Phase, you can skip your Discard Phase.",
-                    "_Spell__name": "Zìwo"
+                    "_Spell__name": "Zìwǒ"
                 }
             ]
         },
         {
             "_Character__background": [
                 "./img/skins/601.jpg",
-                "./img/skins/602.jpg"
+                "./img/skins/602.jpg",
+                "./img/skins/603.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -358,8 +408,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/801.jpg",
+                "./img/skins/802.jpg",
                 "./img/skins/803.jpg",
-                "./img/skins/804.jpg"
+                "./img/skins/804.jpg",
+                "./img/skins/805.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -377,7 +430,10 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/1701.jpg",
+                "./img/skins/1702.jpg"
+            ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -425,6 +481,7 @@
         {
             "_Character__background": [
                 "./img/skins/301.jpg",
+                "./img/skins/302.jpg",
                 "./img/skins/303.jpg"
             ],
             "_Character__clan": "Shu",
@@ -434,12 +491,14 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "You can use any # of Sha.",
-                    "_Spell__name": "Nùhou"
+                    "_Spell__name": "Nùhǒu"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/1801.jpg",
+                "./img/skins/1802.jpg",
                 "./img/skins/1803.jpg"
             ],
             "_Character__clan": "Wei",
@@ -455,6 +514,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/501.jpg",
+                "./img/skins/502.jpg",
                 "./img/skins/503.jpg"
             ],
             "_Character__clan": "Shu",
@@ -470,6 +531,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17101.jpg",
                 "./img/skins/17102.jpg",
                 "./img/skins/17103.jpg"
             ],
@@ -505,14 +567,17 @@
         },
         {
             "_Character__background": [
+                "./img/skins/3001.jpg",
+                "./img/skins/3002.jpg",
                 "./img/skins/3003.jpg",
                 "./img/skins/3004.jpg",
+                "./img/skins/3005.jpg",
                 "./img/skins/3006.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
             "_Character__lord": false,
-            "_Character__name": "Xiǎo Qiáo",
+            "_Character__name": "Xiao Qiáo",
             "_Character__spells": [
                 {
                     "_Spell__description": "When you are about to suffer DMG: you can discard 1 on-hand ♥, prevent this DMG and select another player to: a) Make him suffer 1 DMG; then, that player draws X cards (X = his # of wounds after the DMG; max. 5). b) Make him lose 1 HP; then, that player takes the card you discarded.",
@@ -526,7 +591,8 @@
         },
         {
             "_Character__background": [
-                "./img/skins/21101.jpg"
+                "./img/skins/21101.jpg",
+                "./img/skins/21102.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 3,
@@ -539,18 +605,20 @@
                 },
                 {
                     "_Spell__description": "You can't doubt \"Bewilder\". If your HP is 1, your other abilities are invalid.",
-                    "_Spell__name": "Shāngkou"
+                    "_Spell__name": "Shāngkǒu"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/21201.jpg",
+                "./img/skins/21202.jpg",
                 "./img/skins/21203.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 3,
             "_Character__lord": true,
-            "_Character__name": "Zhāng Jiǎo",
+            "_Character__name": "Zhāng Jiao",
             "_Character__spells": [
                 {
                     "_Spell__description": "When you use/play Dodge: you can force another player to perform a judgement. - If the judgement result is ♠, you cause him 2 ⚡ DMG. - If the judgement result is ♣, you heal 1 HP and then you cause him 1 ⚡ DMG.",
@@ -568,6 +636,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2901.jpg",
                 "./img/skins/2902.jpg"
             ],
             "_Character__clan": "Wei",
@@ -587,8 +656,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2601.jpg",
                 "./img/skins/2602.jpg",
-                "./img/skins/2603.jpg"
+                "./img/skins/2603.jpg",
+                "./img/skins/2604.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -603,6 +674,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2701.jpg",
                 "./img/skins/2702.jpg",
                 "./img/skins/2703.jpg"
             ],
@@ -623,6 +695,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/2801.jpg",
                 "./img/skins/2802.jpg",
                 "./img/skins/2803.jpg"
             ],
@@ -639,9 +712,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/21001.jpg",
                 "./img/skins/21002.jpg",
                 "./img/skins/21003.jpg",
-                "./img/skins/21004.jpg"
+                "./img/skins/21004.jpg",
+                "./img/skins/21005.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -649,7 +724,7 @@
             "_Character__name": "Zhōu Tài",
             "_Character__spells": [
                 {
-                    "_Spell__description": "When you are on the brink of death: place 1 card from the deck on your character, face-up (\"Wound\");\n- If its # is ≠ than all your other \"Wounds\": return to 1 HP. - If not: place it in the discard pile. If you have \"Wounds\", your hand card limit becomes the # of \"Wounds\" you have.",
+                    "_Spell__description": "When you are on the brink of death: place 1 card from the deck on your character, face-up (\"Wound\"); - If its # is ≠ than all your other \"Wounds\": return to 1 HP. - If not: place it in the discard pile. If you have \"Wounds\", your hand card limit becomes the # of \"Wounds\" you have.",
                     "_Spell__name": "Jùjué"
                 },
                 {
@@ -694,6 +769,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5701.jpg",
+                "./img/skins/5702.jpg",
+                "./img/skins/5703.jpg",
+                "./img/skins/5704.jpg",
                 "./img/skins/5705.jpg"
             ],
             "_Character__clan": "Neutral",
@@ -713,7 +792,10 @@
         },
         {
             "_Character__background": [
-                "./img/skins/5303.jpg"
+                "./img/skins/5301.jpg",
+                "./img/skins/5302.jpg",
+                "./img/skins/5303.jpg",
+                "./img/skins/5304.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -726,7 +808,7 @@
                 },
                 {
                     "_Spell__description": "You can skip your Action Phase and, at the end of the turn: discard 1 hand card. If you do, you can let another player have an extra turn (right after you).",
-                    "_Spell__name": "Xiāng"
+                    "_Spell__name": "Xiāngchuán"
                 },
                 {
                     "_Spell__description": "(ruler, awakening) In your Beginning Phase, if you are one of the players with the lowest HP: - Increase your max HP by +1. - Heal 1 HP. - Acquire \"Rouse\". (ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
@@ -741,6 +823,7 @@
         {
             "_Character__background": [
                 "./img/skins/5501.jpg",
+                "./img/skins/5502.jpg",
                 "./img/skins/5503.jpg",
                 "./img/skins/5504.jpg"
             ],
@@ -761,6 +844,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5601.jpg",
                 "./img/skins/5602.jpg",
                 "./img/skins/5603.jpg",
                 "./img/skins/5604.jpg",
@@ -783,6 +867,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5101.jpg",
                 "./img/skins/5102.jpg",
                 "./img/skins/5103.jpg",
                 "./img/skins/5104.jpg",
@@ -810,6 +895,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5201.jpg",
+                "./img/skins/5202.jpg",
                 "./img/skins/5203.jpg",
                 "./img/skins/5204.jpg",
                 "./img/skins/5205.jpg",
@@ -846,11 +933,11 @@
                     "_Spell__name": "Kèzhì"
                 },
                 {
-                    "_Spell__description": "(awakening) In your Beginning Phase, if you have 4+ \"Restraints\": - Reduce your max HP by -1. - Acquire \"Extreme Tactic\". Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\"\n- \"Balance of Power\"\n- \"Wisdom\"\n- \"Banish into Exile\"\n- \"Unmitigated Murder\"",
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you have 4+ \"Restraints\": - Reduce your max HP by -1. - Acquire \"Extreme Tactic\". Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\" - \"Balance of Power\" - \"Wisdom\" - \"Banish into Exile\" - \"Unmitigated Murder\"",
                     "_Spell__name": "Tíshēng"
                 },
                 {
-                    "_Spell__description": "Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\"\n- \"Balance of Power\"\n- \"Wisdom\"\n- \"Banish into Exile\"\n- \"Unmitigated Murder\"",
+                    "_Spell__description": "Discard 1 \"Restraint\" to execute one of the following abilities: - \"Demonic Talent\" - \"Balance of Power\" - \"Wisdom\" - \"Banish into Exile\" - \"Unmitigated Murder\"",
                     "_Spell__name": "Jíduān"
                 },
                 {
@@ -861,6 +948,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5401.jpg",
+                "./img/skins/5402.jpg",
+                "./img/skins/5403.jpg",
                 "./img/skins/5404.jpg",
                 "./img/skins/5405.jpg",
                 "./img/skins/5406.jpg",
@@ -895,8 +985,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/5001.jpg",
+                "./img/skins/5002.jpg",
                 "./img/skins/5003.jpg",
                 "./img/skins/5004.jpg",
+                "./img/skins/5005.jpg",
                 "./img/skins/5006.jpg"
             ],
             "_Character__clan": "Wei",
@@ -912,6 +1005,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/3601.jpg",
                 "./img/skins/3602.jpg",
                 "./img/skins/3603.jpg"
             ],
@@ -949,20 +1043,23 @@
                 },
                 {
                     "_Spell__description": "After you suffer 1 DMG: you can make a player draw cards until he has X cards in hand. X = his max HP (max. 5)",
-                    "_Spell__name": "Yonghéng"
+                    "_Spell__name": "Yǒnghéng"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/3701.jpg",
+                "./img/skins/3702.jpg",
                 "./img/skins/3703.jpg",
                 "./img/skins/3704.jpg",
-                "./img/skins/3705.jpg"
+                "./img/skins/3705.jpg",
+                "./img/skins/3706.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
             "_Character__lord": false,
-            "_Character__name": "Young Zhūgě Liàng",
+            "_Character__name": "Young Zhūge Liàng",
             "_Character__spells": [
                 {
                     "_Spell__description": "If you don't have any armor equipped, you are regarded as having Eight Trigrams equipped.",
@@ -970,7 +1067,7 @@
                 },
                 {
                     "_Spell__description": "You can use any red hand card as Blaze.",
-                    "_Spell__name": "Zònghuo"
+                    "_Spell__name": "Zònghuǒ"
                 },
                 {
                     "_Spell__description": "You can use any black hand card as Negate.",
@@ -1003,22 +1100,25 @@
         },
         {
             "_Character__background": [
+                "./img/skins/3401.jpg",
                 "./img/skins/3402.jpg",
+                "./img/skins/3403.jpg",
                 "./img/skins/3404.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
             "_Character__lord": false,
-            "_Character__name": "Dian Wěi",
+            "_Character__name": "Dian Wei",
             "_Character__spells": [
                 {
-                    "_Spell__description": "Once per Action Phase: you can: a) lose 1 HP. b) discard 1 weapon\nand cause 1 DMG to a player within your attack range.",
+                    "_Spell__description": "Once per Action Phase: you can: a) lose 1 HP. b) discard 1 weapon and cause 1 DMG to a player within your attack range.",
                     "_Spell__name": "Xiōngměng"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/3901.jpg",
                 "./img/skins/3902.jpg"
             ],
             "_Character__clan": "Neutral",
@@ -1038,9 +1138,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/3801.jpg",
                 "./img/skins/3802.jpg",
+                "./img/skins/3803.jpg",
                 "./img/skins/3804.jpg",
-                "./img/skins/3805.jpg"
+                "./img/skins/3805.jpg",
+                "./img/skins/3806.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -1055,6 +1158,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4001.jpg",
                 "./img/skins/4002.jpg",
                 "./img/skins/4003.jpg"
             ],
@@ -1071,9 +1175,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4101.jpg",
                 "./img/skins/4102.jpg",
                 "./img/skins/4103.jpg",
-                "./img/skins/4104.jpg"
+                "./img/skins/4104.jpg",
+                "./img/skins/4105.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
@@ -1091,7 +1197,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/20301.jpg"
+            ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -1129,7 +1237,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4301.jpg",
+                "./img/skins/4302.jpg",
+                "./img/skins/4303.jpg",
                 "./img/skins/4304.jpg",
+                "./img/skins/4305.jpg",
                 "./img/skins/4306.jpg",
                 "./img/skins/4307.jpg"
             ],
@@ -1154,8 +1266,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4801.jpg",
                 "./img/skins/4802.jpg",
                 "./img/skins/4803.jpg",
+                "./img/skins/4804.jpg",
                 "./img/skins/4805.jpg",
                 "./img/skins/4806.jpg",
                 "./img/skins/4807.jpg"
@@ -1181,15 +1295,18 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4901.jpg",
+                "./img/skins/4902.jpg",
                 "./img/skins/4903.jpg",
                 "./img/skins/4904.jpg",
                 "./img/skins/4905.jpg",
+                "./img/skins/4906.jpg",
                 "./img/skins/4907.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
             "_Character__lord": false,
-            "_Character__name": "Lǔ Sù",
+            "_Character__name": "Lu Sù",
             "_Character__spells": [
                 {
                     "_Spell__description": "In your Draw Phase: you can draw 2 extra cards; then, if your # of hand cards > 5, you must give half of them (rounded down) to another player with the lowest # of hand cards.",
@@ -1224,6 +1341,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4401.jpg",
                 "./img/skins/4402.jpg",
                 "./img/skins/4403.jpg",
                 "./img/skins/4404.jpg",
@@ -1242,6 +1360,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4201.jpg",
                 "./img/skins/4202.jpg",
                 "./img/skins/4203.jpg"
             ],
@@ -1252,7 +1371,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "You can use any black basic card or equipment as Starvation. Your Starvations have unlimited range on players whose # of hand cards ≥ your # of hand cards.",
-                    "_Spell__name": "Fēngsuo"
+                    "_Spell__name": "Fēngsuǒ"
                 },
                 {
                     "_Spell__description": "After another player skips his Draw Phase: you draw 1 card.",
@@ -1262,9 +1381,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4601.jpg",
+                "./img/skins/4602.jpg",
                 "./img/skins/4603.jpg",
                 "./img/skins/4604.jpg",
-                "./img/skins/4605.jpg"
+                "./img/skins/4605.jpg",
+                "./img/skins/4606.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1304,7 +1426,7 @@
                 },
                 {
                     "_Spell__description": "If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
-                    "_Spell__name": "Méiyou"
+                    "_Spell__name": "Méiyǒu"
                 },
                 {
                     "_Spell__description": "Once per Action Phase: you can lose 6 \"Rage\"; then, every other player: - Suffers 1 DMG. - Discards all his equipped cards. - Discards 4 hand cards. Finally, you flip your character.",
@@ -1314,6 +1436,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/4501.jpg",
                 "./img/skins/4502.jpg",
                 "./img/skins/4503.jpg",
                 "./img/skins/4504.jpg"
@@ -1343,8 +1466,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/15101.jpg",
                 "./img/skins/15102.jpg",
-                "./img/skins/15103.jpg"
+                "./img/skins/15103.jpg",
+                "./img/skins/15104.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -1363,6 +1488,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/15301.jpg",
                 "./img/skins/15302.jpg",
                 "./img/skins/15303.jpg"
             ],
@@ -1386,6 +1512,7 @@
                 "./img/skins/18501.jpg",
                 "./img/skins/18502.jpg",
                 "./img/skins/18503.jpg",
+                "./img/skins/18504.jpg",
                 "./img/skins/18505.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1399,15 +1526,17 @@
                 },
                 {
                     "_Spell__description": "You can skip your Draw Phase and make another player draw 2 cards; then, you make him use Sha on another player of your choice within his attack range. If he doesn’t, you take 2 cards from him.",
-                    "_Spell__name": "Deshou"
+                    "_Spell__name": "Deshǒu"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/15601.jpg",
                 "./img/skins/15602.jpg",
                 "./img/skins/15603.jpg",
                 "./img/skins/15604.jpg",
+                "./img/skins/15605.jpg",
                 "./img/skins/15606.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1427,6 +1556,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/15701.jpg",
+                "./img/skins/15702.jpg",
+                "./img/skins/15703.jpg",
                 "./img/skins/15704.jpg",
                 "./img/skins/15705.jpg",
                 "./img/skins/15706.jpg"
@@ -1448,6 +1580,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18601.jpg",
                 "./img/skins/18602.jpg",
                 "./img/skins/18603.jpg"
             ],
@@ -1468,6 +1601,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/16101.jpg",
+                "./img/skins/16102.jpg",
+                "./img/skins/16103.jpg",
                 "./img/skins/16104.jpg",
                 "./img/skins/16105.jpg",
                 "./img/skins/16106.jpg",
@@ -1490,6 +1626,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/15201.jpg",
                 "./img/skins/15202.jpg",
                 "./img/skins/15203.jpg"
             ],
@@ -1510,6 +1647,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/15501.jpg",
+                "./img/skins/15502.jpg",
                 "./img/skins/15503.jpg",
                 "./img/skins/15504.jpg"
             ],
@@ -1527,6 +1666,7 @@
         {
             "_Character__background": [
                 "./img/skins/15801.jpg",
+                "./img/skins/15802.jpg",
                 "./img/skins/15803.jpg",
                 "./img/skins/15804.jpg"
             ],
@@ -1563,7 +1703,10 @@
         {
             "_Character__background": [
                 "./img/skins/16801.jpg",
+                "./img/skins/16802.jpg",
+                "./img/skins/16803.jpg",
                 "./img/skins/16804.jpg",
+                "./img/skins/16805.jpg",
                 "./img/skins/16806.jpg"
             ],
             "_Character__clan": "Wu",
@@ -1583,6 +1726,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17201.jpg",
                 "./img/skins/17202.jpg",
                 "./img/skins/17203.jpg",
                 "./img/skins/17204.jpg"
@@ -1604,9 +1748,13 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18701.jpg",
                 "./img/skins/18702.jpg",
+                "./img/skins/18703.jpg",
+                "./img/skins/18704.jpg",
                 "./img/skins/18705.jpg",
-                "./img/skins/18706.jpg"
+                "./img/skins/18706.jpg",
+                "./img/skins/18707.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -1625,6 +1773,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/16401.jpg",
                 "./img/skins/16402.jpg",
                 "./img/skins/16403.jpg",
                 "./img/skins/16404.jpg",
@@ -1647,7 +1796,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/16201.jpg",
                 "./img/skins/16202.jpg",
+                "./img/skins/16203.jpg",
                 "./img/skins/16204.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1663,6 +1814,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/16901.jpg",
                 "./img/skins/16902.jpg",
                 "./img/skins/16903.jpg",
                 "./img/skins/16904.jpg"
@@ -1670,11 +1822,11 @@
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
             "_Character__lord": false,
-            "_Character__name": "Chéng Pǔ",
+            "_Character__name": "Chéng Pu",
             "_Character__spells": [
                 {
                     "_Spell__description": "When you use a normal Sha: you can transform it into Fire Sha; if it causes DMG, you lose 1 HP. Your Fire Sha can target 1 additional player.",
-                    "_Spell__name": "Youdú"
+                    "_Spell__name": "Yǒudú"
                 },
                 {
                     "_Spell__description": "In your End Phase, if you don’t have any \"Vintage\": you can place any # of Sha on your character, face-up (\"Vintage\"). When a player enters on the brink of death: you can remove 1 \"Vintage\"; this is regarded as the player having used Wine.",
@@ -1684,8 +1836,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18801.jpg",
                 "./img/skins/18802.jpg",
-                "./img/skins/18803.jpg"
+                "./img/skins/18803.jpg",
+                "./img/skins/18804.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1698,7 +1852,7 @@
                 },
                 {
                     "_Spell__description": "You can use any # of Sha.",
-                    "_Spell__name": "Nùhou"
+                    "_Spell__name": "Nùhǒu"
                 },
                 {
                     "_Spell__description": "You can use/play any red card as Sha.",
@@ -1708,7 +1862,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17001.jpg",
                 "./img/skins/17002.jpg",
+                "./img/skins/17003.jpg",
                 "./img/skins/17004.jpg",
                 "./img/skins/17005.jpg"
             ],
@@ -1729,8 +1885,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/16601.jpg",
                 "./img/skins/16602.jpg",
-                "./img/skins/16603.jpg"
+                "./img/skins/16603.jpg",
+                "./img/skins/16604.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1750,6 +1908,8 @@
         {
             "_Character__background": [
                 "./img/skins/16701.jpg",
+                "./img/skins/16702.jpg",
+                "./img/skins/16703.jpg",
                 "./img/skins/16704.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1769,6 +1929,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17301.jpg",
+                "./img/skins/17302.jpg",
                 "./img/skins/17303.jpg",
                 "./img/skins/17304.jpg",
                 "./img/skins/17305.jpg"
@@ -1794,6 +1956,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17401.jpg",
                 "./img/skins/17402.jpg",
                 "./img/skins/17403.jpg",
                 "./img/skins/17404.jpg"
@@ -1815,6 +1978,9 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18301.jpg",
+                "./img/skins/18302.jpg",
+                "./img/skins/18303.jpg",
                 "./img/skins/18304.jpg",
                 "./img/skins/18305.jpg"
             ],
@@ -1835,6 +2001,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17801.jpg",
                 "./img/skins/17802.jpg",
                 "./img/skins/17803.jpg",
                 "./img/skins/17804.jpg"
@@ -1856,10 +2023,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18401.jpg",
                 "./img/skins/18402.jpg",
                 "./img/skins/18403.jpg",
                 "./img/skins/18404.jpg",
-                "./img/skins/18405.jpg"
+                "./img/skins/18405.jpg",
+                "./img/skins/18406.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 3,
@@ -1875,13 +2044,15 @@
                     "_Spell__name": "Tiǎn"
                 },
                 {
-                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1)\nb) Suffer 2 🔥 DMG from you.",
+                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1) b) Suffer 2 🔥 DMG from you.",
                     "_Spell__name": "Gèngxīn"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/17601.jpg",
+                "./img/skins/17602.jpg",
                 "./img/skins/17603.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1901,6 +2072,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18101.jpg",
                 "./img/skins/18102.jpg"
             ],
             "_Character__clan": "Wu",
@@ -1920,9 +2092,11 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17701.jpg",
                 "./img/skins/17702.jpg",
                 "./img/skins/17703.jpg",
-                "./img/skins/17704.jpg"
+                "./img/skins/17704.jpg",
+                "./img/skins/17705.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1931,12 +2105,13 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "When a player uses Sha in his Action Phase: you can discard 1 card to make this Sha not count towards the # of Sha used in this Action Phase; then, if it's a red Sha, you draw 1 card.",
-                    "_Spell__name": "Lónghou"
+                    "_Spell__name": "Lónghǒu"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/17501.jpg",
                 "./img/skins/17502.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1952,8 +2127,10 @@
         },
         {
             "_Character__background": [
+                "./img/skins/17901.jpg",
                 "./img/skins/17902.jpg",
                 "./img/skins/17903.jpg",
+                "./img/skins/17904.jpg",
                 "./img/skins/17905.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1969,6 +2146,8 @@
         },
         {
             "_Character__background": [
+                "./img/skins/18001.jpg",
+                "./img/skins/18002.jpg",
                 "./img/skins/18003.jpg",
                 "./img/skins/18004.jpg"
             ],
@@ -1998,7 +2177,7 @@
             "_Character__name": "Zhu Ran",
             "_Character__spells": [
                 {
-                    "_Spell__description": "In your Action Phase: you can discard X cards and select another player within your attack range. (X = # of times you use \"Nerves of Steel\" in this phase)\n- If X = 1, you discard him 1 card. - If X = 2, he gives you 1 card. - If X = 3, you cause him 1 DMG. - If X ≥ 4, both you and him draw 2 cards. ",
+                    "_Spell__description": "In your Action Phase: you can discard X cards and select another player within your attack range. (X = # of times you use \"Nerves of Steel\" in this phase) - If X = 1, you discard him 1 card. - If X = 2, he gives you 1 card. - If X = 3, you cause him 1 DMG. - If X ≥ 4, both you and him draw 2 cards. ",
                     "_Spell__name": "Shénjīng"
                 }
             ]
@@ -2133,7 +2312,8 @@
         {
             "_Character__background": [
                 "./img/skins/32101.jpg",
-                "./img/skins/32102.jpg"
+                "./img/skins/32102.jpg",
+                "./img/skins/32103.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
@@ -2184,7 +2364,8 @@
         {
             "_Character__background": [
                 "./img/skins/32501.jpg",
-                "./img/skins/32502.jpg"
+                "./img/skins/32502.jpg",
+                "./img/skins/32503.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -2276,7 +2457,7 @@
                     "_Spell__name": "Chéngfá"
                 },
                 {
-                    "_Spell__description": "In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your HP)\nModified ability: In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your max HP)",
+                    "_Spell__description": "In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your HP) Modified ability: In your End Phase: you can select up to X players; make them draw 1 card and place 1 card on top of the deck. (X = your max HP)",
                     "_Spell__name": "Tígāo"
                 },
                 {
@@ -2343,7 +2524,7 @@
                     "_Spell__name": "Qiānmǎ"
                 },
                 {
-                    "_Spell__description": "When your used Sha is about to cause DMG to your target, if you have a weapon in your equipment area: you can make the target choose: a) Discard X hand cards; then, he discards your weapon. (X = your weapon's attack range)\nb) The DMG is increased by +1.",
+                    "_Spell__description": "When your used Sha is about to cause DMG to your target, if you have a weapon in your equipment area: you can make the target choose: a) Discard X hand cards; then, he discards your weapon. (X = your weapon's attack range) b) The DMG is increased by +1.",
                     "_Spell__name": "Gèngxīn"
                 }
             ]
@@ -2453,7 +2634,7 @@
                     "_Spell__name": "Tínggōng"
                 },
                 {
-                    "_Spell__description": "At the beginning of the game: your max HP is increased by +X. (X = # of kingdoms in play)\nAfter the last character of a kingdom dies: your max HP is reduced by -1.",
+                    "_Spell__description": "At the beginning of the game: your max HP is increased by +X. (X = # of kingdoms in play) After the last character of a kingdom dies: your max HP is reduced by -1.",
                     "_Spell__name": "Zǔxiān"
                 }
             ]
@@ -2473,7 +2654,7 @@
                 },
                 {
                     "_Spell__description": "When you are about to suffer 🔥 DMG, if you are chained and are the damage transmitter: this 🔥 DMG is increased by +1.",
-                    "_Spell__name": "Liánsuo"
+                    "_Spell__name": "Liánsuǒ"
                 }
             ]
         },
@@ -2588,7 +2769,8 @@
         {
             "_Character__background": [
                 "./img/skins/31701.jpg",
-                "./img/skins/31702.jpg"
+                "./img/skins/31702.jpg",
+                "./img/skins/31703.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -2608,6 +2790,7 @@
         {
             "_Character__background": [
                 "./img/skins/10401.jpg",
+                "./img/skins/10402.jpg",
                 "./img/skins/10403.jpg"
             ],
             "_Character__clan": "Wei",
@@ -2617,7 +2800,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you are targeted by a tool card, if you aren't its only target: you can immediately draw a card; then, this card has no effect on you.",
-                    "_Spell__name": "Younǐ"
+                    "_Spell__name": "Yǒunǐ"
                 },
                 {
                     "_Spell__description": "After you suffer DMG: you can name a card type (basic, equipment or tool). This turn, the damage source can’t use/play/discard hand cards of that type.",
@@ -2640,6 +2823,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/11301.jpg",
                 "./img/skins/11302.jpg"
             ],
             "_Character__clan": "Wei",
@@ -2659,6 +2843,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/11701.jpg",
                 "./img/skins/11702.jpg",
                 "./img/skins/11703.jpg",
                 "./img/skins/11704.jpg"
@@ -2707,6 +2892,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/7301.jpg",
                 "./img/skins/7302.jpg",
                 "./img/skins/7303.jpg",
                 "./img/skins/7304.jpg"
@@ -2728,6 +2914,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/11901.jpg",
                 "./img/skins/11902.jpg"
             ],
             "_Character__clan": "Neutral",
@@ -2747,6 +2934,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/12301.jpg",
                 "./img/skins/12302.jpg",
                 "./img/skins/12303.jpg"
             ],
@@ -2771,6 +2959,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/11801.jpg",
                 "./img/skins/11802.jpg",
                 "./img/skins/11803.jpg",
                 "./img/skins/11804.jpg",
@@ -2793,6 +2982,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/12201.jpg",
                 "./img/skins/12202.jpg",
                 "./img/skins/12203.jpg",
                 "./img/skins/12204.jpg",
@@ -2847,7 +3037,7 @@
                 },
                 {
                     "_Spell__description": "You can use any # of Sha.",
-                    "_Spell__name": "Nùhou"
+                    "_Spell__name": "Nùhǒu"
                 },
                 {
                     "_Spell__description": "You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
@@ -2857,6 +3047,7 @@
         },
         {
             "_Character__background": [
+                "./img/skins/12101.jpg",
                 "./img/skins/12102.jpg",
                 "./img/skins/12103.jpg"
             ],
@@ -2867,12 +3058,13 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "In the End Phase of another player: you can discard 1 basic card; then, that player chooses: a) Discard 1 equipment and you draw 1 card. b) Suffer 1 DMG from you.",
-                    "_Spell__name": "Yonggǎn"
+                    "_Spell__name": "Yǒnggǎn"
                 }
             ]
         },
         {
             "_Character__background": [
+                "./img/skins/13001.jpg",
                 "./img/skins/13002.jpg"
             ],
             "_Character__clan": "Wei",
@@ -2885,7 +3077,7 @@
                     "_Spell__name": "Fújí"
                 },
                 {
-                    "_Spell__description": "After you suffer DMG, you can choose: a) Draw cards until you have X cards in hand. (X = # of hand cards of the damage source, max. 5)\nb) Discard at least X hand cards; then, you cause 1 DMG to the damage source. (X = # of hand cards of the damage source + 1)",
+                    "_Spell__description": "After you suffer DMG, you can choose: a) Draw cards until you have X cards in hand. (X = # of hand cards of the damage source, max. 5) b) Discard at least X hand cards; then, you cause 1 DMG to the damage source. (X = # of hand cards of the damage source + 1)",
                     "_Spell__name": "Shēngyù"
                 }
             ]
@@ -2991,7 +3183,7 @@
                     "_Spell__name": "Tíngzhǐ"
                 },
                 {
-                    "_Spell__description": "Once per Action Phase: you can discard 1 card and choose\na) Discard 1 equipment on the field; then, draw 1 card. b) Take 1 armor on the field. If the card you discarded to activate \"Solemn\" was Sha or a black tool card, modify \"Charm\" until your next turn.",
+                    "_Spell__description": "Once per Action Phase: you can discard 1 card and choose a) Discard 1 equipment on the field; then, draw 1 card. b) Take 1 armor on the field. If the card you discarded to activate \"Solemn\" was Sha or a black tool card, modify \"Charm\" until your next turn.",
                     "_Spell__name": "Zhuāngyán"
                 }
             ]
@@ -3019,6 +3211,7 @@
                 "./img/skins/12402.jpg",
                 "./img/skins/12403.jpg",
                 "./img/skins/12404.jpg",
+                "./img/skins/12405.jpg",
                 "./img/skins/12406.jpg"
             ],
             "_Character__clan": "Shu",
@@ -3038,7 +3231,9 @@
         },
         {
             "_Character__background": [
-                "./img/skins/12602.jpg"
+                "./img/skins/12601.jpg",
+                "./img/skins/12602.jpg",
+                "./img/skins/12603.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -3104,7 +3299,7 @@
                     "_Spell__name": "Gōngxūn"
                 },
                 {
-                    "_Spell__description": "(awakening) In your Beginning Phase, if you are wounded and your max HP > # of alive players: - Draw X cards. (X = your max HP)\n- Acquire the abilities \"Disintegrate\" and \"Prestige\". When your max HP changes: draw 1 card. In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
+                    "_Spell__description": "(awakening) In your Beginning Phase, if you are wounded and your max HP > # of alive players: - Draw X cards. (X = your max HP) - Acquire the abilities \"Disintegrate\" and \"Prestige\". When your max HP changes: draw 1 card. In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
                     "_Spell__name": "Fǎnpàn"
                 },
                 {
@@ -3132,7 +3327,7 @@
                     "_Spell__name": "Lǐngdǎo"
                 },
                 {
-                    "_Spell__description": "In your Beginning Phase, you must choose: a) Remove all \"Vanguards\" and draw cards until you have X cards in hand. (X = your max HP)\nb) Give all \"Vanguards\" to another player whose HP ≤ your HP, he heals 1 HP and you draw X cards. (X = # of \"Vanguards\" given)  ",
+                    "_Spell__description": "In your Beginning Phase, you must choose: a) Remove all \"Vanguards\" and draw cards until you have X cards in hand. (X = your max HP) b) Give all \"Vanguards\" to another player whose HP ≤ your HP, he heals 1 HP and you draw X cards. (X = # of \"Vanguards\" given)  ",
                     "_Spell__name": "Wēixiǎn"
                 }
             ]
@@ -3404,9 +3599,12 @@
         },
         {
             "_Character__background": [
+                "./img/skins/11501.jpg",
+                "./img/skins/11502.jpg",
                 "./img/skins/11503.jpg",
                 "./img/skins/11504.jpg",
-                "./img/skins/11505.jpg"
+                "./img/skins/11505.jpg",
+                "./img/skins/11506.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -3419,7 +3617,7 @@
                 },
                 {
                     "_Spell__description": "After you cause 🔥 DMG: each player who suffered it draws 1 card. This turn, you have no limit on the # of cards that you can use on these players.",
-                    "_Spell__name": "Hǔhou"
+                    "_Spell__name": "Hǔhǒu"
                 },
                 {
                     "_Spell__description": "(awakening) In your End Phase, if this turn you have caused 3+ DMG: - Increase your max HP by +1. - Heal 1 HP. - Permanently lose \"Tiger Roar\". - Place the Green Dragon Crescent Blade from the field, deck or discard pile in your hand.",
@@ -3469,7 +3667,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you become the target of Sha: you can declare the name of a basic or tool card (only once per name); unless the user discards the card you declared and takes 1 card from you, the Sha becomes ineffective.",
-                    "_Spell__name": "Shouhù"
+                    "_Spell__name": "Shǒuhù"
                 },
                 {
                     "_Spell__description": "In your End Phase: you can draw X cards (X = # of players whose hand < their HP); then, show an equal # of hand cards. Select one of these players, and starting from him, each of these players takes 1 of those cards.",
@@ -3489,7 +3687,7 @@
                     "_Spell__name": "Qīngchú"
                 },
                 {
-                    "_Spell__description": "After you die: you can make a player randomly acquire 1 of the following skills: \"Harmonious Chord\", \"Gentle Chord\", \"Intense Chord\", \"Violent Chord\". Until the beginning of his next turn, he can't become the target of another player's used ♣. After you recover HP: you can make another player heal 1 HP and discard 1 equipment. After you suffer DMG: you can make the DMG source heal 1 HP and discard 1 equipment. After you recover HP: you can make another player lose 1 HP and use 1 random equipment. \nAfter you suffer DMG: you can make the DMG source lose 1 HP and use 1 random equipment.",
+                    "_Spell__description": "After you die: you can make a player randomly acquire 1 of the following skills: \"Harmonious Chord\", \"Gentle Chord\", \"Intense Chord\", \"Violent Chord\". Until the beginning of his next turn, he can't become the target of another player's used ♣. After you recover HP: you can make another player heal 1 HP and discard 1 equipment. After you suffer DMG: you can make the DMG source heal 1 HP and discard 1 equipment. After you recover HP: you can make another player lose 1 HP and use 1 random equipment.  After you suffer DMG: you can make the DMG source lose 1 HP and use 1 random equipment.",
                     "_Spell__name": "Wúshēng"
                 },
                 {
@@ -3814,7 +4012,7 @@
                 },
                 {
                     "_Spell__description": "When you become the only target of a player with a \"Puppet\" mark's used basic or non-delay tool card: you can cancel the effect and he loses the \"Puppet\" mark. When your used basic or non-delay tool card targets only one player: you can target an additional player with a \"Puppet\" mark and he loses the \"Puppet\" mark.",
-                    "_Spell__name": "Mùou"
+                    "_Spell__name": "Mùǒu"
                 }
             ]
         }

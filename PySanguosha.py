@@ -3,8 +3,11 @@ from lib.ui import CharacterUI
 from lib.utils import *
 import json
 import os
+import shutil
 
 # Create generation directories if doesn't exists
+if os.path.exists(generation_directory):
+  shutil.rmtree(generation_directory)
 if not os.path.exists(generation_directory):
   os.makedirs(generation_directory)
 for clan_label_association in clan_label_associations:

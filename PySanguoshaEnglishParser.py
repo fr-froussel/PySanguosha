@@ -36,7 +36,7 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
 
     # Name
     name = character_soup.find('h1', {'class': 'character-name'}).getText().replace(' [DEMIGOD]', '')
-    name = name.replace('ǔ', 'u').replace('ǐ', 'i').replace('ǎ', 'a').replace('ě', 'e')
+    name = name.replace('ǔ', 'u').replace('ǐ', 'i').replace('ǎ', 'a').replace('ě', 'e').replace('ǒ', 'o')
 
     print('{}: Parsing'.format(name))
 
