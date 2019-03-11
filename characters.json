@@ -30,7 +30,6 @@
                 "./img/skins/2402.jpg",
                 "./img/skins/2403.jpg",
                 "./img/skins/2404.jpg",
-                "./img/skins/2405.jpg",
                 "./img/skins/2406.jpg",
                 "./img/skins/2407.jpg",
                 "./img/skins/2408.jpg"
@@ -56,8 +55,7 @@
                 "./img/skins/2002.jpg",
                 "./img/skins/2003.jpg",
                 "./img/skins/2004.jpg",
-                "./img/skins/2005.jpg",
-                "./img/skins/2006.jpg"
+                "./img/skins/2005.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -147,8 +145,7 @@
                 "./img/skins/1601.jpg",
                 "./img/skins/1602.jpg",
                 "./img/skins/1603.jpg",
-                "./img/skins/1604.jpg",
-                "./img/skins/1605.jpg"
+                "./img/skins/1604.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -170,7 +167,6 @@
                 "./img/skins/2501.jpg",
                 "./img/skins/2502.jpg",
                 "./img/skins/2503.jpg",
-                "./img/skins/2504.jpg",
                 "./img/skins/2505.jpg"
             ],
             "_Character__clan": "Wu",
@@ -216,9 +212,7 @@
             "_Character__background": [
                 "./img/skins/1201.jpg",
                 "./img/skins/1202.jpg",
-                "./img/skins/1203.jpg",
-                "./img/skins/1204.jpg",
-                "./img/skins/1205.jpg"
+                "./img/skins/1203.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
@@ -240,9 +234,7 @@
                 "./img/skins/401.jpg",
                 "./img/skins/402.jpg",
                 "./img/skins/403.jpg",
-                "./img/skins/404.jpg",
-                "./img/skins/405.jpg",
-                "./img/skins/406.jpg"
+                "./img/skins/404.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -262,8 +254,7 @@
         {
             "_Character__background": [
                 "./img/skins/1501.jpg",
-                "./img/skins/1502.jpg",
-                "./img/skins/1503.jpg"
+                "./img/skins/1502.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
@@ -300,9 +291,7 @@
         {
             "_Character__background": [
                 "./img/skins/201.jpg",
-                "./img/skins/202.jpg",
-                "./img/skins/203.jpg",
-                "./img/skins/204.jpg"
+                "./img/skins/202.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -317,8 +306,7 @@
         },
         {
             "_Character__background": [
-                "./img/skins/1101.jpg",
-                "./img/skins/1102.jpg"
+                "./img/skins/1101.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -411,8 +399,7 @@
                 "./img/skins/801.jpg",
                 "./img/skins/802.jpg",
                 "./img/skins/803.jpg",
-                "./img/skins/804.jpg",
-                "./img/skins/805.jpg"
+                "./img/skins/804.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -431,8 +418,7 @@
         },
         {
             "_Character__background": [
-                "./img/skins/1701.jpg",
-                "./img/skins/1702.jpg"
+                "./img/skins/1701.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
@@ -481,7 +467,6 @@
         {
             "_Character__background": [
                 "./img/skins/301.jpg",
-                "./img/skins/302.jpg",
                 "./img/skins/303.jpg"
             ],
             "_Character__clan": "Shu",
@@ -571,7 +556,6 @@
                 "./img/skins/3002.jpg",
                 "./img/skins/3003.jpg",
                 "./img/skins/3004.jpg",
-                "./img/skins/3005.jpg",
                 "./img/skins/3006.jpg"
             ],
             "_Character__clan": "Wu",
@@ -658,8 +642,7 @@
             "_Character__background": [
                 "./img/skins/2601.jpg",
                 "./img/skins/2602.jpg",
-                "./img/skins/2603.jpg",
-                "./img/skins/2604.jpg"
+                "./img/skins/2603.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -674,7 +657,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/2701.jpg",
                 "./img/skins/2702.jpg",
                 "./img/skins/2703.jpg"
             ],
@@ -685,7 +667,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you cause 1 DMG to a player at distance 1, you can choose: a) Heal 1 HP. b) Draw 1 card.",
-                    "_Spell__name": "Fēng"
+                    "_Spell__name": "Fēngkuáng"
                 },
                 {
                     "_Spell__description": "Once per game, in your Action Phase: you can lose any # of HP. This turn, your distance to the other players is -X and you can use +X additional Sha. X = # of HP you lost.",
@@ -695,7 +677,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/2801.jpg",
                 "./img/skins/2802.jpg",
                 "./img/skins/2803.jpg"
             ],
@@ -793,7 +774,6 @@
         {
             "_Character__background": [
                 "./img/skins/5301.jpg",
-                "./img/skins/5302.jpg",
                 "./img/skins/5303.jpg",
                 "./img/skins/5304.jpg"
             ],
@@ -844,7 +824,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/5601.jpg",
                 "./img/skins/5602.jpg",
                 "./img/skins/5603.jpg",
                 "./img/skins/5604.jpg",
@@ -989,7 +968,6 @@
                 "./img/skins/5002.jpg",
                 "./img/skins/5003.jpg",
                 "./img/skins/5004.jpg",
-                "./img/skins/5005.jpg",
                 "./img/skins/5006.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1053,8 +1031,7 @@
                 "./img/skins/3702.jpg",
                 "./img/skins/3703.jpg",
                 "./img/skins/3704.jpg",
-                "./img/skins/3705.jpg",
-                "./img/skins/3706.jpg"
+                "./img/skins/3705.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -1089,11 +1066,11 @@
                     "_Spell__name": "Qī"
                 },
                 {
-                    "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all FIRE DMG that player suffers is increased by +1.",
+                    "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all 🔥 DMG that player suffers is increased by +1.",
                     "_Spell__name": "Lièfēng"
                 },
                 {
-                    "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ELEC DMG.",
+                    "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ⚡ DMG.",
                     "_Spell__name": "Chénzhòng"
                 }
             ]
@@ -1102,7 +1079,6 @@
             "_Character__background": [
                 "./img/skins/3401.jpg",
                 "./img/skins/3402.jpg",
-                "./img/skins/3403.jpg",
                 "./img/skins/3404.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1140,10 +1116,8 @@
             "_Character__background": [
                 "./img/skins/3801.jpg",
                 "./img/skins/3802.jpg",
-                "./img/skins/3803.jpg",
                 "./img/skins/3804.jpg",
-                "./img/skins/3805.jpg",
-                "./img/skins/3806.jpg"
+                "./img/skins/3805.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -1169,7 +1143,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "You can skip your Draw Phase and perform a judgement; you keep the judgement result. This turn, you can use any hand card with a different color from the judgement result as Duel.",
-                    "_Spell__name": "Shuāng"
+                    "_Spell__name": "Shuāngzhòng"
                 }
             ]
         },
@@ -1178,8 +1152,7 @@
                 "./img/skins/4101.jpg",
                 "./img/skins/4102.jpg",
                 "./img/skins/4103.jpg",
-                "./img/skins/4104.jpg",
-                "./img/skins/4105.jpg"
+                "./img/skins/4104.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
@@ -1241,7 +1214,6 @@
                 "./img/skins/4302.jpg",
                 "./img/skins/4303.jpg",
                 "./img/skins/4304.jpg",
-                "./img/skins/4305.jpg",
                 "./img/skins/4306.jpg",
                 "./img/skins/4307.jpg"
             ],
@@ -1269,7 +1241,6 @@
                 "./img/skins/4801.jpg",
                 "./img/skins/4802.jpg",
                 "./img/skins/4803.jpg",
-                "./img/skins/4804.jpg",
                 "./img/skins/4805.jpg",
                 "./img/skins/4806.jpg",
                 "./img/skins/4807.jpg"
@@ -1300,7 +1271,6 @@
                 "./img/skins/4903.jpg",
                 "./img/skins/4904.jpg",
                 "./img/skins/4905.jpg",
-                "./img/skins/4906.jpg",
                 "./img/skins/4907.jpg"
             ],
             "_Character__clan": "Wu",
@@ -1385,8 +1355,7 @@
                 "./img/skins/4602.jpg",
                 "./img/skins/4603.jpg",
                 "./img/skins/4604.jpg",
-                "./img/skins/4605.jpg",
-                "./img/skins/4606.jpg"
+                "./img/skins/4605.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1468,8 +1437,7 @@
             "_Character__background": [
                 "./img/skins/15101.jpg",
                 "./img/skins/15102.jpg",
-                "./img/skins/15103.jpg",
-                "./img/skins/15104.jpg"
+                "./img/skins/15103.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -1512,7 +1480,6 @@
                 "./img/skins/18501.jpg",
                 "./img/skins/18502.jpg",
                 "./img/skins/18503.jpg",
-                "./img/skins/18504.jpg",
                 "./img/skins/18505.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1536,7 +1503,6 @@
                 "./img/skins/15602.jpg",
                 "./img/skins/15603.jpg",
                 "./img/skins/15604.jpg",
-                "./img/skins/15605.jpg",
                 "./img/skins/15606.jpg"
             ],
             "_Character__clan": "Shu",
@@ -1706,7 +1672,6 @@
                 "./img/skins/16802.jpg",
                 "./img/skins/16803.jpg",
                 "./img/skins/16804.jpg",
-                "./img/skins/16805.jpg",
                 "./img/skins/16806.jpg"
             ],
             "_Character__clan": "Wu",
@@ -1798,7 +1763,6 @@
             "_Character__background": [
                 "./img/skins/16201.jpg",
                 "./img/skins/16202.jpg",
-                "./img/skins/16203.jpg",
                 "./img/skins/16204.jpg"
             ],
             "_Character__clan": "Wei",
@@ -1864,7 +1828,6 @@
             "_Character__background": [
                 "./img/skins/17001.jpg",
                 "./img/skins/17002.jpg",
-                "./img/skins/17003.jpg",
                 "./img/skins/17004.jpg",
                 "./img/skins/17005.jpg"
             ],
@@ -1887,8 +1850,7 @@
             "_Character__background": [
                 "./img/skins/16601.jpg",
                 "./img/skins/16602.jpg",
-                "./img/skins/16603.jpg",
-                "./img/skins/16604.jpg"
+                "./img/skins/16603.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -1968,7 +1930,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you suffer DMG: you can reveal 4 cards from the deck; then, take any combination of them whose total # ≤ 13.",
-                    "_Spell__name": "Chēng"
+                    "_Spell__name": "Chēngzhòng"
                 },
                 {
                     "_Spell__description": "When another player with 1 HP is about to suffer DMG: you can flip your character and discard 1 equipment; then, all that DMG is prevented.",
@@ -2027,8 +1989,7 @@
                 "./img/skins/18402.jpg",
                 "./img/skins/18403.jpg",
                 "./img/skins/18404.jpg",
-                "./img/skins/18405.jpg",
-                "./img/skins/18406.jpg"
+                "./img/skins/18405.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 3,
@@ -2095,8 +2056,7 @@
                 "./img/skins/17701.jpg",
                 "./img/skins/17702.jpg",
                 "./img/skins/17703.jpg",
-                "./img/skins/17704.jpg",
-                "./img/skins/17705.jpg"
+                "./img/skins/17704.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -2130,7 +2090,6 @@
                 "./img/skins/17901.jpg",
                 "./img/skins/17902.jpg",
                 "./img/skins/17903.jpg",
-                "./img/skins/17904.jpg",
                 "./img/skins/17905.jpg"
             ],
             "_Character__clan": "Shu",
@@ -2194,7 +2153,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "In your Action Phase: you can discard 1 card and select another player (you can't neither discard the same type of card nor choose the same player this turn); then, make him: a) Draw X cards. b) Discard X cards. If that player is injured, you enter chain state. X = # of times (counting this one) you used this ability this turn.",
-                    "_Spell__name": "Shēng"
+                    "_Spell__name": "Shēngchǎn"
                 },
                 {
                     "_Spell__description": "After a player flips his character face-up or goes into chains: you can make him draw 1 card.",
@@ -2312,8 +2271,7 @@
         {
             "_Character__background": [
                 "./img/skins/32101.jpg",
-                "./img/skins/32102.jpg",
-                "./img/skins/32103.jpg"
+                "./img/skins/32102.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 4,
@@ -2364,8 +2322,7 @@
         {
             "_Character__background": [
                 "./img/skins/32501.jpg",
-                "./img/skins/32502.jpg",
-                "./img/skins/32503.jpg"
+                "./img/skins/32502.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -2374,7 +2331,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After a Sha you use finishes resolving: you can give this Sha or the Dodge used by your target to another player except him. If the card given is red, the player who receives the card can use Sha on a player within your attack range.",
-                    "_Spell__name": "Zhōng"
+                    "_Spell__name": "Zhōngchéng"
                 }
             ]
         },
@@ -2769,8 +2726,7 @@
         {
             "_Character__background": [
                 "./img/skins/31701.jpg",
-                "./img/skins/31702.jpg",
-                "./img/skins/31703.jpg"
+                "./img/skins/31702.jpg"
             ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
@@ -2790,7 +2746,6 @@
         {
             "_Character__background": [
                 "./img/skins/10401.jpg",
-                "./img/skins/10402.jpg",
                 "./img/skins/10403.jpg"
             ],
             "_Character__clan": "Wei",
@@ -3064,7 +3019,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/13001.jpg",
                 "./img/skins/13002.jpg"
             ],
             "_Character__clan": "Wei",
@@ -3211,7 +3165,6 @@
                 "./img/skins/12402.jpg",
                 "./img/skins/12403.jpg",
                 "./img/skins/12404.jpg",
-                "./img/skins/12405.jpg",
                 "./img/skins/12406.jpg"
             ],
             "_Character__clan": "Shu",
@@ -3232,8 +3185,7 @@
         {
             "_Character__background": [
                 "./img/skins/12601.jpg",
-                "./img/skins/12602.jpg",
-                "./img/skins/12603.jpg"
+                "./img/skins/12602.jpg"
             ],
             "_Character__clan": "Wu",
             "_Character__life_points": 4,
@@ -3603,8 +3555,7 @@
                 "./img/skins/11502.jpg",
                 "./img/skins/11503.jpg",
                 "./img/skins/11504.jpg",
-                "./img/skins/11505.jpg",
-                "./img/skins/11506.jpg"
+                "./img/skins/11505.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
