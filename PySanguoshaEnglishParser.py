@@ -100,6 +100,8 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
             for spell_desc_item in spell.findAll('p'):
                 spell_desc += spell_desc_item.getText() + ' '
 
+                spell_desc = spell_desc.replace('⚡', 'ELEC').replace('🔥', 'FIRE')
+
             # If we have extracted spell description, go add association
             if len(spell_desc) != 0:
                 spells_data[spell_name] = spell_desc[:-1]

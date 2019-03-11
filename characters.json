@@ -605,7 +605,7 @@
             "_Character__name": "Zhāng Jiao",
             "_Character__spells": [
                 {
-                    "_Spell__description": "When you use/play Dodge: you can force another player to perform a judgement. - If the judgement result is ♠, you cause him 2 ⚡ DMG. - If the judgement result is ♣, you heal 1 HP and then you cause him 1 ⚡ DMG.",
+                    "_Spell__description": "When you use/play Dodge: you can force another player to perform a judgement. - If the judgement result is ♠, you cause him 2 ELEC DMG. - If the judgement result is ♣, you heal 1 HP and then you cause him 1 ELEC DMG.",
                     "_Spell__name": "Shǎndiàn"
                 },
                 {
@@ -1066,11 +1066,11 @@
                     "_Spell__name": "Qī"
                 },
                 {
-                    "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all 🔥 DMG that player suffers is increased by +1.",
+                    "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all FIRE DMG that player suffers is increased by +1.",
                     "_Spell__name": "Lièfēng"
                 },
                 {
-                    "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ⚡ DMG.",
+                    "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ELEC DMG.",
                     "_Spell__name": "Chénzhòng"
                 }
             ]
@@ -1183,7 +1183,7 @@
                     "_Spell__name": "Shēngyīn"
                 },
                 {
-                    "_Spell__description": "Once per game, in your Action Phase: you can select up to 3 players and distribute a total of 3 🔥 DMG among them. If you allocate more than 1 DMG to any of them, you discard 1 card of each suit and lose 3 HP.",
+                    "_Spell__description": "Once per game, in your Action Phase: you can select up to 3 players and distribute a total of 3 FIRE DMG among them. If you allocate more than 1 DMG to any of them, you discard 1 card of each suit and lose 3 HP.",
                     "_Spell__name": "Zhuórè"
                 }
             ]
@@ -2005,7 +2005,7 @@
                     "_Spell__name": "Tiǎn"
                 },
                 {
-                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1) b) Suffer 2 🔥 DMG from you.",
+                    "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1) b) Suffer 2 FIRE DMG from you.",
                     "_Spell__name": "Gèngxīn"
                 }
             ]
@@ -2610,7 +2610,7 @@
                     "_Spell__name": "Fēicháng"
                 },
                 {
-                    "_Spell__description": "When you are about to suffer 🔥 DMG, if you are chained and are the damage transmitter: this 🔥 DMG is increased by +1.",
+                    "_Spell__description": "When you are about to suffer FIRE DMG, if you are chained and are the damage transmitter: this FIRE DMG is increased by +1.",
                     "_Spell__name": "Liánsuǒ"
                 }
             ]
@@ -3154,7 +3154,7 @@
                     "_Spell__name": "Mǎkè"
                 },
                 {
-                    "_Spell__description": "When a player is about to cause ⚡ DMG: you can make him perform a judgement. - If it's black, the DMG is increased by +1. - If it’s red, he gets the judgement card.",
+                    "_Spell__description": "When a player is about to cause ELEC DMG: you can make him perform a judgement. - If it's black, the DMG is increased by +1. - If it’s red, he gets the judgement card.",
                     "_Spell__name": "Xīshēng"
                 }
             ]
@@ -3375,7 +3375,7 @@
             "_Character__name": "Wu Tugu",
             "_Character__spells": [
                 {
-                    "_Spell__description": "After you suffer 1 🔥 DMG: you get 1 \"Burn\" token. In your End Phase: you lose X HP. (X = # of \"Burns\")",
+                    "_Spell__description": "After you suffer 1 FIRE DMG: you get 1 \"Burn\" token. In your End Phase: you lose X HP. (X = # of \"Burns\")",
                     "_Spell__name": "Ránshāo"
                 },
                 {
@@ -3563,11 +3563,11 @@
             "_Character__name": "Guan Yin Ping",
             "_Character__spells": [
                 {
-                    "_Spell__description": "Once per Action Phase: you can discard 1 red card; then, choose up to X players. They become chained and you cause 1 🔥 DMG to one of them. X = # of wounds (min. 1)",
+                    "_Spell__description": "Once per Action Phase: you can discard 1 red card; then, choose up to X players. They become chained and you cause 1 FIRE DMG to one of them. X = # of wounds (min. 1)",
                     "_Spell__name": "Xiějì"
                 },
                 {
-                    "_Spell__description": "After you cause 🔥 DMG: each player who suffered it draws 1 card. This turn, you have no limit on the # of cards that you can use on these players.",
+                    "_Spell__description": "After you cause FIRE DMG: each player who suffered it draws 1 card. This turn, you have no limit on the # of cards that you can use on these players.",
                     "_Spell__name": "Hǔhǒu"
                 },
                 {
