@@ -291,6 +291,7 @@ class SpellsUIManager:
                                                encoding='unic')
 
                 # Loop through spells to calculate the best font size
+                all_spells_name_have_found_the_good_font = True
                 for spell in spells:
                     # Text wrapper
                     name_lines = TextWrapper.wrap_text_by_width(spell.name,
@@ -299,10 +300,12 @@ class SpellsUIManager:
                     _, name_lines_size = TextWrapper.text_size(name_lines, font_name)
 
                     # Check if we have respect the maximum width
-                    if name_lines_size[0] < spell_name_size[0]:
-                        have_found_font_name = True
-                    else:
-                        have_found_font_name = False
+                    if name_lines_size[0] > spell_name_size[0]:
+                        all_spells_name_have_found_the_good_font = all_spells_name_have_found_the_good_font & False
+                        break
+
+                if all_spells_name_have_found_the_good_font:
+                    have_found_font_name = True
 
             # If cumulated_heigth < max_height, it's ok, go generate all spell UI with this font
             self.__cumulated_height += floor(spell_arrow_size/2)
