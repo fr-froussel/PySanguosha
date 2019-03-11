@@ -69,7 +69,7 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
         if os.path.isfile(background):
             skins_map.append(background)
     if len(skins_map) == 0:
-        characters_with_errors.append('No background found for {}'.format(name))
+        characters_with_errors.append('No background found for {} ({})'.format(name, character_url))
 
     # Spells
     spells_data = {}
@@ -77,11 +77,11 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     for spell in spells:
         spell_name_span = spell.find('span')
         if spell_name_span is None:
-            characters_with_errors.append('Check spell(s) data for {}, may be inconsistent'.format(name))
+            characters_with_errors.append(' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
             continue
         spell_name_extracted = spell_name_span.getText()
         if spell_name_extracted is None:
-            characters_with_errors.append('Check spell(s) data for {}, may be inconsistent'.format(name))
+            characters_with_errors.append(' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
             continue
 
         try:
