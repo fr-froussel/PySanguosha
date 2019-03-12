@@ -105,13 +105,13 @@ class Character:
             if not status:
               status = True
             else:
-              print('Error during spells parsing for "{}".'.format(this.__name))
+              print('Error during spells parsing for "{}".'.format(this.__name.encode('ascii', 'ignore')))
               this = None
           else:
-            print('No valid background(s) path for "{}".'.format(this.__name))
+            print('No valid background(s) path for "{}".'.format(this.__name.encode('ascii', 'ignore')))
             this = None
         else:
-          print('Unrecognized character clan value "{}" for "{}".'.format(clan, this.__name))
+          print('Unrecognized character clan value "{}" for "{}".'.format(clan, this.__name.encode('ascii', 'ignore')))
           this = None
 
       else:

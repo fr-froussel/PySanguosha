@@ -25,7 +25,7 @@ with open('characters.json', mode='r', encoding='utf-8') as characters_file:
   print('Loop through characters parsed successfully')
   print('------')
   for character in characters_manager.characters:
-    print('{}'.format(character.name))
+    print('{}'.format(character.name.encode('ascii', 'ignore')))
     # Create character UI associated to the character
     print(' > Creation')
     character_ui = CharacterUI(character)
