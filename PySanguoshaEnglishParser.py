@@ -2,9 +2,9 @@ from bs4 import BeautifulSoup
 import certifi
 import codecs
 import json
+import mtranslate
 import os
 import pinyin
-import mtranslate
 import urllib3
 
 # Json data
@@ -38,7 +38,7 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     name = character_soup.find('h1', {'class': 'character-name'}).getText().replace(' [DEMIGOD]', '')
     name = name.replace('ǔ', 'u').replace('ǐ', 'i').replace('ǎ', 'a').replace('ě', 'e').replace('ǒ', 'o')
 
-    print('{}: Parsing'.format(name))
+    print('{}: Parsing'.format(name.encode('ascii', 'ignore')))
 
     # Characteristics
     clan = ""
@@ -86,11 +86,12 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
 
         try:
             spell_name_extracted_splitted = spell_name_extracted.split(' ')
-            if len(spell_name_extracted_splitted) > 2:
-                spell_name_extracted = ' '.join(spell_name_extracted_splitted[0:2])
+            maximum_words_authorized_for_spell_desc = 2
+            if len(spell_name_extracted_splitted) > maximum_words_authorized_for_spell_desc:
+                spell_name_extracted = ' '.join(spell_name_extracted_splitted[0:maximum_words_authorized_for_spell_desc])
             translation = mtranslate.translate(spell_name_extracted, 'zh')
-            if len(translation) > 2:
-                translation = translation[0:2]
+            if len(translation) > maximum_words_authorized_for_spell_desc:
+                translation = translation[0:maximum_words_authorized_for_spell_desc]
             # Split translation to better pinyin translation
             pinyin_translation = pinyin.get(translation)
             spell_name = pinyin_translation.capitalize()
@@ -134,4 +135,4 @@ characters_json_file.close()
 # Output error(s)
 print('--- Errors found ---')
 for error in characters_with_errors:
-    print(error)
+    print(error.encode('ascii', 'ignore'))

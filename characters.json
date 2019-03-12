@@ -4,7 +4,6 @@
             "_Character__background": [
                 "./img/skins/1301.jpg",
                 "./img/skins/1302.jpg",
-                "./img/skins/1303.jpg",
                 "./img/skins/1304.jpg",
                 "./img/skins/1305.jpg",
                 "./img/skins/1306.jpg"
@@ -51,7 +50,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/2001.jpg",
                 "./img/skins/2002.jpg",
                 "./img/skins/2003.jpg",
                 "./img/skins/2004.jpg",
@@ -120,7 +118,6 @@
         {
             "_Character__background": [
                 "./img/skins/1401.jpg",
-                "./img/skins/1402.jpg",
                 "./img/skins/1403.jpg",
                 "./img/skins/1404.jpg",
                 "./img/skins/1405.jpg"
@@ -143,7 +140,6 @@
         {
             "_Character__background": [
                 "./img/skins/1601.jpg",
-                "./img/skins/1602.jpg",
                 "./img/skins/1603.jpg",
                 "./img/skins/1604.jpg"
             ],
@@ -187,7 +183,6 @@
         {
             "_Character__background": [
                 "./img/skins/2101.jpg",
-                "./img/skins/2102.jpg",
                 "./img/skins/2103.jpg",
                 "./img/skins/2104.jpg",
                 "./img/skins/2105.jpg",
@@ -211,7 +206,6 @@
         {
             "_Character__background": [
                 "./img/skins/1201.jpg",
-                "./img/skins/1202.jpg",
                 "./img/skins/1203.jpg"
             ],
             "_Character__clan": "Wu",
@@ -323,7 +317,6 @@
             "_Character__background": [
                 "./img/skins/101.jpg",
                 "./img/skins/102.jpg",
-                "./img/skins/103.jpg",
                 "./img/skins/104.jpg",
                 "./img/skins/105.jpg"
             ],
@@ -376,8 +369,7 @@
         {
             "_Character__background": [
                 "./img/skins/601.jpg",
-                "./img/skins/602.jpg",
-                "./img/skins/603.jpg"
+                "./img/skins/602.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
@@ -500,7 +492,6 @@
         {
             "_Character__background": [
                 "./img/skins/501.jpg",
-                "./img/skins/502.jpg",
                 "./img/skins/503.jpg"
             ],
             "_Character__clan": "Shu",
@@ -553,7 +544,6 @@
         {
             "_Character__background": [
                 "./img/skins/3001.jpg",
-                "./img/skins/3002.jpg",
                 "./img/skins/3003.jpg",
                 "./img/skins/3004.jpg",
                 "./img/skins/3006.jpg"
@@ -693,7 +683,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/21001.jpg",
                 "./img/skins/21002.jpg",
                 "./img/skins/21003.jpg",
                 "./img/skins/21004.jpg",
@@ -753,7 +742,6 @@
                 "./img/skins/5701.jpg",
                 "./img/skins/5702.jpg",
                 "./img/skins/5703.jpg",
-                "./img/skins/5704.jpg",
                 "./img/skins/5705.jpg"
             ],
             "_Character__clan": "Neutral",
@@ -774,8 +762,7 @@
         {
             "_Character__background": [
                 "./img/skins/5301.jpg",
-                "./img/skins/5303.jpg",
-                "./img/skins/5304.jpg"
+                "./img/skins/5303.jpg"
             ],
             "_Character__clan": "Shu",
             "_Character__life_points": 3,
@@ -929,7 +916,6 @@
             "_Character__background": [
                 "./img/skins/5401.jpg",
                 "./img/skins/5402.jpg",
-                "./img/skins/5403.jpg",
                 "./img/skins/5404.jpg",
                 "./img/skins/5405.jpg",
                 "./img/skins/5406.jpg",
@@ -965,7 +951,6 @@
         {
             "_Character__background": [
                 "./img/skins/5001.jpg",
-                "./img/skins/5002.jpg",
                 "./img/skins/5003.jpg",
                 "./img/skins/5004.jpg",
                 "./img/skins/5006.jpg"
@@ -1028,7 +1013,6 @@
         {
             "_Character__background": [
                 "./img/skins/3701.jpg",
-                "./img/skins/3702.jpg",
                 "./img/skins/3703.jpg",
                 "./img/skins/3704.jpg",
                 "./img/skins/3705.jpg"
@@ -1212,7 +1196,6 @@
             "_Character__background": [
                 "./img/skins/4301.jpg",
                 "./img/skins/4302.jpg",
-                "./img/skins/4303.jpg",
                 "./img/skins/4304.jpg",
                 "./img/skins/4306.jpg",
                 "./img/skins/4307.jpg"
@@ -1352,7 +1335,6 @@
         {
             "_Character__background": [
                 "./img/skins/4601.jpg",
-                "./img/skins/4602.jpg",
                 "./img/skins/4603.jpg",
                 "./img/skins/4604.jpg",
                 "./img/skins/4605.jpg"
@@ -1524,7 +1506,6 @@
             "_Character__background": [
                 "./img/skins/15701.jpg",
                 "./img/skins/15702.jpg",
-                "./img/skins/15703.jpg",
                 "./img/skins/15704.jpg",
                 "./img/skins/15705.jpg",
                 "./img/skins/15706.jpg"
@@ -1567,7 +1548,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/16101.jpg",
                 "./img/skins/16102.jpg",
                 "./img/skins/16103.jpg",
                 "./img/skins/16104.jpg",
@@ -1669,7 +1649,6 @@
         {
             "_Character__background": [
                 "./img/skins/16801.jpg",
-                "./img/skins/16802.jpg",
                 "./img/skins/16803.jpg",
                 "./img/skins/16804.jpg",
                 "./img/skins/16806.jpg"
@@ -1713,7 +1692,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/18701.jpg",
                 "./img/skins/18702.jpg",
                 "./img/skins/18703.jpg",
                 "./img/skins/18704.jpg",
@@ -1870,7 +1848,6 @@
         {
             "_Character__background": [
                 "./img/skins/16701.jpg",
-                "./img/skins/16702.jpg",
                 "./img/skins/16703.jpg",
                 "./img/skins/16704.jpg"
             ],
@@ -1941,7 +1918,6 @@
         {
             "_Character__background": [
                 "./img/skins/18301.jpg",
-                "./img/skins/18302.jpg",
                 "./img/skins/18303.jpg",
                 "./img/skins/18304.jpg",
                 "./img/skins/18305.jpg"
@@ -1985,7 +1961,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/18401.jpg",
                 "./img/skins/18402.jpg",
                 "./img/skins/18403.jpg",
                 "./img/skins/18404.jpg",
@@ -2937,7 +2912,6 @@
         },
         {
             "_Character__background": [
-                "./img/skins/12201.jpg",
                 "./img/skins/12202.jpg",
                 "./img/skins/12203.jpg",
                 "./img/skins/12204.jpg",
@@ -3552,7 +3526,6 @@
         {
             "_Character__background": [
                 "./img/skins/11501.jpg",
-                "./img/skins/11502.jpg",
                 "./img/skins/11503.jpg",
                 "./img/skins/11504.jpg",
                 "./img/skins/11505.jpg"
