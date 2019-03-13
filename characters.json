@@ -440,7 +440,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99998.jpg"
+            ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -657,7 +659,7 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you cause 1 DMG to a player at distance 1, you can choose: a) Heal 1 HP. b) Draw 1 card.",
-                    "_Spell__name": "Fēngkuáng"
+                    "_Spell__name": "Fēng"
                 },
                 {
                     "_Spell__description": "Once per game, in your Action Phase: you can lose any # of HP. This turn, your distance to the other players is -X and you can use +X additional Sha. X = # of HP you lost.",
@@ -704,7 +706,10 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99996.jpg",
+                "./img/skins/99997.jpg"
+            ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 5,
             "_Character__lord": false,
@@ -721,7 +726,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99995.jpg"
+            ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 2,
             "_Character__lord": false,
@@ -888,7 +895,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99994.jpg"
+            ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -1051,11 +1060,11 @@
                 },
                 {
                     "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all FIRE DMG that player suffers is increased by +1.",
-                    "_Spell__name": "Lièfēng"
+                    "_Spell__name": "Liè"
                 },
                 {
                     "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ELEC DMG.",
-                    "_Spell__name": "Chénzhòng"
+                    "_Spell__name": "Chén"
                 }
             ]
         },
@@ -2739,7 +2748,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99993.jpg"
+            ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -3342,7 +3353,9 @@
             ]
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/99992.jpg"
+            ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 15,
             "_Character__lord": false,
