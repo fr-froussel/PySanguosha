@@ -15,6 +15,7 @@ json_Character__life_points = '_Character__life_points'
 json_Character__lord = '_Character__lord'
 json_Character__name = '_Character__name'
 json_Character__spells = '_Character__spells'
+json_Character__url = '_Character__url'
 json_Spell__description = '_Spell__description'
 json_Spell__name = '_Spell__name'
 characters_json_data = { json_CharactersManager__characters: [] }
@@ -115,6 +116,7 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     character_json[json_Character__life_points] = life_points
     character_json[json_Character__lord] = lord
     character_json[json_Character__name] = name
+    character_json[json_Character__url] = character_url
     spells_json = []
     for spell_name, spell_desc in spells_data.items():
         spell_json = {}

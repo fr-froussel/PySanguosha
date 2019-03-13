@@ -21,7 +21,8 @@
                     "_Spell__description": "When you become the target of Sha: you can discard 1 card and select another player (except the attacker) within your attack range; then, that player becomes the target of the Sha instead.",
                     "_Spell__name": "Yíwèi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/18"
         },
         {
             "_Character__background": [
@@ -46,7 +47,8 @@
                     "_Spell__description": "In your End Phase: you can draw 1 card.",
                     "_Spell__name": "Xiànmù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/8"
         },
         {
             "_Character__background": [
@@ -68,7 +70,8 @@
                     "_Spell__description": "After you suffer 1 DMG: you can look at the top 2 cards of the deck; then, you can distribute them to any player(s).",
                     "_Spell__name": "Yíchǎn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/26"
         },
         {
             "_Character__background": [
@@ -90,7 +93,8 @@
                     "_Spell__description": "Once per Action Phase: you can discard 1 hand card and select a wounded player; then, he heals 1 HP.",
                     "_Spell__name": "Lv̀sè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/10"
         },
         {
             "_Character__background": [
@@ -113,7 +117,8 @@
                     "_Spell__description": "Your tool cards have unlimited range.",
                     "_Spell__name": "Tiāncái"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/7"
         },
         {
             "_Character__background": [
@@ -135,7 +140,8 @@
                     "_Spell__description": "When you lose your last hand card: you can draw 1 card immediately.",
                     "_Spell__name": "Yīcì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/16"
         },
         {
             "_Character__background": [
@@ -156,7 +162,8 @@
                     "_Spell__description": "When a player performs a judgement, before it takes effect: you can play a hand card. It becomes the judgement result.",
                     "_Spell__name": "Èmó"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/24"
         },
         {
             "_Character__background": [
@@ -178,7 +185,8 @@
                     "_Spell__description": "After you lose 1 card in your equipment area: you can draw 2 cards.",
                     "_Spell__name": "Zhànshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/19"
         },
         {
             "_Character__background": [
@@ -201,7 +209,8 @@
                     "_Spell__description": "In your Beginning Phase: you can perform a judgment; if it's black, you get the card and you can activate \"Goddess Luo\" again.",
                     "_Spell__name": "Go"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/20"
         },
         {
             "_Character__background": [
@@ -221,7 +230,8 @@
                     "_Spell__description": "Once per Action Phase: you can make another player choose 1 suit; then, that player takes 1 hand card from you and displays it. If the guess was wrong, you cause him 1 DMG.",
                     "_Spell__name": "Mǔzhū"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/14"
         },
         {
             "_Character__background": [
@@ -243,7 +253,8 @@
                     "_Spell__description": "If you don’t have hand cards, you cannot be the target of Sha or Duel.",
                     "_Spell__name": "Kōngchéng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/4"
         },
         {
             "_Character__background": [
@@ -263,7 +274,8 @@
                     "_Spell__description": "(ruler) When you need to use/play Dodge: you can ask other Wei characters to use/play Dodge for you.",
                     "_Spell__name": "Huángjiā"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/23"
         },
         {
             "_Character__background": [
@@ -280,7 +292,8 @@
                     "_Spell__description": "In your Action Phase: you can use any black card as Dismantle.",
                     "_Spell__name": "Liángxǐ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/13"
         },
         {
             "_Character__background": [
@@ -296,7 +309,8 @@
                     "_Spell__description": "You can use/play any red card as Sha.",
                     "_Spell__name": "Zhànshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/6"
         },
         {
             "_Character__background": [
@@ -311,7 +325,8 @@
                     "_Spell__description": "In your Action Phase: you can lose 1 HP; then, draw 2 cards.",
                     "_Spell__name": "Tèluò"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/17"
         },
         {
             "_Character__background": [
@@ -333,7 +348,8 @@
                     "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
                     "_Spell__name": "Ro"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/3"
         },
         {
             "_Character__background": [
@@ -349,7 +365,8 @@
                     "_Spell__description": "If you use Sha to target a player, the target needs to use 2 Dodge to evade it. During Duel, the opponent must play 2 Sha per round.",
                     "_Spell__name": "Méiyǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/9"
         },
         {
             "_Character__background": [
@@ -364,7 +381,8 @@
                     "_Spell__description": "If you haven't used/played Sha in your Action Phase, you can skip your Discard Phase.",
                     "_Spell__name": "Zìwǒ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/12"
         },
         {
             "_Character__background": [
@@ -384,7 +402,8 @@
                     "_Spell__description": "After you use Sha to target a player: you can perform a judgment; if it’s red, he can't use Dodge.",
                     "_Spell__name": "Tiěqí"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/2"
         },
         {
             "_Character__background": [
@@ -406,7 +425,8 @@
                     "_Spell__description": "(ruler) When you are on the brink of death, if another Wu character uses Peach, you heal +1 HP.",
                     "_Spell__name": "Yíngjìu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/15"
         },
         {
             "_Character__background": [
@@ -421,7 +441,8 @@
                     "_Spell__description": "After you suffer DMG from another player: you can perform a judgment; if it's not ♥, the damage source must choose to either: a) Suffer 1 DMG from you. b) Discard 2 hand cards.",
                     "_Spell__name": "Wèile"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/22"
         },
         {
             "_Character__background": [
@@ -437,11 +458,12 @@
                     "_Spell__description": "In your Draw Phase: you can draw 1 fewer card. This turn, the DMG of your Sha and Duel is increased by +1.",
                     "_Spell__name": "Zhǐshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/25"
         },
         {
             "_Character__background": [
-                "./img/skins/99998.jpg"
+                "./img/skins/yuan_shu.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
@@ -456,7 +478,8 @@
                     "_Spell__description": "If your # of hand cards > HP, players who have you in their attack range must target you with every Sha they use.",
                     "_Spell__name": "Bìngtài"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/11"
         },
         {
             "_Character__background": [
@@ -472,7 +495,8 @@
                     "_Spell__description": "You can use any # of Sha.",
                     "_Spell__name": "Nùhǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/5"
         },
         {
             "_Character__background": [
@@ -489,7 +513,8 @@
                     "_Spell__description": "You can skip your Draw Phase and take 1 hand card from up to 2 players.",
                     "_Spell__name": "Tūrán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/21"
         },
         {
             "_Character__background": [
@@ -505,7 +530,8 @@
                     "_Spell__description": "You can use/play Sha as Dodge. You can use/play Dodge as Sha.",
                     "_Spell__name": "Lóngde"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/1"
         },
         {
             "_Character__background": [
@@ -522,7 +548,8 @@
                     "_Spell__description": "When a player is about to cause DMG to you with a used red Sha, he can choose to:  a) Draw 1 card. b) Heal 1 HP.",
                     "_Spell__name": "Jūnshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/80"
         },
         {
             "_Character__background": [
@@ -541,7 +568,8 @@
                     "_Spell__description": "Once per Action Phase: you can look at all the hand cards of another player. Among them, you can pick 1 ♥ and display it to everyone; then choose: a) Discard it. b) Place it on top of the deck.",
                     "_Spell__name": "Bàgōng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/35"
         },
         {
             "_Character__background": [
@@ -563,7 +591,8 @@
                     "_Spell__description": "Your ♠ are always regarded as ♥.",
                     "_Spell__name": "Qīngchūn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/29"
         },
         {
             "_Character__background": [
@@ -583,7 +612,8 @@
                     "_Spell__description": "You can't doubt \"Bewilder\". If your HP is 1, your other abilities are invalid.",
                     "_Spell__name": "Shāngkǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/34"
         },
         {
             "_Character__background": [
@@ -608,7 +638,8 @@
                     "_Spell__description": "(ruler) Once per Action Phase of other Neutral characters: they can give you 1 Dodge or 1 Lightning.",
                     "_Spell__name": "Hǔpò"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/33"
         },
         {
             "_Character__background": [
@@ -628,7 +659,8 @@
                     "_Spell__description": "You can use cards in your equipment area as Negate. When you flip your character face-up: you can discard 1 card; then, move 1 card on the field.",
                     "_Spell__name": "Wéichéng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/32"
         },
         {
             "_Character__background": [
@@ -645,7 +677,8 @@
                     "_Spell__description": "You can use Sha to target players at distance ≤ # of the Sha. After you use Sha to target a player, you can apply these effects: a) If your # of hand cards ≥ his # of hand cards, he can't use Dodge. b) If your HP ≤ his HP, the DMG is increased by +1.",
                     "_Spell__name": "Kěpà"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/28"
         },
         {
             "_Character__background": [
@@ -659,13 +692,14 @@
             "_Character__spells": [
                 {
                     "_Spell__description": "After you cause 1 DMG to a player at distance 1, you can choose: a) Heal 1 HP. b) Draw 1 card.",
-                    "_Spell__name": "Fēng"
+                    "_Spell__name": "Fēngkuáng"
                 },
                 {
                     "_Spell__description": "Once per game, in your Action Phase: you can lose any # of HP. This turn, your distance to the other players is -X and you can use +X additional Sha. X = # of HP you lost.",
                     "_Spell__name": "Yīnmóu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/27"
         },
         {
             "_Character__background": [
@@ -681,7 +715,8 @@
                     "_Spell__description": "You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
                     "_Spell__name": "Yīfān"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/31"
         },
         {
             "_Character__background": [
@@ -703,12 +738,13 @@
                     "_Spell__description": "When a player has hand cards taken/discarded by another player: you can lose 1 HP; then, the player that lost hand cards draws 2 cards.",
                     "_Spell__name": "Yònglì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/30"
         },
         {
             "_Character__background": [
-                "./img/skins/99996.jpg",
-                "./img/skins/99997.jpg"
+                "./img/skins/guan_yu_1.jpg",
+                "./img/skins/guan_yu_2.jpg"
             ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 5,
@@ -723,11 +759,12 @@
                     "_Spell__description": "After you suffer 1 DMG: the damage source receives 1 \"Nightmare\" token. When you die: a player with the most \"Nightmares\" must perform a judgement; if it's not Peach or Peach Garden, that player dies immediately.",
                     "_Spell__name": "Zhànshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/36"
         },
         {
             "_Character__background": [
-                "./img/skins/99995.jpg"
+                "./img/skins/zhao_yun.jpg"
             ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 2,
@@ -742,7 +779,8 @@
                     "_Spell__description": "You can use/play X cards with the same suit as the following: - ♥: Peach. - ♦: Fire Sha. - ♣: Dodge. - ♠: Negate. X = HP (min. 1)",
                     "_Spell__name": "Línghún"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/46"
         },
         {
             "_Character__background": [
@@ -764,7 +802,8 @@
                     "_Spell__description": "The player who kills you loses all his character abilities until the end of the game.",
                     "_Spell__name": "Bēiāi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/42"
         },
         {
             "_Character__background": [
@@ -792,7 +831,8 @@
                     "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
                     "_Spell__name": "Ro"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/40"
         },
         {
             "_Character__background": [
@@ -814,7 +854,8 @@
                     "_Spell__description": "At the end of another player’s Discard Phase: you can give him 1 card that was discarded in this phase; then, you can take the rest of discards.",
                     "_Spell__name": "Wěndìng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/44"
         },
         {
             "_Character__background": [
@@ -836,7 +877,8 @@
                     "_Spell__description": "After you suffer 1 DMG: you get 1 new \"Incarnation\".",
                     "_Spell__name": "Xīnshēng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/41"
         },
         {
             "_Character__background": [
@@ -864,7 +906,8 @@
                     "_Spell__description": "You can use any \"Terrain\" as Steal.",
                     "_Spell__name": "Shǎndiàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/38"
         },
         {
             "_Character__background": [
@@ -892,11 +935,12 @@
                     "_Spell__description": "In your Beginning Phase: you can examine X cards from the deck; then, you can place any # of them at the top of the deck and the rest at the bottom. X = # of living players (max. 5)",
                     "_Spell__name": "Guānxīng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/39"
         },
         {
             "_Character__background": [
-                "./img/skins/99994.jpg"
+                "./img/skins/si_ma_yi.jpg"
             ],
             "_Character__clan": "Demigod",
             "_Character__life_points": 4,
@@ -919,7 +963,8 @@
                     "_Spell__description": "If you kill one or more players within your turn, once your turn ends, you get to play an extra turn.",
                     "_Spell__name": "Dǎpò"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/45"
         },
         {
             "_Character__background": [
@@ -955,7 +1000,8 @@
                     "_Spell__description": "(ruler) Once per the Action Phase of other Wu characters: they can point fight you; if you win, you can take both cards. After \"Divine Aura\" activates, you can refuse these point fights.",
                     "_Spell__name": "Bàquán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/43"
         },
         {
             "_Character__background": [
@@ -973,7 +1019,8 @@
                     "_Spell__description": "For each phase, you can discard 1 hand card and skip it. - If you skip your Draw Phase, you can take 1 hand card from up to 2 players. - If you skip your Action Phase, you can move 1 card on the field.",
                     "_Spell__name": "Línghuó"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/37"
         },
         {
             "_Character__background": [
@@ -994,7 +1041,8 @@
                     "_Spell__description": "Once per game, when you are on the brink of death: you can discard all the cards in all your areas (hand, equipment, judgement); then: - Restore your character. - Draw 3 cards. - Return to 3 HP.",
                     "_Spell__name": "Niè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/52"
         },
         {
             "_Character__background": [
@@ -1017,7 +1065,8 @@
                     "_Spell__description": "After you suffer 1 DMG: you can make a player draw cards until he has X cards in hand. X = his max HP (max. 5)",
                     "_Spell__name": "Yǒnghéng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/51"
         },
         {
             "_Character__background": [
@@ -1043,7 +1092,8 @@
                     "_Spell__description": "You can use any black hand card as Negate.",
                     "_Spell__name": "Sc"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/53"
         },
         {
             "_Character__background": [
@@ -1060,13 +1110,14 @@
                 },
                 {
                     "_Spell__description": "In your End Phase: you can discard 1 \"Star\" and select a player. Until your next turn, all FIRE DMG that player suffers is increased by +1.",
-                    "_Spell__name": "Liè"
+                    "_Spell__name": "Lièfēng"
                 },
                 {
                     "_Spell__description": "In your End Phase: you can discard any # of \"Stars\" and select the same # of players. Until your next turn, these players will be protected from all DMG, except ELEC DMG.",
-                    "_Spell__name": "Chén"
+                    "_Spell__name": "Chénzhòng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/55"
         },
         {
             "_Character__background": [
@@ -1083,7 +1134,8 @@
                     "_Spell__description": "Once per Action Phase: you can: a) lose 1 HP. b) discard 1 weapon and cause 1 DMG to a player within your attack range.",
                     "_Spell__name": "Xiōngměng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/50"
         },
         {
             "_Character__background": [
@@ -1103,7 +1155,8 @@
                     "_Spell__description": "You always have a bonus -1 horse.",
                     "_Spell__name": "Mǎzhú"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/49"
         },
         {
             "_Character__background": [
@@ -1121,7 +1174,8 @@
                     "_Spell__description": "Once per Action Phase: you can point fight another player. If you win, until the end of the turn: - Your Sha have unlimited range. - Your Sha can target 1 additional player. - You can use 1 additional Sha. If you lose, you can't use Sha for the rest of the turn.",
                     "_Spell__name": "Zhèngyì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/54"
         },
         {
             "_Character__background": [
@@ -1138,7 +1192,8 @@
                     "_Spell__description": "You can skip your Draw Phase and perform a judgement; you keep the judgement result. This turn, you can use any hand card with a different color from the judgement result as Duel.",
                     "_Spell__name": "Shuāngzhòng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/48"
         },
         {
             "_Character__background": [
@@ -1160,7 +1215,8 @@
                     "_Spell__description": "(ruler) Every other Neutral character alive increases your hand card limit by +2.",
                     "_Spell__name": "Shìxì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/47"
         },
         {
             "_Character__background": [
@@ -1179,7 +1235,8 @@
                     "_Spell__description": "Once per game, in your Action Phase: you can select up to 3 players and distribute a total of 3 FIRE DMG among them. If you allocate more than 1 DMG to any of them, you discard 1 card of each suit and lose 3 HP.",
                     "_Spell__name": "Zhuórè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/56"
         },
         {
             "_Character__background": [
@@ -1199,7 +1256,8 @@
                     "_Spell__description": "You always have a bonus +1 horse.",
                     "_Spell__name": "Fēiyǐng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/66"
         },
         {
             "_Character__background": [
@@ -1226,7 +1284,8 @@
                     "_Spell__description": "(ruler) After another Wei character's judgment becomes effective, if it’s black: he can let you draw 1 card.",
                     "_Spell__name": "Gāojǔ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/57"
         },
         {
             "_Character__background": [
@@ -1254,7 +1313,8 @@
                     "_Spell__description": "You can't be the target of black tool cards.",
                     "_Spell__name": "Zài."
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/60"
         },
         {
             "_Character__background": [
@@ -1278,7 +1338,8 @@
                     "_Spell__description": "Once per Action Phase: you can select 2 other players and discard X cards; then, they exchange their hand cards. X = difference between their # of hand cards",
                     "_Spell__name": "Liánméng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/62"
         },
         {
             "_Character__background": [
@@ -1299,7 +1360,8 @@
                     "_Spell__description": "If you are hurt, you can skip your Draw Phase and reveal X cards from the deck; then, you heal 1 HP for every ♥ and take the rest of cards. X = # of wounds",
                     "_Spell__name": "Zàicì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/63"
         },
         {
             "_Character__background": [
@@ -1318,7 +1380,8 @@
                     "_Spell__description": "In your Beginning Phase, if you are hurt: you can make another player: a) Draw X cards; then, discard 1 card. b) Draw 1 card; then, discard X cards. X = your # of wounds",
                     "_Spell__name": "Páihuái"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/61"
         },
         {
             "_Character__background": [
@@ -1339,7 +1402,8 @@
                     "_Spell__description": "After another player skips his Draw Phase: you draw 1 card.",
                     "_Spell__name": "Qiēgē"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/58"
         },
         {
             "_Character__background": [
@@ -1361,7 +1425,8 @@
                     "_Spell__description": "After your used Sha causes DMG to your target: you can point fight the target player; if you win, you take 1 card from him.",
                     "_Spell__name": "Kěpà"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/64"
         },
         {
             "_Character__background": [
@@ -1392,7 +1457,8 @@
                     "_Spell__description": "Once per Action Phase: you can lose 6 \"Rage\"; then, every other player: - Suffers 1 DMG. - Discards all his equipped cards. - Discards 4 hand cards. Finally, you flip your character.",
                     "_Spell__name": "Āsū"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/demigod/65"
         },
         {
             "_Character__background": [
@@ -1422,7 +1488,8 @@
                     "_Spell__description": "(ruler) After another Neutral character causes DMG: he can perform a judgement; if it's ♠, you heal 1 HP.",
                     "_Spell__name": "Bàojūn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/59"
         },
         {
             "_Character__background": [
@@ -1443,7 +1510,8 @@
                     "_Spell__description": "When you want to use Wine, if your character is face-up:  you can flip it, and this is regarded as having used Wine. After you suffer DMG, if your character is face-down: you can flip it.",
                     "_Spell__name": "Zùijǐu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/67"
         },
         {
             "_Character__background": [
@@ -1464,7 +1532,8 @@
                     "_Spell__description": "After you suffer DMG outside of your turn: Sha and non-time-delay tool cards have no effect on you until the end of the turn.",
                     "_Spell__name": "Nǎoyán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/77"
         },
         {
             "_Character__background": [
@@ -1486,7 +1555,8 @@
                     "_Spell__description": "You can skip your Draw Phase and make another player draw 2 cards; then, you make him use Sha on another player of your choice within his attack range. If he doesn’t, you take 2 cards from him.",
                     "_Spell__name": "Deshǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/71"
         },
         {
             "_Character__background": [
@@ -1509,7 +1579,8 @@
                     "_Spell__description": "When you are about to cause DMG to another player: you can prevent the DMG; then, take 1 card from his equipment or judgement area.",
                     "_Spell__name": "Gèngxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/72"
         },
         {
             "_Character__background": [
@@ -1532,7 +1603,8 @@
                     "_Spell__description": "When a player enters the brink of death: you can randomly display 1 of his hand cards; if it isn’t a basic card, that player discards it; then, he heals 1 HP.",
                     "_Spell__name": "Gǎishàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/73"
         },
         {
             "_Character__background": [
@@ -1553,7 +1625,8 @@
                     "_Spell__description": "In your End Phase: you can discard 1 non-basic card and make another player choose: a) Draw 2 cards. b) Heal 1 HP. c) Restore his character.",
                     "_Spell__name": "Lóngde"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/68"
         },
         {
             "_Character__background": [
@@ -1577,7 +1650,8 @@
                     "_Spell__description": "When your # of hand cards < X: you can draw immediately until you have X cards in hand. X = # of wounds",
                     "_Spell__name": "Sāngqīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/69"
         },
         {
             "_Character__background": [
@@ -1598,7 +1672,8 @@
                     "_Spell__description": "All your Wine cards are regarded as Sha.",
                     "_Spell__name": "Fàngqì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/76"
         },
         {
             "_Character__background": [
@@ -1616,7 +1691,8 @@
                     "_Spell__description": "When you lose equipped cards, or after you discard 2+ cards in your Discard Phase: up to twice, you can discard 1 card from another player.",
                     "_Spell__name": "Bàofēng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/75"
         },
         {
             "_Character__background": [
@@ -1634,7 +1710,8 @@
                     "_Spell__description": "In your Action Phase, after you use Sha to target a player: you can place up to X cards of that player on his character, face-down (X = his HP). If you do, after the end of the turn: that player gets the cards.",
                     "_Spell__name": "Jiānmiè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/74"
         },
         {
             "_Character__background": [
@@ -1653,7 +1730,8 @@
                     "_Spell__description": "In your Beginning Phase: you can discard X cards from a player whose # of hand cards > his HP (X = the difference); then, you must choose: a) Discard as many cards as basic and tool cards you discarded him. b) He draws X cards.",
                     "_Spell__name": "Jiānjué"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/70"
         },
         {
             "_Character__background": [
@@ -1675,7 +1753,8 @@
                     "_Spell__description": "When you die: you can make another player (except the one who killed you): - Draw 3 cards. - Heal 1 HP.",
                     "_Spell__name": "Àide"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/79"
         },
         {
             "_Character__background": [
@@ -1697,7 +1776,8 @@
                     "_Spell__description": "Your hand card limit is increased by +X. (X = # of kingdoms in play)",
                     "_Spell__name": "Dejiā"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/81"
         },
         {
             "_Character__background": [
@@ -1721,7 +1801,8 @@
                     "_Spell__description": "In your End Phase: you can draw X cards; then, you can give the same # of hand cards to other players. X = # of wounds",
                     "_Spell__name": "Mìmì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/87"
         },
         {
             "_Character__background": [
@@ -1744,7 +1825,8 @@
                     "_Spell__description": "After you suffer DMG: you can draw 1 card; then, display all your hand cards. If all of them have the same color, the damage source discards 1 hand card.",
                     "_Spell__name": "Wánshǎ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/88"
         },
         {
             "_Character__background": [
@@ -1761,7 +1843,8 @@
                     "_Spell__description": "In your Draw Phase: you can choose: a) Draw 1 additional card. This turn, you can't use/play Sha. b) Draw 1 fewer card. This turn: - Your Sha have unlimited range. - You can use 1 additional Sha.",
                     "_Spell__name": "Duōgōng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/89"
         },
         {
             "_Character__background": [
@@ -1783,7 +1866,8 @@
                     "_Spell__description": "In your End Phase, if you don’t have any \"Vintage\": you can place any # of Sha on your character, face-up (\"Vintage\"). When a player enters on the brink of death: you can remove 1 \"Vintage\"; this is regarded as the player having used Wine.",
                     "_Spell__name": "Fùgǔ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/78"
         },
         {
             "_Character__background": [
@@ -1809,7 +1893,8 @@
                     "_Spell__description": "You can use/play any red card as Sha.",
                     "_Spell__name": "Zhànshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/83"
         },
         {
             "_Character__background": [
@@ -1831,7 +1916,8 @@
                     "_Spell__description": "Once per game, in your Action Phase: you can select a player; then, make all players who have him within their attack range choose: a) Discard 1 weapon. b) Make him draw 1 card.",
                     "_Spell__name": "Fúdiāo"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/84"
         },
         {
             "_Character__background": [
@@ -1852,7 +1938,8 @@
                     "_Spell__description": "Once per game, when you are on the brink of death: you can return to X HP (X = # of kingdoms in play). If you do, flip your character.",
                     "_Spell__name": "Chángshòu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/82"
         },
         {
             "_Character__background": [
@@ -1873,7 +1960,8 @@
                     "_Spell__description": "In your Beginning Phase: you can draw 1 card, discard 1 card and select a player at distance 1. This turn, that player can't use/play hand cards with the same color as the card you discarded.",
                     "_Spell__name": "Tōuxí"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/85"
         },
         {
             "_Character__background": [
@@ -1900,7 +1988,8 @@
                     "_Spell__description": "Once per Action Phase: you can remove 1 \"Power\" and select a player; then, he draws 2 cards. If his hand > your hand, you cause him 1 DMG.",
                     "_Spell__name": "Gēnchú"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/86"
         },
         {
             "_Character__background": [
@@ -1922,7 +2011,8 @@
                     "_Spell__description": "When another player with 1 HP is about to suffer DMG: you can flip your character and discard 1 equipment; then, all that DMG is prevented.",
                     "_Spell__name": "Rén"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/90"
         },
         {
             "_Character__background": [
@@ -1944,7 +2034,8 @@
                     "_Spell__description": "When you become the target of Sha: you can select another player; unless that player gives you Dodge, he also becomes a target of this Sha.",
                     "_Spell__name": "Qíuqíng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/99"
         },
         {
             "_Character__background": [
@@ -1966,7 +2057,8 @@
                     "_Spell__description": "After you point fight: you can get the loser's card.",
                     "_Spell__name": "Hūlvè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/95"
         },
         {
             "_Character__background": [
@@ -1992,7 +2084,8 @@
                     "_Spell__description": "Once per game, in your Action Phase: you can force all other players choose: a) Discard at least X cards. (X = # of cards the previous player discarded + 1) b) Suffer 2 FIRE DMG from you.",
                     "_Spell__name": "Gèngxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/100"
         },
         {
             "_Character__background": [
@@ -2013,7 +2106,8 @@
                     "_Spell__description": "After you suffer DMG: you can show 1 hand card. Unless the damage source discards 1 hand card of a different type than the card you showed, you heal 1 HP.",
                     "_Spell__name": "Fángyù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/92"
         },
         {
             "_Character__background": [
@@ -2033,7 +2127,8 @@
                     "_Spell__description": "In your End Phase: you can make a player draw 1 card and display it. If it’s an equipment, that player uses it; then, he heals 1 HP.",
                     "_Spell__name": "Zhíyán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/97"
         },
         {
             "_Character__background": [
@@ -2051,7 +2146,8 @@
                     "_Spell__description": "When a player uses Sha in his Action Phase: you can discard 1 card to make this Sha not count towards the # of Sha used in this Action Phase; then, if it's a red Sha, you draw 1 card.",
                     "_Spell__name": "Lónghǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/93"
         },
         {
             "_Character__background": [
@@ -2067,7 +2163,8 @@
                     "_Spell__description": "At the end of your Action Phase, if the # of cards you have used this turn ≥ your HP: you can draw 2 cards.",
                     "_Spell__name": "Jīngxì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/91"
         },
         {
             "_Character__background": [
@@ -2085,7 +2182,8 @@
                     "_Spell__description": "In your Beginning Phase: you can select up to 2 players; place 1 card from each on your character, face-up (\"Betrayal\"). When a player wants to use Sha on you: he can remove 2 \"Betrayals\", and this is regarded as using Sha on you.",
                     "_Spell__name": "Duòluò"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/94"
         },
         {
             "_Character__background": [
@@ -2107,7 +2205,8 @@
                     "_Spell__description": "When you are about to cause DMG to your target using Sha, if you are not within his attack range: the DMG is increased by +1.",
                     "_Spell__name": "Yǐncáng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/98"
         },
         {
             "_Character__background": [
@@ -2123,7 +2222,8 @@
                     "_Spell__description": "In your Action Phase: you can discard X cards and select another player within your attack range. (X = # of times you use \"Nerves of Steel\" in this phase) - If X = 1, you discard him 1 card. - If X = 2, he gives you 1 card. - If X = 3, you cause him 1 DMG. - If X ≥ 4, both you and him draw 2 cards. ",
                     "_Spell__name": "Shénjīng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/96"
         },
         {
             "_Character__background": [
@@ -2143,7 +2243,8 @@
                     "_Spell__description": "After a player flips his character face-up or goes into chains: you can make him draw 1 card.",
                     "_Spell__name": "Zhèngyì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/101"
         },
         {
             "_Character__background": [
@@ -2163,7 +2264,8 @@
                     "_Spell__description": "In your End Phase: you can show all your hand cards; if they are all the same color, select up to X players; then, these players draw 1 card. X = # of hand cards",
                     "_Spell__name": "Kòngzhì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/108"
         },
         {
             "_Character__background": [
@@ -2184,7 +2286,8 @@
                     "_Spell__description": "After you suffer DMG: - If it's the first time you suffer DMG this turn, you heal 1 HP. - If it's not the first time you suffer DMG this turn, you lose 1 HP.",
                     "_Spell__name": "Běijiàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/110"
         },
         {
             "_Character__background": [
@@ -2206,7 +2309,8 @@
                     "_Spell__description": "Once per game, in your Action Phase: you can give all the cards in your equipment area to another player; then, that player chooses: a) You heal X HP. b) Cause 1 DMG to up to X players in his attack range. X = # of cards that you gave him.",
                     "_Spell__name": "Tóujiàng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/111"
         },
         {
             "_Character__background": [
@@ -2229,7 +2333,8 @@
                     "_Spell__description": "When you are about to suffer DMG by a ♂ character: you can discard 1 equipment; then, this DMG is reduced by 1.",
                     "_Spell__name": "Gèngxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/109"
         },
         {
             "_Character__background": [
@@ -2250,7 +2355,8 @@
                     "_Spell__description": "At the beginning of another player's Action Phase: you can draw 2 cards; then, give that player 2 cards. At the end of this phase, if he hasn't killed any player in this phase: you lose 1 HP.",
                     "_Spell__name": "Dìtú"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/104"
         },
         {
             "_Character__background": [
@@ -2266,7 +2372,8 @@
                     "_Spell__description": "At the beginning of another player's Action Phase: you can discard 1 non-basic card with the same color as a card in your equipment area; then, that player can't use/play cards of that color in this phase. At the end of this phase, if he didn't use Sha: you are regarded as using Sha on him.",
                     "_Spell__name": "Dírén"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/103"
         },
         {
             "_Character__background": [
@@ -2285,7 +2392,8 @@
                     "_Spell__description": "At the beginning of another player’s Judgement Phase, if he’s within your attack range: you can discard 1 card in his judgement area; this is regarded as you using Sha on him; then, if this Sha doesn't cause DMG, you draw 1 card.",
                     "_Spell__name": "Dàdǎn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/102"
         },
         {
             "_Character__background": [
@@ -2301,7 +2409,8 @@
                     "_Spell__description": "When you use a card during your turn: you get a bonus -1 horse until the end of your turn. In your turn, if the distance from you to all other players is 1, you disregard other players' armor and your Sha can target 1 additional player.",
                     "_Spell__name": "Yáoyuǎn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/106"
         },
         {
             "_Character__background": [
@@ -2317,7 +2426,8 @@
                     "_Spell__description": "After a Sha you use finishes resolving: you can give this Sha or the Dodge used by your target to another player except him. If the card given is red, the player who receives the card can use Sha on a player within your attack range.",
                     "_Spell__name": "Zhōngchéng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/105"
         },
         {
             "_Character__background": [
@@ -2337,7 +2447,8 @@
                     "_Spell__description": "If you have the highest (or among the highest) # of hand cards, you can skip your Draw Phase. If you have the highest (or among the highest) HP, you can skip your Action Phase. If you have the highest (or among the highest; min. 1) # of cards in your equipment area, you can skip your Discard Phase.",
                     "_Spell__name": "Fāhūi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/107"
         },
         {
             "_Character__background": [
@@ -2361,7 +2472,8 @@
                     "_Spell__description": "(ruler) Once per game, when you are on the brink of death: you can ask every Wei character whether he lets you heal 1 HP; players who do will suffer 1 DMG from no source after all effects have concluded.",
                     "_Spell__name": "Juéqǐ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/113"
         },
         {
             "_Character__background": [
@@ -2381,7 +2493,8 @@
                     "_Spell__description": "When you need to use/play Dodge: you can make the turn player draw 1 card; then, if he isn't the only player with the highest # of hand cards, you discard 1 card from a player with the highest # of hand cards, and this is regarded as you using/playing Dodge.",
                     "_Spell__name": "Yǎnshì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/122"
         },
         {
             "_Character__background": [
@@ -2405,7 +2518,8 @@
                     "_Spell__description": "(ruler) Players who are at distance 1 from you are considered to be within the attack range of other Wu characters.",
                     "_Spell__name": "Dìguó"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/119"
         },
         {
             "_Character__background": [
@@ -2427,7 +2541,8 @@
                     "_Spell__description": "In your Action Phase: you can reforge Sha. At the end of your Action Phase, if you reforged 2+ Sha in this fase: you can make a ♂ character draw 2 cards.",
                     "_Spell__name": "Yánfāng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/116"
         },
         {
             "_Character__background": [
@@ -2448,7 +2563,8 @@
                     "_Spell__description": "In another player's Action Phase, after he uses ♠ to target a player(s), if no player has suffered DMG this turn: you can make one of the targeted players draw 1 card.",
                     "_Spell__name": "Jiānjué"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/112"
         },
         {
             "_Character__background": [
@@ -2468,7 +2584,8 @@
                     "_Spell__description": "When your used Sha is about to cause DMG to your target, if you have a weapon in your equipment area: you can make the target choose: a) Discard X hand cards; then, he discards your weapon. (X = your weapon's attack range) b) The DMG is increased by +1.",
                     "_Spell__name": "Gèngxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/114"
         },
         {
             "_Character__background": [
@@ -2485,7 +2602,8 @@
                     "_Spell__description": "Once per Action Phase: you can show all your hand cards. If they have different colors, choose one of the colors and discard all your hand cards with this color; then, you take 1 card from up to X players. If you get 2+ cards, you lose 1 HP. X = # of cards you discarded",
                     "_Spell__name": "Bùxún"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/121"
         },
         {
             "_Character__background": [
@@ -2509,7 +2627,8 @@
                     "_Spell__description": "(ruler) When you need to use/play Sha: you can ask other Shu characters to use/play Sha for you.",
                     "_Spell__name": "Ro"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/115"
         },
         {
             "_Character__background": [
@@ -2526,7 +2645,8 @@
                     "_Spell__description": "Once per each player turn, after you cause/suffer DMG: you can choose: a) Discard 1 hand card from a player whose # of hand cards > your # of hand cards. b) Make a player whose # of hand cards < your # of hand cards draw 1 card.",
                     "_Spell__name": "Lánjié"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/120"
         },
         {
             "_Character__background": [
@@ -2546,7 +2666,8 @@
                     "_Spell__description": "If your HP = 1, your Dodge are regarded as Sha.",
                     "_Spell__name": "Shìyán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/117"
         },
         {
             "_Character__background": [
@@ -2561,7 +2682,8 @@
                     "_Spell__description": "Once per Action Phase: you can select 1 other player. Apply as many effects as possible: - If his # of hand cards is the lowest (or among the lowest), he draws 1 card. - If his HP is the lowest (or among the lowest), he heals 1 HP. - If the # of cards in his equipment area is the lowest (or among the lowest), he uses a random equipment from the deck. Afterwards, if there was an unfulfilled effect(s) and you satisfy the conditions: you execute the remaining effects.",
                     "_Spell__name": "Ānquán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/118"
         },
         {
             "_Character__background": [],
@@ -2578,7 +2700,8 @@
                     "_Spell__description": "At the beginning of the game: your max HP is increased by +X. (X = # of kingdoms in play) After the last character of a kingdom dies: your max HP is reduced by -1.",
                     "_Spell__name": "Zǔxiān"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/130"
         },
         {
             "_Character__background": [
@@ -2597,7 +2720,8 @@
                     "_Spell__description": "When you are about to suffer FIRE DMG, if you are chained and are the damage transmitter: this FIRE DMG is increased by +1.",
                     "_Spell__name": "Liánsuǒ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/127"
         },
         {
             "_Character__background": [
@@ -2617,7 +2741,8 @@
                     "_Spell__description": "After you suffer DMG: you can choose: a) Draw 1 card. b) Modify \"Rectify Imperial Order\" (can be modified twice).",
                     "_Spell__name": "Píbèi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/124"
         },
         {
             "_Character__background": [
@@ -2638,7 +2763,8 @@
                     "_Spell__description": "When you are about to suffer DMG from another player: you can show him any # of hand cards; then, he must choose: a) Take 1 of these cards and prevent this DMG; you can't use \"Bribery\" on that player again during the game. b) Discard the same # of cards you showed.",
                     "_Spell__name": "Gèngxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/125"
         },
         {
             "_Character__background": [
@@ -2657,7 +2783,8 @@
                     "_Spell__description": "In your Discard Phase: the cards that you obtained this turn don't count towards your # of hand cards.",
                     "_Spell__name": "Àide"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/126"
         },
         {
             "_Character__background": [],
@@ -2674,7 +2801,8 @@
                     "_Spell__description": "Once per each player, in your Action Phase, if you have a usable card in hand: you can make that player player discard 1 hand card; then, this turn you can't use cards with the same suit as the discarded card. If the discarded card was ♠: - He loses 1 HP. - You flip your character.",
                     "_Spell__name": "Cháoxiào"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/123"
         },
         {
             "_Character__background": [
@@ -2690,7 +2818,8 @@
                     "_Spell__description": "You can use any card as any basic or non-time-delay tool card (except a card you already created this game); then, make another player choose: a) Give you 1 card that is of a different type than the one you created. b) You lose 1 HP and can't use this skill until the end of the turn.",
                     "_Spell__name": "Yìchū"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/129"
         },
         {
             "_Character__background": [
@@ -2705,7 +2834,8 @@
                     "_Spell__description": "Once per Action Phase: you can select another player who has cards; he must place 1 to 3 of his cards on your character, face-down (\"Assists\"). At the beginning of your next turn: you get all the \"Assists\"; then, that player draws the same # of cards.",
                     "_Spell__name": "Bāngzhù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/128"
         },
         {
             "_Character__background": [
@@ -2725,7 +2855,8 @@
                     "_Spell__description": "After you cause/suffer 1 DMG to/from another player: you can both draw 1 card.",
                     "_Spell__name": "Shīqù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/152"
         },
         {
             "_Character__background": [
@@ -2745,11 +2876,12 @@
                     "_Spell__description": "After you suffer DMG: you can name a card type (basic, equipment or tool). This turn, the damage source can’t use/play/discard hand cards of that type.",
                     "_Spell__name": "Xǔyuàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/156"
         },
         {
             "_Character__background": [
-                "./img/skins/99993.jpg"
+                "./img/skins/gong_sun_zan.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 4,
@@ -2760,7 +2892,8 @@
                     "_Spell__description": "- If HP ≥ 3, you have a -1 bonus horse. - If HP ≤ 2, you have a +1 bonus horse.",
                     "_Spell__name": "Zhūisúi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/153"
         },
         {
             "_Character__background": [
@@ -2780,7 +2913,8 @@
                     "_Spell__description": "In your Action Phase: you can select a player. - If his hand > his HP, he discards 2 cards. - If his HP > his hand, he draws 2 cards. You can select each player only once per game.",
                     "_Spell__name": "Ōugē"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/169"
         },
         {
             "_Character__background": [
@@ -2810,7 +2944,8 @@
                     "_Spell__description": "When you are about to suffer DMG: you can discard 1 on-hand ♥, prevent this DMG and select another player to: a) Make him suffer 1 DMG; then, that player draws X cards (X = his # of wounds after the DMG; max. 5). b) Make him lose 1 HP; then, that player takes the card you discarded.",
                     "_Spell__name": "Tiāntáng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/166"
         },
         {
             "_Character__background": [
@@ -2829,7 +2964,8 @@
                     "_Spell__description": "After another player dies, if his role is: - Loyalist: disregard the HP condition when using \"Deplete Karma\"'s DMG reduction. - Rebel: disregard the HP condition when using \"Deplete Karma\"'s DMG increase. - Spy: disregard the color restriction when using \"Deplete Karma\".",
                     "_Spell__name": "Ránshāo"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/171"
         },
         {
             "_Character__background": [
@@ -2851,7 +2987,8 @@
                     "_Spell__description": "Once per Action Phase: you can give all your hand cards to another player; then, you make him point fight with another player of your choice. The winner is regarded as using Sha on the loser.",
                     "_Spell__name": "Mìmì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/172"
         },
         {
             "_Character__background": [
@@ -2871,7 +3008,8 @@
                     "_Spell__description": "When a player with a \"Curse\" uses a card with the same suit as the \"Curse\": you draw 1 card. When you draw the 2nd card due to the effect of the same \"Curse\" on the same player: remove the \"Curse\".",
                     "_Spell__name": "Yǐngzǐ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/170"
         },
         {
             "_Character__background": [
@@ -2896,7 +3034,8 @@
                     "_Spell__description": "Outside of your turn, when you lose red cards as a result of use/play/discard: you can draw 1 card.",
                     "_Spell__name": "Chéngfǔ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/173"
         },
         {
             "_Character__background": [
@@ -2919,7 +3058,8 @@
                     "_Spell__description": "In your Action Phase: you can select another player within your attack range and discard X cards (X = his HP); then, you cause him 1 DMG. If by doing so you bring him to the brink of death: - You lose 1 HP. - You can't use this ability for the rest of the turn.",
                     "_Spell__name": "Lǔmǎng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/168"
         },
         {
             "_Character__background": [
@@ -2938,7 +3078,8 @@
                     "_Spell__description": "After a player becomes the target of Sha, if the distance from you to him is 1: you can draw 1 card; then, give him 1 card and reveal it. If it's an equipment, that player can use it.",
                     "_Spell__name": "Kāngkǎi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/174"
         },
         {
             "_Character__background": [
@@ -2954,7 +3095,8 @@
                     "_Spell__description": "After you use Sha to target a player: you can choose: a) Draw 1 card. b) Discard 1 of his cards. If you do either and he uses Dodge, he discards you 1 card.",
                     "_Spell__name": "Jìhuá"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/165"
         },
         {
             "_Character__background": [
@@ -2983,7 +3125,8 @@
                     "_Spell__description": "You can choose up to 3 options: a) Skip your Judgement Phase and Draw Phase. b) Skip your Action Phase and discard 1 equipment. c) Skip your Discard Phase and flip your character. Any of the options is regarded as using Sha with unlimited range.",
                     "_Spell__name": "Yīfān"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/167"
         },
         {
             "_Character__background": [
@@ -3000,7 +3143,8 @@
                     "_Spell__description": "In the End Phase of another player: you can discard 1 basic card; then, that player chooses: a) Discard 1 equipment and you draw 1 card. b) Suffer 1 DMG from you.",
                     "_Spell__name": "Yǒnggǎn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/176"
         },
         {
             "_Character__background": [
@@ -3019,7 +3163,8 @@
                     "_Spell__description": "After you suffer DMG, you can choose: a) Draw cards until you have X cards in hand. (X = # of hand cards of the damage source, max. 5) b) Discard at least X hand cards; then, you cause 1 DMG to the damage source. (X = # of hand cards of the damage source + 1)",
                     "_Spell__name": "Shēngyù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/188"
         },
         {
             "_Character__background": [],
@@ -3036,7 +3181,8 @@
                     "_Spell__description": "In your Beginning Phase: you can discard all your hand. If the # of cards discarded ≥ your HP, you heal 1 HP.",
                     "_Spell__name": "Shénzhì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/184"
         },
         {
             "_Character__background": [
@@ -3058,7 +3204,8 @@
                     "_Spell__description": "At the end of a player's turn: you draw 3 cards for each player you have killed this turn.",
                     "_Spell__name": "Lìngrén"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/186"
         },
         {
             "_Character__background": [
@@ -3079,7 +3226,8 @@
                     "_Spell__description": "In your turn, after your used card is placed in the discard pile: you can give it to another player. (You can only give 1 of each card per turn)",
                     "_Spell__name": "Chéngnuò"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/183"
         },
         {
             "_Character__background": [
@@ -3100,7 +3248,8 @@
                     "_Spell__description": "Once per Action Phase, if you are wounded: you can discard X cards and select up to X wounder players. These players heal 1 HP; then, if you discarded a black card to activate \"Get Rid of Sickness\", you lose 1 HP. (X = your # of wounds)",
                     "_Spell__name": "Bǎituō"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/189"
         },
         {
             "_Character__background": [
@@ -3125,7 +3274,8 @@
                     "_Spell__description": "Once per Action Phase: you can discard 1 card and choose a) Discard 1 equipment on the field; then, draw 1 card. b) Take 1 armor on the field. If the card you discarded to activate \"Solemn\" was Sha or a black tool card, modify \"Charm\" until your next turn.",
                     "_Spell__name": "Zhuāngyán"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/187"
         },
         {
             "_Character__background": [],
@@ -3142,7 +3292,8 @@
                     "_Spell__description": "When a player is about to cause ELEC DMG: you can make him perform a judgement. - If it's black, the DMG is increased by +1. - If it’s red, he gets the judgement card.",
                     "_Spell__name": "Xīshēng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/182"
         },
         {
             "_Character__background": [
@@ -3165,7 +3316,8 @@
                     "_Spell__description": "Once per Action Phase: you can perform a judgement; then, until the end of the turn: - Sha whose number < the judgement result, have unlimited range. - Sha whose number > the judgement result, don't count towards the limit.",
                     "_Spell__name": "Yǔ."
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/177"
         },
         {
             "_Character__background": [
@@ -3185,7 +3337,8 @@
                     "_Spell__description": "Once per Action Phase: you can discard 1 card and select another player; then, this turn your distance to him is 1.",
                     "_Spell__name": "Sīwēi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/180"
         },
         {
             "_Character__background": [
@@ -3201,7 +3354,8 @@
                     "_Spell__description": "After your used Sha causes DMG to your target: you can choose: a) Move 1 card in his equipment area to yours. b) Discard 1 card in his equipment area.",
                     "_Spell__name": "Fēngfǔ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/179"
         },
         {
             "_Character__background": [
@@ -3218,7 +3372,8 @@
                     "_Spell__description": "When another player becomes the only target of Sha or a black tool card, if his HP < your HP: you can discard 1 card and choose: a) Draw 1 card; then, you become the target. b) Make the card ineffective. After the end of the turn: the user gets the card.",
                     "_Spell__name": "Xiǎozhèn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/185"
         },
         {
             "_Character__background": [
@@ -3247,7 +3402,8 @@
                     "_Spell__description": "In your End Phase, if you aren't one of the players with the lowest HP: a) Lose 1 HP. b) Reduce your max HP by -1.",
                     "_Spell__name": "Wǎjiě"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/178"
         },
         {
             "_Character__background": [
@@ -3267,7 +3423,8 @@
                     "_Spell__description": "In your Beginning Phase, you must choose: a) Remove all \"Vanguards\" and draw cards until you have X cards in hand. (X = your max HP) b) Give all \"Vanguards\" to another player whose HP ≤ your HP, he heals 1 HP and you draw X cards. (X = # of \"Vanguards\" given)  ",
                     "_Spell__name": "Wēixiǎn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/181"
         },
         {
             "_Character__background": [
@@ -3286,7 +3443,8 @@
                     "_Spell__description": "In another player's End Phase, if you aren't within his attack range, you must choose: a) Draw 1 card. b) Make him draw 1 card. Then, the distance from other players to you is reduced by -1.",
                     "_Spell__name": "Gēnjù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/199"
         },
         {
             "_Character__background": [
@@ -3309,7 +3467,8 @@
                     "_Spell__description": "When a player performs a judgement, before it takes effect: you can play a \"Rice\". It becomes the judgement result.",
                     "_Spell__name": "Làisī"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/200"
         },
         {
             "_Character__background": [],
@@ -3326,7 +3485,8 @@
                     "_Spell__description": "After you specify a single target for your first Sha or Duel in your Action Phase, you can choose: a) Draw X cards. b) The DMG is increased by +X. (X = his # of on-hand ♦)",
                     "_Spell__name": "Fènghuáng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/198"
         },
         {
             "_Character__background": [
@@ -3350,11 +3510,12 @@
                     "_Spell__description": "(ruler) In your turn, other Wu characters are regarded as being wounded.",
                     "_Spell__name": "Huángěi"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/196"
         },
         {
             "_Character__background": [
-                "./img/skins/99992.jpg"
+                "./img/skins/wu_tugu.jpg"
             ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 15,
@@ -3369,10 +3530,13 @@
                     "_Spell__description": "When you use 10,000 Arrows or Barbarians, if your HP < # of the current round: you can increase the DMG by +1.",
                     "_Spell__name": "Xiōnghàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/197"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/bu_zhi.jpg"
+            ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
             "_Character__lord": false,
@@ -3386,7 +3550,8 @@
                     "_Spell__description": "X times per Action Phase: you can make a player with equipment draw 1 card; then, he chooses: a) You discard him 1 equipment. b) Place all his equipment back into his hand and you cause him 1 DMG. X = # of rebels alive",
                     "_Spell__name": "Dìngjū"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/209"
         },
         {
             "_Character__background": [],
@@ -3403,7 +3568,8 @@
                     "_Spell__description": "Your black cards don’t count towards your hand card limit. Other players who obtain your black cards can't use, play or discard these cards until their HP decreases.",
                     "_Spell__name": "Jiǎohuá"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/203"
         },
         {
             "_Character__background": [],
@@ -3420,7 +3586,8 @@
                     "_Spell__description": "Your hand card limit is increased by +X. At the beginning of the game: you draw X cards. (X = your max HP)",
                     "_Spell__name": "Shāngrén"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/208"
         },
         {
             "_Character__background": [
@@ -3441,10 +3608,13 @@
                     "_Spell__description": "In your End Phase: you can draw 2 cards; then, discard hand cards until you have X cards in hand. X = # of times you used \"Astonishing Control\" this turn",
                     "_Spell__name": "Gǎnkuài"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/204"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/wang_lang.jpg"
+            ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
             "_Character__lord": false,
@@ -3458,10 +3628,13 @@
                     "_Spell__description": "After you reveal the card you use for \"Sharp Tongue\": - If its # < X, you can add +X to its #. - If its # = X, the limit of times you can use \"Sharp Tongue\" this turn is increased by +1. X = # of \"Rich Tongues\"",
                     "_Spell__name": "Jīliè"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/201"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/guan_suo.jpg"
+            ],
             "_Character__clan": "Shu",
             "_Character__life_points": 4,
             "_Character__lord": false,
@@ -3487,7 +3660,8 @@
                     "_Spell__description": "You have a bonus -X distance. X = # of alive ♀ characters.",
                     "_Spell__name": "Shōují"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/205"
         },
         {
             "_Character__background": [
@@ -3502,7 +3676,8 @@
                     "_Spell__description": "After you suffer 1 DMG: you can place 1 card on your character, face-up (\"Edge\"). At the start of your Beginning Phase, if you have \"Edges\": remove all of them and draw 2*X cards. This turn, you can use +X additional Sha. X = # of \"Edges\"",
                     "_Spell__name": "Tūidòng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/207"
         },
         {
             "_Character__background": [],
@@ -3515,7 +3690,8 @@
                     "_Spell__description": "Your Sha and black non-time-delay tool cards can target +X additional players. After your Sha and black non-time-delay tool cards target a player(s), if the # of targets < X: X is reduced to 0. X = # of times you have caused DMG throughout the game.",
                     "_Spell__name": "Wǔzhuāng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/206"
         },
         {
             "_Character__background": [
@@ -3534,7 +3710,8 @@
                     "_Spell__description": "When another player becomes the target of a red basic or non-time-delay tool card, if he has you at distance 1 and you aren't the user or a target of this card: you also become a target.",
                     "_Spell__name": "Xiǎowū"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/202"
         },
         {
             "_Character__background": [
@@ -3560,7 +3737,8 @@
                     "_Spell__description": "(awakening) In your End Phase, if this turn you have caused 3+ DMG: - Increase your max HP by +1. - Heal 1 HP. - Permanently lose \"Tiger Roar\". - Place the Green Dragon Crescent Blade from the field, deck or discard pile in your hand.",
                     "_Spell__name": "Guānzhù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/158"
         },
         {
             "_Character__background": [
@@ -3576,7 +3754,8 @@
                     "_Spell__description": "In your End Phase: you can place 1 equipment in the equipment area of a player. - If it's a weapon, discard 1 card in an area of a player at distance 1 from the target player. - It it's an armor, the target player draws 1 card. - If it's a mount, the target player heals 1 HP.",
                     "_Spell__name": "Gānyù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/157"
         },
         {
             "_Character__background": [],
@@ -3593,10 +3772,14 @@
                     "_Spell__description": "After the end of your Draw Phase: you can replace any # of \"Books\" with the same # of your cards. Then, if you have 1 \"Book\" of each suit: you must give all your \"Books\" to another player.",
                     "_Spell__name": "Guǎngfàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/228"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/cao_jie_1.jpg",
+                "./img/skins/cao_jie_2.jpg"
+            ],
             "_Character__clan": "Neutral",
             "_Character__life_points": 3,
             "_Character__lord": false,
@@ -3610,10 +3793,13 @@
                     "_Spell__description": "In your End Phase: you can draw X cards (X = # of players whose hand < their HP); then, show an equal # of hand cards. Select one of these players, and starting from him, each of these players takes 1 of those cards.",
                     "_Spell__name": "Zànchéng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/213"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/ji_kang.jpg"
+            ],
             "_Character__clan": "Wei",
             "_Character__life_points": 3,
             "_Character__lord": false,
@@ -3643,7 +3829,8 @@
                     "_Spell__description": "After you suffer DMG: you can make the DMG source lose 1 HP and use 1 random equipment.",
                     "_Spell__name": "Bàolì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/225"
         },
         {
             "_Character__background": [],
@@ -3664,7 +3851,8 @@
                     "_Spell__description": "When you point fight: you can use cards on top of the deck;. In point fights your ♥ are regarded as K.",
                     "_Spell__name": "Tiānguó"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/226"
         },
         {
             "_Character__background": [],
@@ -3681,7 +3869,8 @@
                     "_Spell__description": "In your End Phase: you can make another player take 1 ♥ basic card from the deck; then, if he was the target of this skill in the previous turn, he loses 1 HP.",
                     "_Spell__name": "Cūxīn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/214"
         },
         {
             "_Character__background": [],
@@ -3698,10 +3887,13 @@
                     "_Spell__description": "In your Draw Phase, you can choose: a) Your hand card limit is increased by +1; then, this turn you can't use cards on other players. b) Heal 1 HP; then, this turn you can't use cards on yourself.",
                     "_Spell__name": "Nénglì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/211"
         },
         {
-            "_Character__background": [],
+            "_Character__background": [
+                "./img/skins/xu_shi.jpg"
+            ],
             "_Character__clan": "Wu",
             "_Character__life_points": 3,
             "_Character__lord": false,
@@ -3715,7 +3907,8 @@
                     "_Spell__description": "In the End Phase of a ♂ character, if the # of remaining cards in the deck is ≤ 10 x your HP: you can use all Sha remaining in the deck on him (unlimited range).",
                     "_Spell__name": "Pànsǐ"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/212"
         },
         {
             "_Character__background": [],
@@ -3732,7 +3925,8 @@
                     "_Spell__description": "In your End Phase: you can make another player draw as many cards as on-field ♦; then, that player discards X cards (X = # of times this skill was previously activated). If he discards all his cards, you lose \"Training\" and modify \"Recovery\".",
                     "_Spell__name": "Xùnliàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/227"
         },
         {
             "_Character__background": [],
@@ -3749,7 +3943,8 @@
                     "_Spell__description": "In your End Phase: you can select a player. Until your next turn, when that player is about to suffer more than 1 DMG per instance: prevent that DMG, and you skip the Draw Phase of your next turn.",
                     "_Spell__name": "Guǎngfàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/218"
         },
         {
             "_Character__background": [],
@@ -3766,7 +3961,8 @@
                     "_Spell__description": "At the end of your Action Phase: you can point fight a player. - If you win, it's equivalent as using Draw 2. - If you lose, it's equivalent as that player using Dismantle on you.",
                     "_Spell__name": "Quànshuō"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/221"
         },
         {
             "_Character__background": [],
@@ -3787,7 +3983,8 @@
                     "_Spell__description": "After you suffer 1 DMG: you can perform a judgement. - If it's red, you make a player draw 1 card (if it's your \"protégée\", he draws 2 cards instead). - If it's black, you discard 1 card in an area of a player.",
                     "_Spell__name": "Huòbì"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wei/220"
         },
         {
             "_Character__background": [],
@@ -3804,7 +4001,8 @@
                     "_Spell__description": "When you become the target of a non-time-delay tool card, you can: a) Add 1 target (except the user). b) Remove 1 target (but there has to be at least 1 target afterwards).",
                     "_Spell__name": "Shèngyàn"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/216"
         },
         {
             "_Character__background": [],
@@ -3821,7 +4019,8 @@
                     "_Spell__description": "Your equipment and tool cards don't count towards your hand card limit.",
                     "_Spell__name": "Yǔhuà"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/224"
         },
         {
             "_Character__background": [],
@@ -3854,7 +4053,8 @@
                     "_Spell__description": "Once per Action Phase: you can discard 1 red basic card; then, discard 1 card form a player in your attack range. - If the discarded card is Dodge, you look at his hand. - If it's not Dodge, he looks at your hand.",
                     "_Spell__name": "Kuàisù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/wu/215"
         },
         {
             "_Character__background": [],
@@ -3867,7 +4067,8 @@
                     "_Spell__description": "In your Action Phase, once per each player: you can give a Sha to that player. When they use this card: you draw 1 card.",
                     "_Spell__name": "Hánlěng"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/217"
         },
         {
             "_Character__background": [],
@@ -3884,7 +4085,8 @@
                     "_Spell__description": "If you are the only player with the highest # of hand cards, the DMG you cause/suffer is increased by +1.",
                     "_Spell__name": "Zìfù"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/219"
         },
         {
             "_Character__background": [],
@@ -3905,7 +4107,8 @@
                     "_Spell__description": "Once per Action Phase: you can use 1 equipment or Sha as a random tool card (select 1 from 3); in the End Phase of this turn, if you haven't caused DMG: you lose 1 HP.",
                     "_Spell__name": "Kuā"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/223"
         },
         {
             "_Character__background": [],
@@ -3926,7 +4129,8 @@
                     "_Spell__description": "Once per game, at the beginning of your turn: you can remove all \"Reflections\"; then, select a replacement character card from 5 random Shu characters, and adjust the max HP to the # of removed \"Reflections\" (max. the # of players). If you are a player with the lowest HP, you heal 1 HP.",
                     "_Spell__name": "Zhīchí"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/shu/222"
         },
         {
             "_Character__background": [],
@@ -3951,7 +4155,8 @@
                     "_Spell__description": "When you become the only target of a player with a \"Puppet\" mark's used basic or non-delay tool card: you can cancel the effect and he loses the \"Puppet\" mark. When your used basic or non-delay tool card targets only one player: you can target an additional player with a \"Puppet\" mark and he loses the \"Puppet\" mark.",
                     "_Spell__name": "Mùǒu"
                 }
-            ]
+            ],
+            "_Character__url": "https://www.sanguoshaenglish.com/characters/neutral/229"
         }
     ]
 }
