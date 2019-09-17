@@ -1,5 +1,3 @@
-generation/
-
 # Created by https://www.gitignore.io/api/linux,python,windows,pycharm,notepadpp,pycharm+all,sublimetext
 # Edit at https://www.gitignore.io/?templates=linux,python,windows,pycharm,notepadpp,pycharm+all,sublimetext
 
@@ -332,3 +330,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,python,windows,pycharm,notepadpp,pycharm+all,sublimetext
+generation
+.vscode
