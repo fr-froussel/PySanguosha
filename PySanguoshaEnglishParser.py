@@ -18,7 +18,7 @@ json_Character__spells = '_Character__spells'
 json_Character__url = '_Character__url'
 json_Spell__description = '_Spell__description'
 json_Spell__name = '_Spell__name'
-characters_json_data = { json_CharactersManager__characters: [] }
+characters_json_data = {json_CharactersManager__characters: []}
 
 # Listing characters where we found error(s)
 characters_with_errors = []
@@ -36,8 +36,10 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     character_soup = BeautifulSoup(character_response.data, 'html.parser')
 
     # Name
-    name = character_soup.find('h1', {'class': 'character-name'}).getText().replace(' [DEMIGOD]', '')
-    name = name.replace('ǔ', 'u').replace('ǐ', 'i').replace('ǎ', 'a').replace('ě', 'e').replace('ǒ', 'o')
+    name = character_soup.find(
+        'h1', {'class': 'character-name'}).getText().replace(' [DEMIGOD]', '')
+    name = name.replace('ǔ', 'u').replace('ǐ', 'i').replace(
+        'ǎ', 'a').replace('ě', 'e').replace('ǒ', 'o')
 
     print('{}: Parsing'.format(name.encode('ascii', 'ignore')))
 
@@ -48,7 +50,8 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
 
     table = character_soup.find('table', {'class': 'table character-info'})
     rows = table.findAll('tr')
-    data = [[td.findChildren(text=True) for td in tr.findAll("td")] for tr in rows]
+    data = [[td.findChildren(text=True)
+             for td in tr.findAll("td")] for tr in rows]
     data = [[u"".join(d).strip() for d in l] for l in data]
     for table_data in data:
         if len(table_data) != 2:
@@ -70,7 +73,8 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
         if os.path.isfile(background):
             skins_map.append(background)
     if len(skins_map) == 0:
-        characters_with_errors.append('No background found for {} ({})'.format(name, character_url))
+        characters_with_errors.append(
+            'No background found for {} ({})'.format(name, character_url))
 
     # Spells
     spells_data = {}
@@ -78,18 +82,21 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     for spell in spells:
         spell_name_span = spell.find('span')
         if spell_name_span is None:
-            characters_with_errors.append(' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
+            characters_with_errors.append(
+                ' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
             continue
         spell_name_extracted = spell_name_span.getText()
         if spell_name_extracted is None:
-            characters_with_errors.append(' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
+            characters_with_errors.append(
+                ' > Check spell(s) data for {} ({}), may be inconsistent'.format(name, character_url))
             continue
 
         try:
             spell_name_extracted_splitted = spell_name_extracted.split(' ')
             maximum_words_authorized_for_spell_desc = 2
             if len(spell_name_extracted_splitted) > maximum_words_authorized_for_spell_desc:
-                spell_name_extracted = ' '.join(spell_name_extracted_splitted[0:maximum_words_authorized_for_spell_desc])
+                spell_name_extracted = ' '.join(
+                    spell_name_extracted_splitted[0:maximum_words_authorized_for_spell_desc])
             translation = mtranslate.translate(spell_name_extracted, 'zh')
             if len(translation) > maximum_words_authorized_for_spell_desc:
                 translation = translation[0:maximum_words_authorized_for_spell_desc]
@@ -102,13 +109,12 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
             for spell_desc_item in spell.findAll('p'):
                 spell_desc += spell_desc_item.getText() + ' '
 
-                spell_desc = spell_desc.replace('⚡', 'ELEC').replace('🔥', 'FIRE')
-
             # If we have extracted spell description, go add association
             if len(spell_desc) != 0:
                 spells_data[spell_name] = spell_desc[:-1]
         except:
-            characters_with_errors.append('Spell name {} has been encountered an error during translation for {}'.format(spell_name_extracted, name))
+            characters_with_errors.append(
+                'Spell name {} has been encountered an error during translation for {}'.format(spell_name_extracted, name))
 
     character_json = {}
     character_json[json_Character__background] = skins_map
@@ -126,12 +132,14 @@ for a in soup.find_all('a', {'class': 'thumbnail thumbnail-no-border'}, href=Tru
     character_json[json_Character__spells] = spells_json
 
     # Adding character in the main list
-    characters_json_data[json_CharactersManager__characters].append(character_json)
+    characters_json_data[json_CharactersManager__characters].append(
+        character_json)
 
 # Write output characters JSON file
 print('Writing characters.json file')
 characters_json_file = codecs.open('characters.json', 'w', 'utf-8')
-characters_json_file.write(json.dumps(characters_json_data, sort_keys=True, indent=4, ensure_ascii=False))
+characters_json_file.write(json.dumps(
+    characters_json_data, sort_keys=True, indent=4, ensure_ascii=False))
 characters_json_file.close()
 
 # Output error(s)
